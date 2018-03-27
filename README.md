@@ -25,3 +25,11 @@ CSS Frankfurt is a meetup community in Frankfurt, Germany dedidcated to CSS and 
 * Sponsors section
 * Resources section
 * Swag
+
+## Contribute
+
+1. Fork it!
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Submit a pull request :D
