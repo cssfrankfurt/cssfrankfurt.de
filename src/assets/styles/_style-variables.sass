@@ -1,0 +1,38 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,600,700')
+
+$font: 'IBM Plex Mono', 'Courier New', monospace
+
+// Base colors
+$black: #292A2E
+$pink: #ff8282
+$dark-pink: #D97273
+$lightgrey: #CDCECF
+
+// Mixins
+$large-desktop-width: 2048px
+$small-laptop-width: 1100px
+$tablet-width: 1120px
+$mobile-width: 768px
+$small-mobile: 320px
+
+@mixin large-desktop
+  @media (min-width: #{$large-desktop-width})
+    @content
+
+@mixin small-laptop
+  @media (max-width: #{$small-laptop-width})
+    @content
+
+@mixin tablet
+  @media (max-width: #{$tablet-width})
+    @content
+
+@mixin mobile
+  @media (max-width: #{$mobile-width})
+    @content
+
+@mixin small
+  @media (max-width: #{$mobile-width})
+    @content
