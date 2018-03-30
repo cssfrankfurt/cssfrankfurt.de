@@ -28,9 +28,7 @@ export default {
   created() {
     this.$store.dispatch('feed/FETCH_FEED')
     this.$store.dispatch('events/FETCH_EVENTS').then(() => {
-      // setTimeout(() => {
       this.$store.commit('loader/setLoading', false)
-      // }, 1000)
     })
   }
 }
@@ -247,9 +245,12 @@ export default {
 
   .social-icon
     color: $pink
-    stroke-width: 1.8
-    margin-right: 5px
-    height: 20px
+    font-size: 1.5rem
+    margin-right: 10px
+    transition: transform .1s linear
+    vertical-align: baseline
+    &:hover
+      transform: scale(1.07)
 
   .info-icon
     color: $pink
