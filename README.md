@@ -1,35 +1,37 @@
-## CSS Frankfurt
-CSS Frankfurt is a meetup community in Frankfurt, Germany dedidcated to CSS and web design, this is the offical website.
+![Logo](docs/cssfrankfurt.png)
 
-![Website Screenshot](docs/cssfrankfurt.png)
+<p align="center">
+  <a href="https://www.meetup.com/cssfrankfurt/members/"><img src="https://img.shields.io/badge/🐱-%2B100%20members-ff8282.svg?colorA=292A2E" alt="Meetup members"></a>
+  <a href="https://github.com/orgs/cssfrankfurt/people?utf8=✓&query=+role%3Aowner" alt="Organisers"><img src="https://img.shields.io/badge/🤓-3%20organisers-ff8282.svg?colorA=292A2E" alt="Contributors"></a>
+  <a href="https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors"><img src="https://img.shields.io/badge/😎-2%20contributors-ff8282.svg?colorA=292A2E" alt="Contributors"></a>
 
-## Features
+</p>
 
-* Built with [VueJS](http://vuejs.org)
-* Responsive
-* Accessible
+# About
 
-## Build setup
+CSS Frankfurt is a meetup community dedidcated to CSS that organises talks, workshops and social coding events for members.
 
-1. npm install
-2. npm run dev
-3. npm run build
-4. npm run build --report
+![Screenshot](docs/screenshot.png)
+# Build
 
-## To do
+This project is built with [vuejs](https://vuejs.org) and uses [single-file-components](https://vuejs.org/v2/guide/single-file-components.html).
+ The following instructions will help you set up the project locally.
 
-* Make opensource, add license
+Fork the repo and download the project. Then run
+* npm install - to install all neccessary dependencies
+* npm run dev - to serve the app with hot reaload at localhost:8080 and lint-on-save
+* npm run buil - to build for production with minification
 
-* Add talk submission form
-* Venue listing
-* Sponsors section
-* Resources section
-* Swag
+# Contributing
 
-## Contribute
+Any contribution is welcome and highly appreciated. Head over to our [contribution guidelines](docs/CONTRIBUTING.md) to get started!
 
-1. Fork it!
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Submit a pull request :D
+# Authors
+
+* **Victoria Bergquist** - *Design & Development* - [vicbergquist](https://github.com/vicbergquist)
+
+See a list of [contributors](https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors) to this project.
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
