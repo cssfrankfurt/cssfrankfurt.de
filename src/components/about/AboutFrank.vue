@@ -10,9 +10,24 @@
         <h3 class="work">{{work}}</h3>
         <article class="profile-description">"{{quote}}"</article>
         <div class="socialmedia">
-          <a :href="twitter" v-if="twitter" title="Twitter link"><twitter-icon class="social-icon" role="img" aria-hidden="true"/></a>
-          <a :href="instagram" v-if="instagram" title="Instagram link"><instagram-icon class="social-icon" role="img" aria-hidden="true"/></a>
-          <a :href="github" v-if="github" title="Github link"><github-icon class="social-icon" role="img" aria-hidden="true"/></a>
+          <a :href="meetup" v-if="meetup" title="meetup link">
+            <font-awesome-icon :icon="['fab', 'meetup']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
+          <a :href="twitter" v-if="twitter" title="Twitter link">
+            <font-awesome-icon :icon="['fab', 'twitter']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
+          <a :href="instagram" v-if="instagram" title="instagram link">
+            <font-awesome-icon :icon="['fab', 'instagram']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
+          <a :href="github" v-if="github" title="github link">
+            <font-awesome-icon :icon="['fab', 'github']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
+          <a :href="codepen" v-if="codepen" title="codepen link">
+            <font-awesome-icon :icon="['fab', 'codepen']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
+          <a :href="medium" v-if="medium" title="medium link">
+            <font-awesome-icon :icon="['fab', 'medium']" class="social-icon" role="img" aria-hidden="true"/>
+          </a>
         </div>
       </div>
     </div>
@@ -42,9 +57,12 @@ export default {
     adventure:
       'Frank is currently working on a small project. Frank wants to take over the world and needs your help! Frank has been very kind and ordered us all some stickers that needs to be spread all around the world! Come along to one of our events to pick up some stickers that you can put up around wherever you go and use these tags:',
     pic: require('@/assets/frank.svg'),
+    meetup: 'https://meetup.com/cssfrankfurt',
     twitter: 'https://twitter.com/cssfrankfurt',
+    medium: 'https://medium.com/cssfrankfurt',
     instagram: 'https://instagram.com/cssfrankfurt',
-    github: 'https://github.com/cssfrankfurt'
+    github: 'https://github.com/cssfrankfurt',
+    codepen: 'https://codepen.io/cssfrankfurt/'
   })
 }
 </script>
