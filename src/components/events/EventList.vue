@@ -15,15 +15,18 @@
         <h1 class="title"><span role="img" aria-hidden="true">#</span>{{event.title | toID}}</h1>
         <h3 class="info">
           <span class="date">
-            <font-awesome-icon :icon="['far', 'calendar']" class="info-icon" role="img" aria-hidden="true"/>
+            <font-awesome-icon :icon="['far', 'calendar-alt']" class="info-icon" role="img" aria-hidden="true"/>
             {{event.date}}
             </span>
           <span class="location" v-if="event.status === 'upcoming'">
+            <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="info-icon" role="img" aria-hidden="true"/>
             {{event.location}}
             </span>
           <span class="attending" v-if="event.status === 'upcoming'">
+            <font-awesome-icon :icon="['fas', 'users']" class="info-icon" role="img" aria-hidden="true"/>
             {{event.attending}}</span>
           <span class="past-event" v-if="event.status === 'past'">
+            <font-awesome-icon :icon="['fas', 'info-circle']" class="info-icon" role="img" aria-hidden="true"/>
             Past event!
           </span>
         </h3>
