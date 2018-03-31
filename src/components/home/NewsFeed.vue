@@ -3,8 +3,11 @@
     <li class="feed-item" v-for="article in filteredFeed" :key="article.date">
       <h2 class="title" title="article.title" ><span role="img" aria-hidden="true">#</span>{{article.title | toID}}</h2>
       <h3 class="info">
-        <span class="date"><font-awesome-icon :icon="['fab', 'calendar']" class="social-icon" role="img" aria-hidden="true" title="date:"/>{{article.date}}</span>
-        <span class="feed-item-type" >{{article.type}}</span>
+        <span class="date"><font-awesome-icon :icon="['far', 'calendar']" class="info-icon" role="img" aria-hidden="true"/>{{article.date}}</span>
+        <span class="feed-item-type">
+          <font-awesome-icon :icon="['fas', 'tag']" class="info-icon" role="img" aria-hidden="true"/>
+          {{article.type}}
+          </span>
         <span class="past-event" v-if="article.status === 'past'">
           Past event</span>
       </h3>

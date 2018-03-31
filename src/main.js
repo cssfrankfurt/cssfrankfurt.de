@@ -20,10 +20,10 @@ import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn'
 import faXing from '@fortawesome/fontawesome-free-brands/faXing'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 // FontAwesome Pro
-import faCalendar from '@fortawesome/fontawesome-free-solid/faCalendar'
+import faCalendar from '@fortawesome/fontawesome-free-regular/faCalendar'
 import faTag from '@fortawesome/fontawesome-free-solid/faTag'
 import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
-import faWindowMaximize from '@fortawesome/fontawesome-free-solid/faWindowMaximize'
+import faWindowMaximize from '@fortawesome/fontawesome-free-regular/faWindowMaximize'
 
 fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendar, faTag, faInfoCircle, faWindowMaximize)
 
