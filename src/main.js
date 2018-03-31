@@ -20,12 +20,14 @@ import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn'
 import faXing from '@fortawesome/fontawesome-free-brands/faXing'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 // FontAwesome
-import faCalendar from '@fortawesome/fontawesome-free-regular/faCalendar'
+import faCalendarAlt from '@fortawesome/fontawesome-free-regular/faCalendarAlt'
 import faTag from '@fortawesome/fontawesome-free-solid/faTag'
 import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
 import faWindowMaximize from '@fortawesome/fontawesome-free-regular/faWindowMaximize'
+import faMapMarkerAlt from '@fortawesome/fontawesome-free-solid/faMapMarkerAlt'
+import faUsers from '@fortawesome/fontawesome-free-solid/faUsers'
 
-fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendar, faTag, faInfoCircle, faWindowMaximize)
+fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faTag, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
