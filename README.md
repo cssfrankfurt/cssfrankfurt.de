@@ -1,11 +1,9 @@
 ![Logo](docs/cssfrankfurt.png)
 
-<p align="center">
-  <a href="https://www.meetup.com/cssfrankfurt/members/"><img src="https://img.shields.io/badge/🐱-%2B100%20members-ff8282.svg?colorA=292A2E" alt="Meetup members"></a>
-  <a href="https://github.com/orgs/cssfrankfurt/people?utf8=✓&query=+role%3Aowner" alt="Organisers"><img src="https://img.shields.io/badge/🤓-3%20organisers-ff8282.svg?colorA=292A2E" alt="Contributors"></a>
-  <a href="https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors"><img src="https://img.shields.io/badge/😎-2%20contributors-ff8282.svg?colorA=292A2E" alt="Contributors"></a>
-
-</p>
+<div style="margin:auto;width:300px">
+  
+  [![Members](https://img.shields.io/badge/🐱%20members-%2B100-ff8282.svg?colorA=ff8282&colorB=292A2E)](https://www.meetup.com/cssfrankfurt/members/) [![Organizers](https://img.shields.io/badge/🤓%20organizers-3-292A2E.svg?colorA=ff8282&colorB=292A2E)](https://github.com/orgs/cssfrankfurt/people?utf8=✓&query=+role%3Aowner) [![Contributors](https://img.shields.io/github/contributors/cssfrankfurt/cssfrankfurt.de.svg?&label=😎%20contributors%20&colorA=ff8282&colorB=292A2E)](https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors)
+</div>
 
 # About
 
