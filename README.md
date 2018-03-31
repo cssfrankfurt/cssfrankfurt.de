@@ -18,9 +18,9 @@ This project is built with [vuejs](https://vuejs.org) and uses [single-file-comp
  The following instructions will help you set up the project locally.
 
 Fork the repo and download the project. Then run
-* npm install - to install all neccessary dependencies
-* npm run dev - to serve the app with hot reaload at localhost:8080 and lint-on-save
-* npm run buil - to build for production with minification
+* `npm install` - to install all neccessary dependencies
+* `npm run dev` - to serve the app with hot reaload at localhost:8080 and lint-on-save
+* `npm run build` - to build for production with minification
 
 # Contributing
 
