@@ -12,12 +12,10 @@
 import {mapGetters} from 'vuex'
 import TheLoader from '@/components/TheLoader'
 import TheNavigation from '@/components/navigation/TheNavigation'
-import {TwitterIcon} from 'vue-feather-icons'
 export default {
   name: 'App',
   components: {
     TheNavigation,
-    TwitterIcon,
     TheLoader
   },
   computed: {
