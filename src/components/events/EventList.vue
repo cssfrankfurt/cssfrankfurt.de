@@ -14,10 +14,17 @@
       <li class="event-item" v-for="event in filteredEvents" :key="event.date">
         <h1 class="title"><span role="img" aria-hidden="true">#</span>{{event.title | toID}}</h1>
         <h3 class="info">
-          <span class="date"><calendar-icon class="info-icon" role="img" aria-hidden="true" title="Date and time:"/>{{event.date}}</span>
-          <span class="location" v-if="event.status === 'upcoming'"><map-pin-icon class="info-icon" role="img" aria-hidden="true" title="Location:"/>{{event.location}}</span>
-          <span class="attending" v-if="event.status === 'upcoming'"><users-icon class="info-icon" role="img" aria-hidden="true" title="RSVPs:"/>{{event.attending}}</span>
-          <span class="past-event" v-if="event.status === 'past'"><info-icon class="info-icon" role="img" aria-hidden="true" title="Type:"/>Past event!
+          <span class="date">
+            <font-awesome-icon :icon="['far', 'calendar']" class="info-icon" role="img" aria-hidden="true"/>
+            {{event.date}}
+            </span>
+          <span class="location" v-if="event.status === 'upcoming'">
+            {{event.location}}
+            </span>
+          <span class="attending" v-if="event.status === 'upcoming'">
+            {{event.attending}}</span>
+          <span class="past-event" v-if="event.status === 'past'">
+            Past event!
           </span>
         </h3>
         <article class="description">
@@ -32,23 +39,9 @@
 </template>
 
 <script>
-import {
-  CalendarIcon,
-  MapPinIcon,
-  UsersIcon,
-  ExternalLinkIcon,
-  InfoIcon
-} from 'vue-feather-icons'
 import {mapGetters} from 'vuex'
 export default {
   name: 'EventList',
-  components: {
-    UsersIcon,
-    CalendarIcon,
-    MapPinIcon,
-    ExternalLinkIcon,
-    InfoIcon
-  },
   data: () => ({
     upcoming: 'Upcoming',
     all: 'All',
