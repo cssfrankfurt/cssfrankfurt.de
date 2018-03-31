@@ -28,7 +28,7 @@
             <font-awesome-icon :icon="['fab', 'youtube']" class="social-icon" role="img" aria-hidden="true"/>
           </a>
           <a :href="profile.external" v-if="profile.external" title="Portfolio website link">
-            <font-awesome-icon :icon="['far', 'window']" class="social-icon" role="img" aria-hidden="true"/>
+            <font-awesome-icon :icon="['far', 'window-maximize']" class="social-icon" role="img" aria-hidden="true"/>
           </a>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default {
         github: 'https://github.com/vicbergquist',
         linkedin: 'https://www.linkedin.com/in/victoriabergquist/',
         youtube: 'https://www.youtube.com/victoriabergquist',
-        external: 'https://mountainstick.com',
+        external: 'https://mountainstick.com'
       },
       {
         name: 'Steffen Henschel',
@@ -95,7 +95,7 @@ export default {
     justify-content: space-around
     flex-wrap: wrap
     margin-top: 15px
-  
+
   .profile
     margin-left: 30px
 

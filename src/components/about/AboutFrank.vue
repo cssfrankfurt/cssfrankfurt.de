@@ -38,14 +38,8 @@
   </section>
 </template>
 <script>
-import {TwitterIcon, InstagramIcon, GithubIcon} from 'vue-feather-icons'
 export default {
   name: 'AboutFrank',
-  components: {
-    TwitterIcon,
-    InstagramIcon,
-    GithubIcon
-  },
   data: () => ({
     name: 'Frank Furt',
     title: 'frank',
