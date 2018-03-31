@@ -95,6 +95,9 @@ export default {
     justify-content: space-around
     flex-wrap: wrap
     margin-top: 15px
+  
+  .profile
+    margin-left: 30px
 
   .profile
     margin-left: 30px

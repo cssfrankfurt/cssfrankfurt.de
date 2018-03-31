@@ -159,6 +159,9 @@ export default {
     border-radius: 40px
     box-shadow: inset 0px -3px $dark-pink
 
+  .cta:focus
+    outline: 0
+
   .cta:hover .cta-inner
     transform: translate(1px,2px)
     box-shadow: inset 0px -3px transparent
