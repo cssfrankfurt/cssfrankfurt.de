@@ -75,7 +75,7 @@ export default {
         title: 'Front-End Developer',
         company: 'INNOQ',
         pic: require('@/assets/steffen.gif'),
-        quote: 'To include a quote, or not to include a quote. That is the question.',
+        quote: 'Star gazing at night, coding during day — and vice versa. If none of the above applies, find me on my bike',
         twitter: 'https://twitter.com/blynxical',
         github: 'https://github.com/blynx',
         xing: 'https://www.xing.com/profile/Steffen_Henschel5',
