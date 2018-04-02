@@ -9,11 +9,19 @@ script:
 - npm run build
 deploy:
   provider: s3
-  access_key_id: AKIAJENG5TDKCWWYLWYA
-  secret_access_key:
-    secure: ka72tvfeVuXZcjYEdbyAa03STcRhahfHqOw0XhtGyYmjsT1n+0cCJGzLQOk4dX6NilBkdHFW81876sG7LE5DvDCIjIsogL9VLnX42w+L2glOvVxtzqx4MKTb1ZO87T03hcMepctyKEYZk9AE7aQBQETQ5p55LB02SFqPcs37sIsmjSCHygvudQziXvtwmsEMr4dF8Vuwx5Sn57m6oKqea7/f0Mxl/wSgLIgu8JlTyv+JmqmN9FWd4Ef8bKYNNyi59Y+JlyFi6gBAv7GYMiN8ba88PinArNkqyTH3bijdavwsLzw8p0Qe8jbuIqb7RCM8+zi29NWJ+tnLySf6/3BqhFeVSikHbR5yUTmWHyXh6WbnKxAqO0DOZn9PczWaPAwwEhGu+DAwWU7leUgr9sT0pR+odlQdVuAOo8kFRSKKEOGrRzRh8YT9/97ULn+EBc3G5IUR4O/EFKPswXp1zINsXRFHhPYEC35GDNUfM/G6X7mclprJQ2Vf2BIfBSvN5ikJfFed99HwBe+1iWETj/1CqAtj3ddhUT2qZszYwKGABpHKdJ/4V/MGM8/rFadfVrdOYhHje1JdAj+RzaxbRTbWwyT7aswTSH4EJD8GXSnbyVIbVyUaW7dc1BdxMRllKeXIYtKQlJ/BtQcLbQFMA7lfm/+nccJNbLqKtV6zdqhC+8g=
-  bucket: mc7N3d5j3qRq0rXtJ0MABzU/OwAUrc9Vu3O6feiPcssfrankfurt.de
-  local-dir: dist
-  acl: public_read
-  on:
-    repo: cssfrankfurt/cssfrankfurt.de
+  # You can refer to environment variables from Travis repo settings!
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  # Name of the S3 bucket to which your site should be uploaded.
+  bucket: cssfrankfurt.de
+  # Prevent Travis from deleting your built site so it can be uploaded.
+  skip_cleanup: true
+  # Path to a directory containing your built site.
+  local_dir: dist
+  # Set the Cache-Control header.
+  cache_control: "max-age=21600"
+after_deploy:
+  # Allow `awscli` to make requests to CloudFront.
+  - aws configure set preview.cloudfront true
+  # Invalidate every object in the targeted distribution.
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
