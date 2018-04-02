@@ -10,6 +10,7 @@ script:
 deploy:
   provider: s3
   region: us-east-1
+  skip_cleanup: true
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: cssfrankfurt.de
