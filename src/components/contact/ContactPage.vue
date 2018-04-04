@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h1 class="section-title">{{title}}</h1>
+    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
     <article class="description">{{about}}</article>
     <div class="filter">
       <input id="contact" type="radio" v-model="form" value="contact"/>
@@ -25,7 +25,7 @@ export default {
 
   },
   data: () => ({
-    title: 'Get in touch with us',
+    title: 'Contact',
     about:
       "Would you like to help out with CSS Frankfurt, become a sponsor, submit a talk proposal, ask a question or just say hi? You've come to the right place. Fill out our contact form and we will get back to you as soon as possible!",
     contact: 'Say hi!',

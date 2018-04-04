@@ -75,12 +75,12 @@ export default {
 
   .container
     position: relative
-    max-width: 740px
+    max-width: 700px
     margin: 15px auto
     padding: 15px
     background: white
     @include mobile
-      margin: 0
+      margin: 0 auto
 
   /* SECTION STYLING */
 
@@ -88,9 +88,13 @@ export default {
     padding: 15px
 
   .section-title
-    font-size: 1.7rem
+    font-family: $heading
+    text-transform: capitalize
+    letter-spacing: 1px
+    font-weight: 900
+    font-size: 2rem
     flex-basis: 100%
-    margin-bottom: 15px
+    margin-bottom: 10px
 
     span
       color: $pink
@@ -107,7 +111,7 @@ export default {
     font-weight: bold
     color: $pink
     align-self: flex-end
-    margin-top: -25px
+    margin-top: -15px
     text-align: right
     &:hover
       text-decoration: underline
@@ -188,25 +192,11 @@ export default {
   .feed-item, .event-item
     margin-bottom: 20px
 
-  .title
-    color: $black
-    font-size: 1.4rem
-    margin-bottom: 5px
-    z-index: 99
-    @include mobile
-      font-size: 1.2rem
-
-    span
-      color: $pink
-      margin-right: 5px
-
   .info
     color: $black
     font-weight: 300
-    font-size: 1rem
+    font-size: 0.9rem
     vertical-align: baseline
-    @include mobile
-      margin-left: 0
 
     span
       margin-right: 15px
@@ -223,23 +213,19 @@ export default {
       @include tablet
         display: none
 
-  .bracket-deco
-    color: $pink
-    font-weight: bold
-    margin-left: -30px
-    margin-bottom: 5px
-    @include mobile
-      margin-left: -20px
+  .item-title
+    font-size: 1.3rem
+    font-family: $font
+    margin-bottom: 2px
 
   .description
     font-size: 1rem
     font-weight: 300
     color: $black
-    margin-left: 30px
     margin-bottom: 25px
     margin-top: 5px
     @include mobile
-      margin-left: 15px
+      margin-left: 0
 
   .social-icon
     color: $pink
@@ -256,7 +242,7 @@ export default {
     height: 18px
     vertical-align: bottom
     margin-bottom: 3px
-    margin-right: 5px
+    margin-right: 15px
 
   /* TRANSITIONS */
 

@@ -43,6 +43,8 @@ export default {
     justify-content: space-around
     background: white
     z-index: 100
+    @include tablet
+      flex-direction: column
     @include mobile
       justify-content: center
       flex-direction: column
@@ -56,16 +58,11 @@ export default {
     color: $black
     text-align: center
     font-weight: 900
-    min-width: 80px
     display: inline-block
     transition: all .3s linear
     margin: 0 10px
-    @include tablet
-      min-width: 0
-      font-size: 16px
+    @include mobile
       margin: 0
-    @include small
-      font-size: 14px
 
   %nav-link
     color: $pink

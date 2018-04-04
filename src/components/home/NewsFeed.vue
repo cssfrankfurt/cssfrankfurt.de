@@ -1,21 +1,19 @@
 <template>
   <ul class="feed">
     <li class="feed-item" v-for="article in filteredFeed" :key="article.date">
-      <h2 class="title" title="article.title" ><span role="img" aria-hidden="true">#</span>{{article.title | toID}}</h2>
+      <h2 class="item-title" title="article.title">{{article.title}}</h2>
       <h3 class="info">
         <span class="date"><font-awesome-icon :icon="['far', 'calendar-alt']" class="info-icon" role="img" aria-hidden="true"/>{{article.date}}</span>
         <span class="feed-item-type">
-          <font-awesome-icon :icon="['fas', 'tag']" class="info-icon" role="img" aria-hidden="true"/>
-          {{article.type}}
+          <font-awesome-icon :icon="['fas', 'tag']" class="info-icon" role="img" aria-hidden="true"/>{{article.type}}
           </span>
         <span class="past-event" v-if="article.status === 'past'">
-          <font-awesome-icon :icon="['fas', 'info-circle']" class="info-icon" role="img" aria-hidden="true"/>
-          Past event</span>
+          <font-awesome-icon :icon="['fas', 'info-circle']" class="info-icon" role="img" aria-hidden="true"/>Past event</span>
       </h3>
       <article class="description" >
-        <div class="bracket-deco" role="img" aria-hidden="true" >.description {</div>
+        <!-- <div class="bracket-deco" role="img" aria-hidden="true" >.description {</div> -->
           {{article.description | truncate(200)}}
-        <div class="bracket-deco" role="img" aria-hidden="true" >}</div>
+        <!-- <div class="bracket-deco" role="img" aria-hidden="true" >}</div> -->
       </article>
       <a class="external" :href="article.url" >view on {{article.where}}</a>
     </li>

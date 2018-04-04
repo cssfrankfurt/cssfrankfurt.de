@@ -1,10 +1,10 @@
 <template>
   <section class="content-container frank">
-    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
+    <h1 class="title">{{title}}</h1>
     <article class="description">{{about}}</article>
 
     <div class="profile description">
-      <img class="pic" :src="pic" :alt="'Picture of ' + name">
+      <img class="profile-img" :src="pic" :alt="'Picture of ' + name">
       <div class="info">
         <h2 class="profile-name">{{name}}</h2>
         <h3 class="work">{{work}}</h3>
@@ -42,7 +42,7 @@ export default {
   name: 'AboutFrank',
   data: () => ({
     name: 'Frank Furt',
-    title: 'frank',
+    title: 'Frank',
     work: 'Offical Mascat, CSS Frankfurt',
     about:
       "In case you're wondering what CSS has in common with a cat, you simply have to examine the relationship you often have with CSS, and compare it to the human/cat relationship. It's all about love and hate, and that's where Frank comes in!",
@@ -70,10 +70,10 @@ export default {
       flex-direction: column
       text-align: center
 
-  .pic
+  .profile-img
     margin: 0
     margin-top: -10px
-    margin-bottom: 10px
+    margin-bottom: 15px
     margin-left: 40px
     @include mobile
       margin: 0 auto
