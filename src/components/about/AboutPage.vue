@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h1 class="section-title">{{title}}</h1>
+    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
     <article class="description">{{content}}</article>
     <AboutFrank/>
     <AboutOrganisers/>
@@ -17,7 +17,7 @@ export default {
     AboutFrank
   },
   data: () => ({
-    title: 'About CSS Frankfurt',
+    title: 'About',
     content:
       'CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web. Our events conists of talks and workshops dedicated to CSS, as well as social coding nights where we get together and have fun with CSS. CSS Frankfurt welcomes people of all skill levels and we are also there for anyone who is just getting started with CSS. We hope to see you at our events! If you have any questions, please reach out to us, we will be happy to help!'
   })
@@ -33,14 +33,13 @@ export default {
   .profile
     display: flex
     flex: 1 1 auto
-    margin-top: 10px
-    margin-bottom: 20px
+    margin-bottom: 30px
     @include mobile
       flex-direction: column
-      margin-bottom: 10px
+      margin-bottom: 15px
       text-align: center
 
-  .pic
+  .profile-img
     max-height: 180px
     max-width: 180px
     border-radius: 50%
@@ -64,10 +63,16 @@ export default {
     font-weight: bold
 
   .profile-description
+    font-size: 1rem
     margin-top: 5px
     margin-bottom: 10px
+    @include mobile
+      max-width: 400px
+      margin: 0 auto
 
-  .social
-    margin-top: 5px
+  .socialmedia
+    margin: 15px 0
+    @include mobile
+      text-align: center
 
 </style>

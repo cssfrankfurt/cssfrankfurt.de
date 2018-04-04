@@ -1,9 +1,9 @@
 <template>
   <section class="content-container organisers">
-    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
+    <h1 class="title">{{title}}</h1>
     <article class="description">{{content}}</article>
     <div class="profile" v-for="profile in profiles" :key="profile.name">
-      <img class="pic" :src="profile.pic" :alt="'Picture of ' + profile.name">
+      <img class="profile-img" :src="profile.pic" :alt="'Picture of ' + profile.name">
       <div class="info">
         <h2 class="profile-name">{{profile.name}}</h2>
         <h3 class="work">{{profile.title}}, {{profile.company}}</h3>
@@ -39,7 +39,7 @@
 export default {
   name: 'AboutOrganisers',
   data: () => ({
-    title: 'organisers',
+    title: 'Organisers',
     content:
       'CSS Frankfurt is currently organised by three friends loyal to Frank. As a thank you, Frank gifted each of them a hoodie with their personal Frank clone printed on the back. If you would like to help organise CSS Frankfurt, there is always help needed, so please reach out to us!',
     twitter: 'https://twitter.com/cssfrankfurt',
@@ -95,23 +95,4 @@ export default {
     justify-content: space-around
     flex-wrap: wrap
     margin-top: 15px
-
-  .profile
-    margin-left: 30px
-
-  .profile
-    margin-left: 30px
-
-  .profile:first-of-type
-    margin-top: 40px
-    @include mobile
-      margin-top: 15px
-
-  .description
-    margin-bottom: 5px
-
-  .socialmedia
-    margin: 15px 0
-  @include mobile
-    text-align: center
 </style>

@@ -12,11 +12,10 @@
     <transition name="fade" mode="out-in">
       <li class="no-events" v-if="type === 'upcoming' && filteredEvents.length === 0" :key="'noevents'">Frank promises something is in the works!</li>
       <li class="event-item" v-for="event in filteredEvents" :key="event.date">
-        <h1 class="title"><span role="img" aria-hidden="true">#</span>{{event.title | toID}}</h1>
+        <h1 class="item-title">{{event.title}}</h1>
         <h3 class="info">
           <span class="date">
-            <font-awesome-icon :icon="['far', 'calendar-alt']" class="info-icon" role="img" aria-hidden="true"/>
-            {{event.date}}
+            <font-awesome-icon :icon="['far', 'calendar-alt']" class="info-icon" role="img" aria-hidden="true"/>{{event.date}}
             </span>
           <span class="location" v-if="event.status === 'upcoming'">
             <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="info-icon" role="img" aria-hidden="true"/>
@@ -26,14 +25,13 @@
             <font-awesome-icon :icon="['fas', 'users']" class="info-icon" role="img" aria-hidden="true"/>
             {{event.attending}}</span>
           <span class="past-event" v-if="event.status === 'past'">
-            <font-awesome-icon :icon="['fas', 'info-circle']" class="info-icon" role="img" aria-hidden="true"/>
-            Past event!
+            <font-awesome-icon :icon="['fas', 'info-circle']" class="info-icon" role="img" aria-hidden="true"/>Past event!
           </span>
         </h3>
         <article class="description">
-          <div class="bracket-deco" role="img" aria-hidden="true" >.description {</div>
+          <!-- <div class="bracket-deco" role="img" aria-hidden="true" >.description {</div> -->
           {{event.description | truncate(200)}}
-          <div class="bracket-deco" role="img" aria-hidden="true" >}</div>
+          <!-- <div class="bracket-deco" role="img" aria-hidden="true" >}</div> -->
         </article>
         <a class="external" :href="event.url"  title="View on meetup">{{more}}</a>
       </li>
@@ -55,10 +53,10 @@ export default {
   filters: {
     truncate(value, length) {
       return value.substring(0, length) + '...'
-    },
-    toID(value) {
-      return value.split(' ').join('')
     }
+    // toID(value) {
+    //   return value.split(' ').join('')
+    // }
   },
   computed: {
     ...mapGetters({
