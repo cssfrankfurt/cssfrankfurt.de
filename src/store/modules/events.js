@@ -51,6 +51,7 @@ const mutations = {
           new Date(singleEvent.time)
             .toLocaleTimeString('en-GB')
             .substring(0, 5),
+        milli: singleEvent.time,
         description: singleEvent.description,
         location: singleEvent.venue.name,
         attending: singleEvent.yes_rsvp_count,

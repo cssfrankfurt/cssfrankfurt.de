@@ -58,18 +58,18 @@ export default {
 
     .field-label
       font-weight: 300
-      margin-bottom: 10px
+      margin-bottom: 1rem
 
     input.form-field, textarea.form-field
-      min-height: 35px
+      min-height: 2rem
       font-size: 1rem
       font-family: $font
       font-weight: 300
       outline: 0
       border: 1px solid $lightgrey
       border-radius: 3px
-      padding: 5px 10px
-      margin-bottom: 20px
+      padding: .5rem 1rem
+      margin-bottom: 1rem
       &:focus
         border: 1px solid $pink
 
@@ -90,7 +90,7 @@ export default {
     justify-content: center
     align-items: center
     max-width: 400px
-    margin: 50px auto
+    margin: 3rem auto
     text-align: center
 
   .clear-submit
@@ -111,7 +111,7 @@ export default {
         &:hover
           border-bottom: 2px solid $pink
       &.clear
-        margin-right: 15px
+        margin-right: 1rem
         font-weight: 300
         color: $black
 

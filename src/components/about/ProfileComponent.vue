@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <article v-if="adventure" class="adventure">
+    <article v-if="adventure" class="profile-description">
       {{adventure.content}}
       <div class="tags">{{adventure.tags}}</div>
     </article>
@@ -65,7 +65,7 @@ export default {
       default: function() {
         return {profile: 'no profile'}
       }
-    },
+    }
   }
 }
 </script>
@@ -75,28 +75,27 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   .content-container
-    margin-bottom: 10px
+    margin-bottom: 1rem
 
   .profile
     display: flex
     flex: 1 1 auto
-    margin-bottom: 15px
+    margin: 1rem 0
     @include mobile
       flex-direction: column
-      margin-bottom: 15px
       text-align: center
 
   .profile-img
-    max-height: 180px
-    max-width: 180px
+    max-height: 11rem
+    max-width: 11rem
     border-radius: 50%
     overflow: hidden
-    margin-right: 30px
-    margin-bottom: 15px
+    margin-right: 3rem
+    margin-bottom: 1rem
     flex-shrink: 0
     @include mobile
       margin: 0 auto
-      margin-bottom: 15px
+      margin-bottom: 1rem
 
   .info
     flex: 1 1 auto
@@ -111,42 +110,43 @@ export default {
 
   .profile-description
     font-size: 1rem
-    margin-top: 5px
-    margin-bottom: 10px
+    margin-top: .3rem
+    margin-bottom: 1rem
     @include mobile
       max-width: 400px
       margin: 0 auto
 
   .socialmedia
-    margin: 15px 0
+    margin-top: 1rem
     @include mobile
       text-align: center
-  
+
   // Reverse profile
 
   .reverse
     flex-direction: row-reverse
     text-align: right
+    margin-bottom: 0
     @include mobile
       flex-direction: column
       text-align: center
 
     .profile-img
       margin: 0
-      margin-top: -10px
-      margin-bottom: 15px
-      margin-left: 40px
+      margin-top: -0.8rem
+      margin-bottom: 1rem
+      margin-left: 3rem
       @include mobile
         margin: 0 auto
-        margin-bottom: 15px
+        margin-bottom: 1rem
 
-  .adventure
-    margin-top: -15px
+    .socialmedia
+      margin-bottom: .5rem
 
-    .tags
-    font-size: 18px
+  .tags
+    font-size: 1.2rem
     text-align: center
-    margin: 10px 0
+    margin: 1rem 0
     color: $pink
     letter-spacing: 1px
     font-weight: 400

@@ -5,7 +5,7 @@ import VuexPersist from 'vuex-persist'
 /* ----------  Modules  ---------- */
 import events from './modules/events'
 import loader from './modules/loader'
-import feed from './modules/feed'
+import tweets from './modules/tweets'
 
 Vue.use(Vuex) // Tell our vue app to use Vuex
 
@@ -44,7 +44,7 @@ export default new Vuex.Store({
   modules: {
     events,
     loader,
-    feed
+    tweets
   },
   plugins: [vuexLocalStorage.plugin]
 })

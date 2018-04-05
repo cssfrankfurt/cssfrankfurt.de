@@ -76,8 +76,8 @@ export default {
   .container
     position: relative
     max-width: 700px
-    margin: 15px auto
-    padding: 15px
+    margin: 1rem auto
+    padding: 1rem
     background: white
     @include mobile
       margin: 0 auto
@@ -85,7 +85,7 @@ export default {
   /* SECTION STYLING */
 
   .content
-    padding: 15px
+    padding: 1rem
 
   .section-title
     font-family: $heading
@@ -94,27 +94,15 @@ export default {
     font-weight: 900
     font-size: 2rem
     flex-basis: 100%
-    margin-bottom: 10px
 
     span
       color: $pink
-      margin-right: 5px
+      margin-right: .5rem
 
   .event-item,
     display: flex
     flex-direction: column
     background: white
-
-  .external
-    position: relative
-    display: block
-    font-weight: bold
-    color: $pink
-    align-self: flex-end
-    margin-top: -15px
-    text-align: right
-    &:hover
-      text-decoration: underline
 
   /* FILTER STYLING */
 
@@ -122,10 +110,10 @@ export default {
     text-align: right
     z-index: 98
     background: white
-    margin: 15px 0
+    margin: 1rem 0
     @include tablet
       margin: 0
-      margin-bottom: 30px
+      margin-bottom: 2rem
     @include mobile
       text-align: center
 
@@ -133,9 +121,9 @@ export default {
       display: none
 
     input[type="radio"] + label span
-      font-size: 14px
+      font-size: .9rem
       display: inline-block
-      padding: 0 5px
+      padding: 0 .5rem
       text-align: center
 
     input[type="radio"]:checked + label span
@@ -146,9 +134,9 @@ export default {
 
   .cta
     cursor: pointer
-    border-radius: 40px
+    border-radius: 2.5rem
     border: 2px solid white
-    margin-left: 10px
+    margin-left: 1rem
     max-width: 140px
 
   .cta-inner
@@ -159,8 +147,8 @@ export default {
     background: $pink
     height: 100%
     width: 100%
-    padding: 10px 15px
-    border-radius: 40px
+    padding: 1rem
+    border-radius: 2.5rem
     box-shadow: inset 0px -3px $dark-pink
 
   .cta:focus
@@ -185,12 +173,12 @@ export default {
 
   .comingsoon
     text-align: center
-    margin: 15px 0
+    margin: 1rem 0
 
   /* EVENT LIST AND NEWS FEED STYLING */
 
   .feed-item, .event-item
-    margin-bottom: 20px
+    margin-bottom: 1rem
 
   .info
     color: $black
@@ -199,7 +187,7 @@ export default {
     vertical-align: baseline
 
     span
-      margin-right: 15px
+      margin-right: 1rem
       @include mobile
         width: 100%
 
@@ -207,7 +195,7 @@ export default {
       font-weight: 700
       @include mobile
         display: block
-        margin-top: 5px
+        margin-top: .5rem
 
     span.location, span.attending
       @include tablet
@@ -216,21 +204,28 @@ export default {
   .item-title
     font-size: 1.3rem
     font-family: $font
-    margin-bottom: 2px
 
   .description
     font-size: 1rem
-    font-weight: 300
     color: $black
-    margin-bottom: 25px
-    margin-top: 5px
+    margin-bottom: .5rem
     @include mobile
-      margin-left: 0
+      margin: .8rem 0
+
+  .external
+    position: relative
+    display: block
+    font-weight: bold
+    color: $pink
+    align-self: flex-end
+    text-align: right
+    &:hover
+      text-decoration: underline
 
   .social-icon
     color: $pink
     font-size: 1.5rem
-    margin-right: 10px
+    margin-right: .8rem
     transition: transform .1s linear
     vertical-align: baseline
     &:hover
@@ -242,7 +237,7 @@ export default {
     height: 18px
     vertical-align: bottom
     margin-bottom: 3px
-    margin-right: 15px
+    margin-right: 1rem
 
   /* TRANSITIONS */
 
@@ -251,7 +246,7 @@ export default {
 
   .fade-enter, .fade-leave-to
     opacity: 0
-    transform: translateY(15px)
+    transform: translateY(1rem)
 
   .loader-enter-active, .loader-leave-active
     transition: opacity .3s

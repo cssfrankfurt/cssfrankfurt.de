@@ -1,14 +1,5 @@
 <template>
   <ul class="event-list">
-    <li class="filter">
-      <input id="all" type="radio" v-model="type" value="all"/>
-      <label for="all"><span>{{all}}</span></label>
-      <input id="upcoming" type="radio" v-model="type" value="upcoming"/>
-      <label for="upcoming"><span>{{upcoming}}</span></label>
-      <input id="past" type="radio" v-model="type" value="past"/>
-      <label for="past"><span>{{past}}</span></label>
-    </li>
-    <!-- <transition name="fade" mode="out-in" ></transition> -->
     <transition name="fade" mode="out-in">
       <li class="no-events" v-if="type === 'upcoming' && filteredEvents.length === 0" :key="'noevents'">Frank promises something is in the works!</li>
       <li class="event-item" v-for="event in filteredEvents" :key="event.date">
@@ -90,7 +81,7 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   .no-events
-    margin: 50px 15px
+    margin: 3rem 1rem
     text-align: center
 
   .fade-invert-enter-active
@@ -102,6 +93,6 @@ export default {
 
   .fade-invert-enter, .fade-invert-leave-to
     opacity: 0
-    transform: translateY(-15px)
+    transform: translateY(-1rem)
 
 </style>

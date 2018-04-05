@@ -34,7 +34,7 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   #cssfrankfurt
-    height: 30px
+    height: 2rem
     width: auto
     margin-top: 2px
 </style>

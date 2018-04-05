@@ -38,7 +38,7 @@ export default {
     top: 0
     display: flex
     align-items: center
-    padding: 10px
+    padding: 1rem
     margin: 0
     justify-content: space-around
     background: white
@@ -48,11 +48,11 @@ export default {
     @include mobile
       justify-content: center
       flex-direction: column
-      padding: 10px 0
+      padding: 1rem 0
 
   nav
     @include mobile
-      margin-top: 10px
+      margin-top: 1rem
 
   a.nav-link
     color: $black
@@ -60,7 +60,7 @@ export default {
     font-weight: 900
     display: inline-block
     transition: all .3s linear
-    margin: 0 10px
+    margin: 0 1rem
     @include mobile
       margin: 0
 
@@ -72,16 +72,16 @@ export default {
   .nav-link::before
     @extend %nav-link
     content: '{'
-    padding-right: 10px
+    padding-right: 1rem
     @include tablet
-      padding-right: 5px
+      padding-right: .5rem
 
   .nav-link::after
     @extend %nav-link
     content: '}'
-    padding-left: 10px
+    padding-left: 1rem
     @include tablet
-      padding-left: 5px
+      padding-left: .5rem
 
   .nav-link.router-link-exact-active::before, .nav-link.router-link-exact-active::after
     opacity: 1

@@ -83,6 +83,6 @@ export default {
 
   .loader
     display: block
-    margin-top: 40px
+    margin-top: 2.5rem
 
 </style>

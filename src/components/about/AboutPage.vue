@@ -2,15 +2,15 @@
   <main class="container">
     <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
     <article class="description">{{content}}</article>
-    <ProfileComponent 
-      :title="frank.title" 
+    <ProfileComponent
+      :title="frank.title"
       :adventure="frank.adventure"
-      :content="frank.content" 
+      :content="frank.content"
       :profiles="frank.profiles"
     />
-    <ProfileComponent 
-      :title="organisers.title" 
-      :content="organisers.content" 
+    <ProfileComponent
+      :title="organisers.title"
+      :content="organisers.content"
       :profiles="organisers.profiles"
     />
   </main>
