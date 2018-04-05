@@ -75,12 +75,13 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   .content-container
-    margin-bottom: 1rem
+    margin: 1.5rem 0
 
   .profile
     display: flex
     flex: 1 1 auto
     margin: 1rem 0
+    align-items: center
     @include mobile
       flex-direction: column
       text-align: center
@@ -94,8 +95,9 @@ export default {
     margin-bottom: 1rem
     flex-shrink: 0
     @include mobile
-      margin: 0 auto
-      margin-bottom: 1rem
+      max-width: 8rem
+      max-height: 8rem
+      margin: 1rem auto
 
   .info
     flex: 1 1 auto
@@ -110,7 +112,6 @@ export default {
 
   .profile-description
     font-size: 1rem
-    margin-top: .3rem
     margin-bottom: 1rem
     @include mobile
       max-width: 400px
@@ -120,6 +121,16 @@ export default {
     margin-top: 1rem
     @include mobile
       text-align: center
+  
+  .social-icon
+    font-size: 1.3rem
+    color: $pink
+    margin-right: 1rem
+    @include mobile
+      margin: 0 .5rem
+
+  .description
+    margin: .5rem 0
 
   // Reverse profile
 
@@ -142,6 +153,10 @@ export default {
 
     .socialmedia
       margin-bottom: .5rem
+    
+    .social-icon
+      margin-right: 0
+      margin-left: 1rem
 
   .tags
     font-size: 1.2rem

@@ -1,6 +1,7 @@
 <template>
   <ul class="item-list">
-    <ListItem
+    <slot name="filter"></slot>
+    <ListItemComponent
       v-for="item in items"
       :item="item"
       :key="item.index"
@@ -8,11 +9,11 @@
   </ul>
 </template>
 <script>
-import ListItem from '@/components/list/ListItem'
+import ListItemComponent from '@/components/list-components/ListItemComponent'
 export default {
-  name: 'ItemList',
+  name: 'ListComponent',
   components: {
-    ListItem
+    ListItemComponent
   },
   props: {
     items: {
@@ -28,6 +29,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  .item-list
+    margin-top: 2rem
 
 </style>

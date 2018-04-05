@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-const HomePage = () => import('@/components/home/HomePage')
-const AboutPage = () => import('@/components/about/AboutPage')
-const EventPage = () => import('@/components/events/EventPage')
-const ContactPage = () => import('@/components/contact/ContactPage')
+const PageComponent = () => import('@/components/PageComponent')
 
 Vue.use(Router)
 
@@ -13,22 +10,26 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: HomePage
+      component: PageComponent,
+      props: true
     },
     {
       path: '/about',
       name: 'about',
-      component: AboutPage
+      component: PageComponent,
+      props: true
     },
     {
       path: '/events',
       name: 'events',
-      component: EventPage
+      component: PageComponent,
+      props: true
     },
     {
       path: '/contact',
       name: 'contact',
-      component: ContactPage
+      component: PageComponent,
+      props: true
     }
   ],
   scrollBehavior(to, from, savedPosition) {

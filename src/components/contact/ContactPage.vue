@@ -2,16 +2,12 @@
   <main class="container">
     <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
     <article class="description">{{about}}</article>
-    <div class="filter">
-      <input id="contact" type="radio" v-model="form" value="contact"/>
-      <label for="contact"><span>{{contact}}</span></label>
-      <input id="submit" type="radio" v-model="form" value="submit"/>
-      <label for="submit"><span>{{submit}}</span></label>
-    </div>
+
     <transition name="fade" mode="out-in">
     <ContactForm v-if="this.form === 'contact'"/>
     <SubmitForm v-if="this.form === 'submit'"/>
   </transition>
+  
 </main>
 </template>
 <script>
