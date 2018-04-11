@@ -39,17 +39,24 @@ const actions = {
 /* ===== MUTATIONS ===== */
 const mutations = {
   RECEIVE_TWEETS(state, {data}) {
-    // const tempTweets = []
-    for (let tweet of data) {
-      let img = tweet.user.profile_image_url_https
-      let imgHq = img.substring(0, img.lastIndexOf('_'))
+    let tempTweets = data
+    // Sort tweets by date
+    let sorted = tempTweets.sort((a, b) => {
+      return b.id - a.id
+    })
+    // Filter out tweets with same ID
+    let tweets = sorted.filter((tweet, index, self) => self.findIndex(
+      (t) => { return (t.id === tweet.id && t.id === tweet.id) }) === index)
+    // Add sorted and filtered tweets to state
+    for (let tweet of tweets) {
       state.tweets.push({
-        title: tweet.user.screen_name,
+        type: 'twitter',
+        name: tweet.user.name,
+        user: '@' + tweet.user.screen_name,
         description: tweet.text,
         id: tweet.id,
         milli: new Date(tweet.created_at).getTime(),
-        profile_img: imgHq,
-        media: tweet.entities.media,
+        img: tweet.user.profile_image_url_https,
         info: {
           date: new Date(tweet.created_at).toLocaleDateString('en-GB'),
           retweets: tweet.retweet_count,

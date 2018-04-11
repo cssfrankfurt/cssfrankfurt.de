@@ -1,11 +1,17 @@
 <template>
   <button class="cta" @click="submit" v-if="!wXS" role="button" aria-label="submit a talk button">
-    <div class="cta-inner">Submit a talk</div>
+    <div class="cta-inner">{{title}}</div>
   </button>
 </template>
 <script>
 export default {
   name: 'ButtonComponent',
+  props: {
+    title: {
+      type: String,
+      required: true
+    }
+  },
   methods: {
     submit() {
       this.$router.push('/contact')

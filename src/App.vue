@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <TheNavigation/>
+    <the-navigation/>
     <transition name="fade" mode="out-in">
-      <TheLoader v-if="loading"/>
-      <router-view v-if="!loading" :key="$route.path"/>
+      <loader-comp v-if="loading"/>
+      <router-view
+        :key="$route.path"
+        v-if="!loading"
+      />
     </transition>
   </div>
 </template>
 
 <script>
 import {mapGetters} from 'vuex'
-import TheLoader from '@/components/TheLoader'
+import LoaderComp from '@/components/LoaderComp'
 import TheNavigation from '@/components/navigation/TheNavigation'
 
 export default {
   name: 'App',
   components: {
     TheNavigation,
-    TheLoader
+    LoaderComp
   },
   computed: {
     ...mapGetters({
@@ -25,9 +28,9 @@ export default {
     })
   },
   created() {
-    this.$store.dispatch('tweets/FETCH_USER_TWEETS')
     this.$store.dispatch('tweets/FETCH_HASHTAGS')
-    this.$store.dispatch('events/FETCH_EVENTS').then(() => {
+    this.$store.dispatch('events/FETCH_EVENTS')
+    this.$store.dispatch('tweets/FETCH_USER_TWEETS').then(() => {
       this.$store.commit('loader/setLoading', false)
     })
   }
@@ -45,11 +48,16 @@ export default {
 
   body, html
     font-family: $font
-    min-height: 100%
+    height: 100%
     font-size: 16px
     font-weight: 300
     color: $black
     line-height: 1.5
+    background-image: url(./assets/css-confetti.svg)
+    background-attachment: fixed
+    background-size: cover
+    background-repeat: repeat
+    background-size: 1500px
     @include small
       font-size: 14px
 
@@ -65,20 +73,17 @@ export default {
     border: 0
     font-size: 1rem
   img
-    max-height: 100%
-    width: auto
+    height: auto
+    width: 100%
 
   #app
-    min-height: 100vh
-    background-image: url(./assets/css-confetti.svg)
-    background-size: cover
-    background-repeat: no-repeat
-    background-attachment: fixed
+    max-width: 1200px
+    margin: 0 auto
+    min-height: 100%
 
   .container
-    position: relative
     max-width: 700px
-    margin: 1rem auto
+    margin: 0 auto
     padding: 1rem
     background: white
     @include mobile

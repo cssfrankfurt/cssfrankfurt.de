@@ -1,16 +1,16 @@
 <template>
-  <li class="filter">
+  <div class="filter">
       <!-- <input id="all" type="radio" v-model="type" value="all"/>
       <label for="all"><span>{{all}}</span></label>
       <input id="upcoming" type="radio" v-model="type" value="upcoming"/>
       <label for="upcoming"><span>{{upcoming}}</span></label>
       <input id="past" type="radio" v-model="type" value="past"/>
       <label for="past"><span>{{past}}</span></label> -->
-  </li>
+  </div>
 </template>
 <script>
 export default {
-  name: 'FilterComponent'
+  name: 'FilterComp'
 }
 </script>
 

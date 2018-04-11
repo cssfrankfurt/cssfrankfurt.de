@@ -1,7 +1,6 @@
 <template>
   <ul class="item-list">
-    <slot name="filter"></slot>
-    <ListItemComponent
+    <list-item
       v-for="item in items"
       :item="item"
       :key="item.index"
@@ -9,16 +8,16 @@
   </ul>
 </template>
 <script>
-import ListItemComponent from '@/components/list-components/ListItemComponent'
+import ListItem from '@/components/item-list/ListItem'
 export default {
-  name: 'ListComponent',
+  name: 'ItemList',
   components: {
-    ListItemComponent
+    ListItem
   },
   props: {
     items: {
       type: Array,
-      required: false,
+      required: true,
       default: function() {
         return {profile: 'Items unavailable'}
       }

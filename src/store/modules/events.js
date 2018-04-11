@@ -41,10 +41,12 @@ const mutations = {
     // ]
     for (let event of data) {
       state.events.push({
-        title: event.name,
+        type: 'meetup',
+        name: event.name,
         milli: event.time,
         description: event.description,
         status: event.status,
+        img: event.photo_url,
         url: event.event_url,
         info: {
           date:

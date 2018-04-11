@@ -7,7 +7,7 @@
     <ContactForm v-if="this.form === 'contact'"/>
     <SubmitForm v-if="this.form === 'submit'"/>
   </transition>
-  
+
 </main>
 </template>
 <script>
