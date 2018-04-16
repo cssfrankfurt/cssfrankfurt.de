@@ -1,17 +1,12 @@
 <template>
   <li class="list-item" :class="{tweet: item.type === 'twitter'}">
-        <h2 class="item-title">
-          <font-awesome-icon
-            :icon="['fab', item.type]" 
-            class="item-type-icon" role="img" 
-            aria-hidden="true"
-          />
-          {{item.name}}
-        </h2>
-        <info-list :infos="item.info"/>
-
-      <article class="description">{{item.description | truncate(240)}}</article>
-    </li>
+    <h2 class="item-title">
+      {{item.name}}
+    </h2>
+    <info-list :infos="item.info"/>
+    <article class="description">{{item.description | truncate(240)}}</article>
+    <span>view this on {{item.type}}</span>
+  </li>
 </template>
 <script>
 import InfoList from '@/components/item-list/info-list/InfoList'
@@ -40,12 +35,13 @@ export default {
 
   @import "src/assets/styles/style-variables.sass"
 
-  .list-item
+  .list-item:not(:first-of-type)
     padding: 1rem 0
     border-bottom: 1px solid $lightgrey
 
   .item-title
-    font-size: 1.3rem
+    // font-family: $heading
+    font-size: 1.2rem
     color: $black
 
   .description
@@ -55,6 +51,7 @@ export default {
       margin: .8rem 0
 
   .item-type-icon
+    // margin-left: -1.3rem
     font-size: 1.3rem
     color: $pink
 

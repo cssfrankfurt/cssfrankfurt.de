@@ -3,7 +3,6 @@
       <page-comp :title="title" :description="description"/>
       <!-- Add next event here -->
       <div class="home-content">
-        <h3>Next event</h3>
         <item-list :items="tweets"/>
       </div>
     </main>
@@ -37,6 +36,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
+
 
 </style>
 

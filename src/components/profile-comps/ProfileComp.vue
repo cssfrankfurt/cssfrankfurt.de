@@ -87,7 +87,6 @@ export default {
     border-radius: 50%
     overflow: hidden
     margin-right: 1rem
-    // margin-bottom: 1rem
     flex-shrink: 0
     @include mobile
       max-width: 8rem
@@ -114,39 +113,5 @@ export default {
 
   .description
     margin: .5rem 0
-
-  // Reverse profile
-
-  .reverse
-    flex-direction: row-reverse
-    text-align: right
-    margin-bottom: 0
-    @include mobile
-      flex-direction: column
-      text-align: center
-
-    .profile-img
-      margin: 0
-      margin-top: -0.8rem
-      margin-bottom: 1rem
-      margin-left: 3rem
-      @include mobile
-        margin: 0 auto
-        margin-bottom: 1rem
-
-    .socialmedia
-      margin-bottom: .5rem
-
-    .social-icon
-      margin-right: 0
-      margin-left: 1rem
-
-  .tags
-    font-size: 1.2rem
-    text-align: center
-    margin: 1rem 0
-    color: $pink
-    letter-spacing: 1px
-    font-weight: 400
 
 </style>

@@ -31,18 +31,16 @@ export default {
     border-radius: 2rem
     border: 2px solid white
     margin-left: 1rem
-    max-width: 140px
 
   .cta-inner
-    display: grid
-    vertical-align: bottom
     color: white
     font-weight: bold
     background: $pink
     height: 100%
     width: 100%
-    padding: .6rem .8rem
+    padding: .6rem 1rem
     border-radius: 2rem
+    
     box-shadow: inset 0px -3px $dark-pink
 
   .cta:focus

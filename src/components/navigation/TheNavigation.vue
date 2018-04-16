@@ -62,6 +62,7 @@ export default {
       margin-top: 1rem
 
   a.nav-link
+    font-family: $heading
     color: $black
     text-align: center
     font-weight: 900
@@ -73,6 +74,7 @@ export default {
       margin: 0
 
   %nav-link
+    font-family: $font
     color: $pink
     opacity: 0
     transition: opacity .2s ease-in-out

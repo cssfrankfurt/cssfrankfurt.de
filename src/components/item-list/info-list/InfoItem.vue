@@ -46,13 +46,14 @@ export default {
 
   .info-item
     margin-right: 1rem
-    font-size: 0.9rem
-    font-weight: 400
+    font-size: .9rem
+    font-family: $heading
 
   .info-icon
     color: $pink
     stroke-width: 1.8
     height: .9rem
     vertical-align: center
+    margin-right: .3rem
 
 </style>
