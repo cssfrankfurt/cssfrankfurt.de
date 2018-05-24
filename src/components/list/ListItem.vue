@@ -4,12 +4,12 @@
       {{item.name}}
     </h2>
     <info-list :infos="item.info"/>
-    <article class="description">{{item.description | truncate(240)}}</article>
-    <span>view this on {{item.type}}</span>
+    <article class="description">{{item.description | truncate(240)}} </article>
+    <span>View this event on {{item.type}}</span>
   </li>
 </template>
 <script>
-import InfoList from '@/components/item-list/info-list/InfoList'
+import InfoList from '@/components/list/info/InfoList'
 
 export default {
   components: {

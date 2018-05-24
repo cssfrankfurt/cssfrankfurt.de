@@ -27,10 +27,13 @@ export default {
       loading: 'loader/isLoading'
     })
   },
+  methods: {
+    getData(){
+      
+    }
+  },
   created() {
-    this.$store.dispatch('tweets/FETCH_HASHTAGS')
-    this.$store.dispatch('events/FETCH_EVENTS')
-    this.$store.dispatch('tweets/FETCH_USER_TWEETS').then(() => {
+    this.$store.dispatch('events/FETCH_EVENTS').then(() => {
       this.$store.commit('loader/setLoading', false)
     })
   }

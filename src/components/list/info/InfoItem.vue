@@ -47,7 +47,7 @@ export default {
   .info-item
     margin-right: 1rem
     font-size: .9rem
-    font-family: $heading
+    font-family: $font
 
   .info-icon
     color: $pink

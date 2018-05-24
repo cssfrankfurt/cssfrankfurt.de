@@ -1,17 +1,16 @@
 <template>
     <main class="container">
       <page-comp :title="title" :description="description"/>
-      <!-- <profile-comp :profiles="about.frank.profiles"/> -->
-      <profile-comp :profiles="about.organisers.profiles"/>
+      <item-list :items="events"/>
     </main>
 </template>
 <script>
 import PageComp from '@/components/PageComp'
-import ProfileComp from '@/components/profile-comps/ProfileComp'
+import ItemList from '@/components/list/ItemList'
 export default {
-  name: 'AboutPage',
+  name: 'EventPage',
   components: {
-    ProfileComp,
+    ItemList,
     PageComp
   },
   props: {
@@ -23,9 +22,9 @@ export default {
       type: String,
       required: false
     },
-    about: {
-      type: Object,
-      required: false,
+    events: {
+      type: Array,
+      required: true,
       default: function() {
         return {profile: 'Items unavailable'}
       }

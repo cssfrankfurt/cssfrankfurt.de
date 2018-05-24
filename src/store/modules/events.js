@@ -30,20 +30,12 @@ const actions = {
 /* ===== MUTATIONS ===== */
 const mutations = {
   RECEIVE_EVENTS(state, {data}) {
-    // const days = [
-    //   'Sunday',
-    //   'Monday',
-    //   'Tuesday',
-    //   'Wednesday',
-    //   'Thursday',
-    //   'Friday',
-    //   'Saturday'
-    // ]
+    console.log(data)
     for (let event of data) {
       state.events.push({
         type: 'meetup',
         name: event.name,
-        milli: event.time,
+        ms: event.time,
         description: event.description,
         status: event.status,
         img: event.photo_url,
@@ -51,9 +43,6 @@ const mutations = {
         info: {
           date:
           new Date(event.time).toLocaleDateString('en-GB') +
-          // ' (' +
-          // days[new Date(event.time).getDay()] +
-          // ')' +
           ' @ ' +
           new Date(event.time)
             .toLocaleTimeString('en-GB')
@@ -63,6 +52,10 @@ const mutations = {
         }
       })
     }
+    // Sort events by date
+    state.events.sort((a, b) => {
+      return a.ms, b.ms
+    })
   }
 }
 

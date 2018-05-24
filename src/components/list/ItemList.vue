@@ -8,7 +8,7 @@
   </ul>
 </template>
 <script>
-import ListItem from '@/components/item-list/ListItem'
+import ListItem from '@/components/list/ListItem'
 export default {
   name: 'ItemList',
   components: {

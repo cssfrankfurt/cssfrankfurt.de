@@ -1,19 +1,17 @@
 <template>
     <main class="container">
       <page-comp :title="title" :description="description"/>
-      <!-- Add next event here -->
-      <div class="home-content">
-        <item-list :items="tweets"/>
-      </div>
+      <!-- <profile-comp :profiles="about.frank.profiles"/> -->
+      <profile-comp :profiles="about.organisers.profiles"/>
     </main>
 </template>
 <script>
 import PageComp from '@/components/PageComp'
-import ItemList from '@/components/item-list/ItemList'
+import ProfileComp from '@/components/profiles/ProfileComp'
 export default {
-  name: 'HomePage',
+  name: 'AboutPage',
   components: {
-    ItemList,
+    ProfileComp,
     PageComp
   },
   props: {
@@ -25,9 +23,9 @@ export default {
       type: String,
       required: false
     },
-    tweets: {
-      type: Array,
-      required: true,
+    about: {
+      type: Object,
+      required: false,
       default: function() {
         return {profile: 'Items unavailable'}
       }
@@ -35,8 +33,3 @@ export default {
   }
 }
 </script>
-<style lang="sass" scoped>
-
-
-</style>
-

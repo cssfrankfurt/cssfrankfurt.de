@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import SocialmediaItem from '@/components/profile-comps/SocialmediaItem'
+import SocialmediaItem from '@/components/profiles/SocialmediaItem'
 export default {
   name: 'SocialmediaList',
   components: {

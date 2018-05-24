@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import store from '../store/store'
-import HomePage from '@/components/home/HomePage'
-import AboutPage from '@/components/about/AboutPage'
-import EventsPage from '@/components/events/EventsPage'
+import Home from '@/views/Home'
+import About from '@/views/About'
+import Events from '@/views/Events'
 
 Vue.use(Router)
 
@@ -13,17 +13,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: HomePage,
+      component: Home,
       props: {
         title: store.state.routes.home.title,
         description: store.state.routes.home.description,
-        tweets: store.getters['tweets/tweets']
+        events: store.getters['events/events']
       }
     },
     {
       path: '/about',
       name: 'about',
-      component: AboutPage,
+      component: About,
       props: {
         title: store.state.routes.about.title,
         description: store.state.routes.about.description,
@@ -33,7 +33,7 @@ export default new Router({
     {
       path: '/events',
       name: 'events',
-      component: EventsPage,
+      component: Events,
       props: {
         title: store.state.routes.events.title,
         description: store.state.routes.events.description,

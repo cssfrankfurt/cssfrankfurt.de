@@ -9,7 +9,7 @@
   </ul>
 </template>
 <script>
-import InfoItem from '@/components/item-list/info-list/InfoItem'
+import InfoItem from '@/components/list/info/InfoItem'
 export default {
   components: {
     InfoItem

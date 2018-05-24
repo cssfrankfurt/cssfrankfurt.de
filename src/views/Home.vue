@@ -1,14 +1,17 @@
 <template>
     <main class="container">
       <page-comp :title="title" :description="description"/>
-      <item-list :items="events"/>
+      <!-- Add next event here -->
+      <div class="home-content">
+        <item-list :items="events"/>
+      </div>
     </main>
 </template>
 <script>
 import PageComp from '@/components/PageComp'
-import ItemList from '@/components/item-list/ItemList'
+import ItemList from '@/components/list/ItemList'
 export default {
-  name: 'EventPage',
+  name: 'HomePage',
   components: {
     ItemList,
     PageComp
@@ -32,3 +35,4 @@ export default {
   }
 }
 </script>
+

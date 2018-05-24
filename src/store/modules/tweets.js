@@ -39,15 +39,10 @@ const actions = {
 /* ===== MUTATIONS ===== */
 const mutations = {
   RECEIVE_TWEETS(state, {data}) {
-    let tempTweets = data
-    // Sort tweets by date
-    let sorted = tempTweets.sort((a, b) => {
-      return b.id - a.id
-    })
     // Filter out tweets with same ID
-    let tweets = sorted.filter((tweet, index, self) => self.findIndex(
+    let tweets = data.filter((tweet, index, self) => self.findIndex(
       (t) => { return (t.id === tweet.id && t.id === tweet.id) }) === index)
-    // Add sorted and filtered tweets to state
+    // Add filtered tweets to state
     for (let tweet of tweets) {
       state.tweets.push({
         type: 'twitter',
@@ -55,7 +50,7 @@ const mutations = {
         user: '@' + tweet.user.screen_name,
         description: tweet.text,
         id: tweet.id,
-        milli: new Date(tweet.created_at).getTime(),
+        ms: new Date(tweet.created_at).getTime(),
         img: tweet.user.profile_image_url_https,
         info: {
           date: new Date(tweet.created_at).toLocaleDateString('en-GB'),
@@ -64,6 +59,10 @@ const mutations = {
         }
       })
     }
+    // Sort tweets by date
+    state.tweets.sort((a, b) => {
+      return b.ms - a.ms
+    })
   }
 }
 

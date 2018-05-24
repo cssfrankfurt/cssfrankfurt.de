@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import SocialmediaList from '@/components/profile-comps/SocialmediaList'
+import SocialmediaList from '@/components/profiles/SocialmediaList'
 export default {
   name: 'ProfileComp',
   components: {
