@@ -4,7 +4,9 @@
       {{item.name}}
     </h2>
     <info-list :infos="item.info"/>
-    <article class="description">{{item.description | truncate(240)}} </article>
+    <article v-html="$options.filters.truncate( item.description, 240)" class="description">
+      <!-- {{item.description | truncate(240)}} -->
+      </article>
     <span>View this event on {{item.type}}</span>
   </li>
 </template>
