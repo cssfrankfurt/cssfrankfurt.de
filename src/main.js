@@ -26,8 +26,11 @@ import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
 import faWindowMaximize from '@fortawesome/fontawesome-free-regular/faWindowMaximize'
 import faMapMarkerAlt from '@fortawesome/fontawesome-free-solid/faMapMarkerAlt'
 import faUsers from '@fortawesome/fontawesome-free-solid/faUsers'
+import faRetweet from '@fortawesome/fontawesome-free-solid/faRetweet'
+import faHeart from '@fortawesome/fontawesome-free-solid/faHeart'
+import faBriefcase from '@fortawesome/fontawesome-free-solid/faBriefcase'
 
-fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faTag, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers)
+fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faTag, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers, faRetweet, faHeart, faBriefcase)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

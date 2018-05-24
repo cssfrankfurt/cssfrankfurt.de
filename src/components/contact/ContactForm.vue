@@ -52,6 +52,7 @@ export default {
       // Show form again after 6s
       setTimeout(() => {
         this.error = false
+        this.sent = false
       }, 6000)
     }
   },
@@ -69,6 +70,7 @@ export default {
         })
         .catch((error) => {
           this.error = true
+          this.sent = false
           console.log(error)
         })
     }
@@ -81,6 +83,6 @@ export default {
 
   .loader
     display: block
-    margin-top: 40px
+    margin-top: 2.5rem
 
 </style>

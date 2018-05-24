@@ -1,17 +1,13 @@
 <template>
   <main class="container">
-    <h1 class="section-title">{{title}}</h1>
+    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
     <article class="description">{{about}}</article>
-    <div class="filter">
-      <input id="contact" type="radio" v-model="form" value="contact"/>
-      <label for="contact"><span>{{contact}}</span></label>
-      <input id="submit" type="radio" v-model="form" value="submit"/>
-      <label for="submit"><span>{{submit}}</span></label>
-    </div>
+
     <transition name="fade" mode="out-in">
     <ContactForm v-if="this.form === 'contact'"/>
     <SubmitForm v-if="this.form === 'submit'"/>
   </transition>
+
 </main>
 </template>
 <script>
@@ -25,7 +21,7 @@ export default {
 
   },
   data: () => ({
-    title: 'Get in touch with us',
+    title: 'Contact',
     about:
       "Would you like to help out with CSS Frankfurt, become a sponsor, submit a talk proposal, ask a question or just say hi? You've come to the right place. Fill out our contact form and we will get back to you as soon as possible!",
     contact: 'Say hi!',
@@ -58,18 +54,18 @@ export default {
 
     .field-label
       font-weight: 300
-      margin-bottom: 10px
+      margin-bottom: 1rem
 
     input.form-field, textarea.form-field
-      min-height: 35px
+      min-height: 2rem
       font-size: 1rem
       font-family: $font
       font-weight: 300
       outline: 0
       border: 1px solid $lightgrey
       border-radius: 3px
-      padding: 5px 10px
-      margin-bottom: 20px
+      padding: .5rem 1rem
+      margin-bottom: 1rem
       &:focus
         border: 1px solid $pink
 
@@ -90,7 +86,7 @@ export default {
     justify-content: center
     align-items: center
     max-width: 400px
-    margin: 50px auto
+    margin: 3rem auto
     text-align: center
 
   .clear-submit
@@ -111,7 +107,7 @@ export default {
         &:hover
           border-bottom: 2px solid $pink
       &.clear
-        margin-right: 15px
+        margin-right: 1rem
         font-weight: 300
         color: $black
 

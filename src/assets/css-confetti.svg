@@ -1,97 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1430px" height="1012px" viewBox="0 0 1430 1012" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
-    <title>css-confetti</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="IBMPlexMono-Medium, IBM Plex Mono" font-size="18" font-weight="400">
-        <g id="Desktop-HD" transform="translate(-6.000000, -2.000000)" fill="#FF8282">
-            <g id="css-confetti" transform="translate(0.000000, 1.000000)">
-                <text id="*" opacity="0.78" transform="translate(1385.000000, 421.500000) rotate(-37.000000) translate(-1385.000000, -421.500000) ">
-                    <tspan x="1380" y="428">*</tspan>
-                </text>
-                <text id="*" opacity="0.91" transform="translate(1261.500000, 149.500000) rotate(-60.000000) translate(-1261.500000, -149.500000) ">
-                    <tspan x="1256" y="156">*</tspan>
-                </text>
-                <text id="*" opacity="0.95" transform="translate(977.500000, 5.500000) rotate(-274.000000) translate(-977.500000, -5.500000) ">
-                    <tspan x="973" y="12">*</tspan>
-                </text>
-                <text id="*" opacity="0.74" transform="translate(568.500000, 268.500000) rotate(-296.000000) translate(-568.500000, -268.500000) ">
-                    <tspan x="563" y="275">*</tspan>
-                </text>
-                <text id="*" opacity="0.82" transform="translate(908.500000, 509.500000) rotate(-262.000000) translate(-908.500000, -509.500000) ">
-                    <tspan x="904" y="516">*</tspan>
-                </text>
-                <text id="*" transform="translate(664.000000, 985.500000) rotate(-135.000000) translate(-664.000000, -985.500000) ">
-                    <tspan x="658" y="992">*</tspan>
-                </text>
-                <text id="*" opacity="0.75" transform="translate(464.000000, 932.500000) rotate(-180.000000) translate(-464.000000, -932.500000) ">
-                    <tspan x="458" y="939">*</tspan>
-                </text>
-                <text id="*" opacity="0.88" transform="translate(260.500000, 998.500000) rotate(-163.000000) translate(-260.500000, -998.500000) ">
-                    <tspan x="255" y="1005">*</tspan>
-                </text>
-                <text id="*" opacity="0.86" transform="translate(286.000000, 742.500000) rotate(-233.000000) translate(-286.000000, -742.500000) ">
-                    <tspan x="280" y="749">*</tspan>
-                </text>
-                <text id="*" opacity="0.82" transform="translate(721.000000, 281.500000) rotate(-142.000000) translate(-721.000000, -281.500000) ">
-                    <tspan x="716" y="288">*</tspan>
-                </text>
-                <text id="*" opacity="0.78" transform="translate(648.000000, 125.500000) rotate(-174.000000) translate(-648.000000, -125.500000) ">
-                    <tspan x="642" y="132">*</tspan>
-                </text>
-                <text id="*" opacity="0.85" transform="translate(1232.000000, 520.500000) rotate(-268.000000) translate(-1232.000000, -520.500000) ">
-                    <tspan x="1228" y="527">*</tspan>
-                </text>
-                <text id="*" opacity="0.82" transform="translate(941.500000, 773.500000) rotate(-305.000000) translate(-941.500000, -773.500000) ">
-                    <tspan x="936" y="780">*</tspan>
-                </text>
-                <text id="*" opacity="0.94" transform="translate(573.000000, 168.500000) rotate(-176.000000) translate(-573.000000, -168.500000) ">
-                    <tspan x="567" y="175">*</tspan>
-                </text>
-                <text id="*" opacity="0.72" transform="translate(250.000000, 390.500000) rotate(-207.000000) translate(-250.000000, -390.500000) ">
-                    <tspan x="245" y="397">*</tspan>
-                </text>
-                <text id="*" opacity="0.83" transform="translate(1431.000000, 1009.500000) rotate(-161.000000) translate(-1431.000000, -1009.500000) ">
-                    <tspan x="1426" y="1016">*</tspan>
-                </text>
-                <text id="*" opacity="0.79" transform="translate(1058.000000, 1006.500000) rotate(-247.000000) translate(-1058.000000, -1006.500000) ">
-                    <tspan x="1052" y="1013">*</tspan>
-                </text>
-                <text id="*" opacity="0.91" transform="translate(1114.000000, 283.500000) rotate(-330.000000) translate(-1114.000000, -283.500000) ">
-                    <tspan x="1109" y="290">*</tspan>
-                </text>
-                <text id="*" opacity="0.79" transform="translate(662.500000, 658.500000) rotate(-4.000000) translate(-662.500000, -658.500000) ">
-                    <tspan x="656" y="665">*</tspan>
-                </text>
-                <text id="*" opacity="0.89" transform="translate(516.000000, 551.500000) rotate(-265.000000) translate(-516.000000, -551.500000) ">
-                    <tspan x="512" y="558">*</tspan>
-                </text>
-                <text id="*" opacity="0.78" transform="translate(221.500000, 176.500000) rotate(-182.000000) translate(-221.500000, -176.500000) ">
-                    <tspan x="215" y="183">*</tspan>
-                </text>
-                <text id="*" opacity="0.76" transform="translate(80.000000, 827.500000) rotate(-116.000000) translate(-80.000000, -827.500000) ">
-                    <tspan x="75" y="834">*</tspan>
-                </text>
-                <text id="*" opacity="0.73" transform="translate(1277.000000, 619.500000) rotate(-209.000000) translate(-1277.000000, -619.500000) ">
-                    <tspan x="1272" y="626">*</tspan>
-                </text>
-                <text id="*" opacity="0.99" transform="translate(1198.500000, 153.500000) rotate(-120.000000) translate(-1198.500000, -153.500000) ">
-                    <tspan x="1193" y="160">*</tspan>
-                </text>
-                <text id="*" opacity="0.95" transform="translate(1019.000000, 372.500000) rotate(-218.000000) translate(-1019.000000, -372.500000) ">
-                    <tspan x="1014" y="379">*</tspan>
-                </text>
-                <text id="*" opacity="0.89" transform="translate(157.500000, 705.500000) rotate(-184.000000) translate(-157.500000, -705.500000) ">
-                    <tspan x="152" y="712">*</tspan>
-                </text>
-                <text id="*" opacity="0.7" transform="translate(12.500000, 342.500000) rotate(-322.000000) translate(-12.500000, -342.500000) ">
-                    <tspan x="6" y="349">*</tspan>
-                </text>
-                <text id="*" opacity="0.72" transform="translate(95.000000, 103.500000) rotate(-255.000000) translate(-95.000000, -103.500000) ">
-                    <tspan x="90" y="110">*</tspan>
-                </text>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1430" height="1012" viewBox="0 0 1430 1012">
+  <g fill="#FF8282" fill-rule="evenodd" font-family="IBMPlexMono-Medium, IBM Plex Mono" font-size="18" font-weight="400" opacity=".5" transform="translate(-6 -1)">
+    <text opacity=".78" transform="rotate(-37 1385 421.5)">
+      <tspan x="1380" y="428">*</tspan>
+    </text>
+    <text opacity=".91" transform="rotate(-60 1261.5 149.5)">
+      <tspan x="1256" y="156">*</tspan>
+    </text>
+    <text opacity=".95" transform="rotate(86 977.5 5.5)">
+      <tspan x="973" y="12">*</tspan>
+    </text>
+    <text opacity=".74" transform="rotate(64 568.5 268.5)">
+      <tspan x="563" y="275">*</tspan>
+    </text>
+    <text opacity=".82" transform="rotate(98 908.5 509.5)">
+      <tspan x="904" y="516">*</tspan>
+    </text>
+    <text transform="rotate(-135 664 985.5)">
+      <tspan x="658" y="992">*</tspan>
+    </text>
+    <text opacity=".75" transform="rotate(-180 464 932.5)">
+      <tspan x="458" y="939">*</tspan>
+    </text>
+    <text opacity=".88" transform="rotate(-163 260.5 998.5)">
+      <tspan x="255" y="1005">*</tspan>
+    </text>
+    <text opacity=".86" transform="rotate(127 286 742.5)">
+      <tspan x="280" y="749">*</tspan>
+    </text>
+    <text opacity=".82" transform="rotate(-142 721 281.5)">
+      <tspan x="716" y="288">*</tspan>
+    </text>
+    <text opacity=".78" transform="rotate(-174 648 125.5)">
+      <tspan x="642" y="132">*</tspan>
+    </text>
+    <text opacity=".85" transform="rotate(92 1232 520.5)">
+      <tspan x="1228" y="527">*</tspan>
+    </text>
+    <text opacity=".82" transform="rotate(55 941.5 773.5)">
+      <tspan x="936" y="780">*</tspan>
+    </text>
+    <text opacity=".94" transform="rotate(-176 573 168.5)">
+      <tspan x="567" y="175">*</tspan>
+    </text>
+    <text opacity=".72" transform="rotate(153 250 390.5)">
+      <tspan x="245" y="397">*</tspan>
+    </text>
+    <text opacity=".83" transform="rotate(-161 1431 1009.5)">
+      <tspan x="1426" y="1016">*</tspan>
+    </text>
+    <text opacity=".79" transform="rotate(113 1058 1006.5)">
+      <tspan x="1052" y="1013">*</tspan>
+    </text>
+    <text opacity=".91" transform="rotate(30 1114 283.5)">
+      <tspan x="1109" y="290">*</tspan>
+    </text>
+    <text opacity=".79" transform="rotate(-4 662.5 658.5)">
+      <tspan x="656" y="665">*</tspan>
+    </text>
+    <text opacity=".89" transform="rotate(95 516 551.5)">
+      <tspan x="512" y="558">*</tspan>
+    </text>
+    <text opacity=".78" transform="rotate(178 221.5 176.5)">
+      <tspan x="215" y="183">*</tspan>
+    </text>
+    <text opacity=".76" transform="rotate(-116 80 827.5)">
+      <tspan x="75" y="834">*</tspan>
+    </text>
+    <text opacity=".73" transform="rotate(151 1277 619.5)">
+      <tspan x="1272" y="626">*</tspan>
+    </text>
+    <text opacity=".99" transform="rotate(-120 1198.5 153.5)">
+      <tspan x="1193" y="160">*</tspan>
+    </text>
+    <text opacity=".95" transform="rotate(142 1019 372.5)">
+      <tspan x="1014" y="379">*</tspan>
+    </text>
+    <text opacity=".89" transform="rotate(176 157.5 705.5)">
+      <tspan x="152" y="712">*</tspan>
+    </text>
+    <text opacity=".7" transform="rotate(38 12.5 342.5)">
+      <tspan x="6" y="349">*</tspan>
+    </text>
+    <text opacity=".72" transform="rotate(105 95 103.5)">
+      <tspan x="90" y="110">*</tspan>
+    </text>
+  </g>
 </svg>
