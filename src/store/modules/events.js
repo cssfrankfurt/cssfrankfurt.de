@@ -53,9 +53,9 @@ const mutations = {
       })
     }
     // Sort events by date
-    state.events.sort((a, b) => {
-      return a.ms, b.ms
-    })
+    // state.events.sort((a, b) => {
+    //  return a.ms, b.ms
+    // })
   }
 }
 
