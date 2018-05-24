@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-const HomePage = () => import('@/components/home/HomePage')
-const AboutPage = () => import('@/components/about/AboutPage')
-const EventPage = () => import('@/components/events/EventPage')
-const ContactPage = () => import('@/components/contact/ContactPage')
+import store from '../store/store'
+import Home from '@/views/Home'
+import About from '@/views/About'
+import Events from '@/views/Events'
 
 Vue.use(Router)
 
@@ -13,23 +13,42 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: HomePage
+      component: Home,
+      props: {
+        title: store.state.routes.home.title,
+        description: store.state.routes.home.description,
+        events: store.getters['events/events']
+      }
     },
     {
       path: '/about',
       name: 'about',
-      component: AboutPage
+      component: About,
+      props: {
+        title: store.state.routes.about.title,
+        description: store.state.routes.about.description,
+        about: store.getters['about/about']
+      }
     },
     {
       path: '/events',
       name: 'events',
-      component: EventPage
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: ContactPage
+      component: Events,
+      props: {
+        title: store.state.routes.events.title,
+        description: store.state.routes.events.description,
+        events: store.getters['events/events']
+      }
     }
+    // {
+    //   path: '/contact',
+    //   name: 'contact',
+    //   component: PageComp,
+    //   props: {
+    //     title: store.state.routes.contact.title,
+    //     description: store.state.routes.contact.description
+    //   }
+    // }
   ],
   scrollBehavior(to, from, savedPosition) {
     return {x: 0, y: 0}

@@ -30,34 +30,32 @@ const actions = {
 /* ===== MUTATIONS ===== */
 const mutations = {
   RECEIVE_EVENTS(state, {data}) {
-    const days = [
-      'Sunday',
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ]
-    data.forEach(singleEvent => {
+    console.log(data)
+    for (let event of data) {
       state.events.push({
-        title: singleEvent.name,
-        date:
-          new Date(singleEvent.time).toLocaleDateString('en-GB') +
-          ' (' +
-          days[new Date(singleEvent.time).getDay()] +
-          ')' +
+        type: 'meetup',
+        name: event.name,
+        ms: event.time,
+        description: event.description,
+        status: event.status,
+        img: event.photo_url,
+        url: event.event_url,
+        info: {
+          date:
+          new Date(event.time).toLocaleDateString('en-GB') +
           ' @ ' +
-          new Date(singleEvent.time)
+          new Date(event.time)
             .toLocaleTimeString('en-GB')
             .substring(0, 5),
-        description: singleEvent.description,
-        location: singleEvent.venue.name,
-        attending: singleEvent.yes_rsvp_count,
-        status: singleEvent.status,
-        url: singleEvent.event_url
+          location: event.venue.name,
+          attending: event.yes_rsvp_count
+        }
       })
-    })
+    }
+    // Sort events by date
+    // state.events.sort((a, b) => {
+    //  return a.ms, b.ms
+    // })
   }
 }
 
