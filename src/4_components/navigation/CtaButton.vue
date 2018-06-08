@@ -1,6 +1,7 @@
 <template>
   <button class="cta" @click="submit" v-if="!wXS" role="button" aria-label="submit a talk">
     <div class="cta-inner">{{title}}</div>
+    <span class="error" v-if="error">Coming soon!</span>
   </button>
 </template>
 <script>
@@ -12,9 +13,19 @@ export default {
       required: true
     }
   },
+  data: () => ({
+    error: false
+  }),
+  watch: {
+    error(){
+      setTimeout(() => {
+        this.error = false
+      }, 3000)
+    }
+  },
   methods: {
     submit() {
-
+      this.error = true
       // this.$router.push('/contact')
       // this.$store.dispatch('getFormType', 'submit')
     }
@@ -28,10 +39,21 @@ export default {
   /* CTA BUTTON STYLING */
 
   .cta
+    position: relative
     cursor: pointer
     border-radius: 2rem
     border: 2px solid white
-    margin-left: 1rem
+    margin-left: .5rem
+  
+  .error
+    position: absolute
+    left: 0
+    width: 100%
+    margin-top: .2rem
+    font-size: .8rem
+    animation-name: error
+    animation-duration: .2s
+    animation-iteration-count: 1
 
   .cta-inner
     color: white
@@ -63,4 +85,12 @@ export default {
       color: $pink
       background: white
       box-shadow: inset 0px -3px transparent
+  
+  /* Error animation */
+
+  @keyframes error
+    0%, 100%
+      transform: translateX(10px)
+    50%
+      transform: translateX(-5px)
 </style>
