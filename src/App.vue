@@ -48,6 +48,7 @@ export default {
     box-sizing: border-box
 
   body, html
+    height: 100%
     display: flex
     flex-direction: column
     font-family: $font-body
@@ -80,13 +81,14 @@ export default {
     width: 100%
 
   #app
+    display: flex
+    flex-direction: column
     margin: 0 auto
-    min-height: 100%
     width: 100%
 
   .container
-    max-width: 750px
     min-height: 100%
+    max-width: 750px
     margin: 0 auto
     padding: 1rem
     background: white
@@ -119,9 +121,10 @@ export default {
 
 <style lang="sass" scoped>
   .loader
+    min-height: calc(100vh - 3rem)
     display: flex
-    height: 60vh
-    justify-content: center
+    //justify-content: center
+    margin: 3rem 0
     align-items: center
     flex-direction: column
     text-align: center

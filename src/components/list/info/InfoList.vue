@@ -33,5 +33,6 @@ export default {
 
   .info-list
     display: flex
+    flex-wrap: wrap
 
 </style>

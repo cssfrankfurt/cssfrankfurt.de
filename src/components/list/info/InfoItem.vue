@@ -27,8 +27,6 @@ export default {
       if (this.type === 'date') return 'calendar-alt'
       if (this.type === 'location') return 'map-marker-alt'
       if (this.type === 'attending') return 'users'
-      if (this.type === 'retweets') return 'retweet'
-      if (this.type === 'favorites') return 'heart'
     },
     style() {
       if (this.type === 'date') return 'far'
@@ -46,7 +44,14 @@ export default {
 
   .info-item
     margin-right: 1rem
-    font-size: .9rem
+    font-size: 1rem
     font-family: $font-body
+    @include mobile
+      &:nth-child(1)
+        order: 1
+      &:nth-child(2)
+        order: 3
+      &:nth-child(3)
+        order: 2
 
 </style>

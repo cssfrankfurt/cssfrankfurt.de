@@ -5,7 +5,13 @@
     </h2>
     <info-list :infos="item.info"/>
     <article v-html="$options.filters.truncate( item.description, 150)" class="description"/>
-    <span>View this event on {{item.type}}</span>
+    <a :href="item.url" class="event-link">
+      Read more<font-awesome-icon
+        :icon="['fab', 'meetup']"
+        class="event-icon"
+        role="img"
+        aria-hidden="true"
+      /></a>
   </li>
 </template>
 <script>
@@ -39,6 +45,8 @@ export default {
   .list-item
     padding: .5rem 1rem
     margin-bottom: .5rem
+    @include mobile
+      padding: .5rem 0
 
   .item-title
     font-family: $font-secondary
@@ -49,7 +57,7 @@ export default {
   .description
     font-size: 1rem
     @include mobile
-      margin: .8rem 0
+      margin: .2rem 0
 
   .item-type-icon
     font-size: 1.3rem
@@ -63,5 +71,19 @@ export default {
     vertical-align: baseline
     &:hover
       transform: scale(1.07)
+
+  .event-link
+    font-weight: 500
+    color: $black
+    font-family: $font-secondary
+    font-size: .9rem
+    display: flex
+    align-items: center
+    justify-content: flex-end
+
+  .event-icon
+    color: $pink
+    font-size: 1.2rem
+    margin-left: .5rem
 
 </style>

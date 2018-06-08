@@ -38,6 +38,7 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   .header
+    flex: 0 1 auto
     position: sticky
     top: 0
     display: flex

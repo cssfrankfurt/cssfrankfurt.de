@@ -1,6 +1,5 @@
 <template>
     <footer class="footer">
-      Come find us!
       <a :href="meetup">
         <font-awesome-icon
         :icon="['fab', 'meetup']"
@@ -65,25 +64,19 @@ export default {
 
   @import "src/assets/styles/style-variables.sass"
 
-
   .footer
     position: sticky
     bottom: 0
     width: 100%
     color: white
     font-family: $font-secondary
-    display: flex
-    align-items: center
-    justify-content: flex-end
-    min-height: 3rem
-    text-align: right
+    text-align: center
     background: $black
-    padding: 0 2rem
-    margin-top: 1rem
-  
+    padding: .5rem 2rem
+
   .social-icon
-    font-size: 1.2rem
+    font-size: 1rem
     color: white
-    margin-left: 1rem
+    margin-left: .5rem
 
 </style>
