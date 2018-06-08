@@ -34,10 +34,10 @@ export default {
     font-size: 1.3rem
     color: $pink
     margin-right: 1rem
-    transition: transform .3s linear
+    transition: transform .1s linear
     @include mobile
       margin: 0 .5rem
     &:hover
-      transform: scale(1.1)
+      transform: scale(1.2)
 
 </style>

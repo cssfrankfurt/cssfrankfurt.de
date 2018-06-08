@@ -78,5 +78,8 @@ export default {
     font-size: 1rem
     color: white
     margin-left: .5rem
+    transition: transform .1s linear
+    &:hover
+      transform: scale(1.2)
 
 </style>
