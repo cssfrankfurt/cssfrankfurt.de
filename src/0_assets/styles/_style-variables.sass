@@ -1,0 +1,41 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,500')
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700')
+
+$font-secondary: 'IBM Plex Mono', 'Courier New', monospace
+$font-body: 'Roboto', sans-serif
+
+// Base colors
+$black: #292A2E
+$pink: #ff8282
+$lightpink: #FFB1B1
+$dark-pink: #D97273
+$lightgrey: #E9E9EA
+
+// Mixins
+$large-desktop-width: 2048px
+$small-laptop-width: 1100px
+$tablet-width: 1120px
+$mobile-width: 768px
+$small-mobile: 320px
+
+@mixin large-desktop
+  @media (min-width: #{$large-desktop-width})
+    @content
+
+@mixin small-laptop
+  @media (max-width: #{$small-laptop-width})
+    @content
+
+@mixin tablet
+  @media (max-width: #{$tablet-width})
+    @content
+
+@mixin mobile
+  @media (max-width: #{$mobile-width})
+    @content
+
+@mixin small
+  @media (max-width: #{$mobile-width})
+    @content

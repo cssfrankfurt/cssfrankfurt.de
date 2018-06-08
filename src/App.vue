@@ -2,35 +2,33 @@
   <div id="app">
     <the-navigation/>
     <transition name="fade" mode="out-in">
-      <loader-comp v-if="loading"/>
+      <the-loader v-if="loading"/>
       <router-view
         :key="$route.path"
         v-if="!loading"
       />
     </transition>
+    <the-footer v-if="!loading"/>
   </div>
 </template>
 
 <script>
 import {mapGetters} from 'vuex'
-import LoaderComp from '@/components/LoaderComp'
-import TheNavigation from '@/components/navigation/TheNavigation'
+import TheLoader from '@/4_components/TheLoader'
+import TheNavigation from '@/4_components/navigation/TheNavigation'
+import TheFooter from '@/4_components/TheFooter'
 
 export default {
   name: 'App',
   components: {
     TheNavigation,
-    LoaderComp
+    TheLoader,
+    TheFooter
   },
   computed: {
     ...mapGetters({
       loading: 'loader/isLoading'
     })
-  },
-  methods: {
-    getData(){
-      
-    }
   },
   created() {
     this.$store.dispatch('events/FETCH_EVENTS').then(() => {
@@ -42,7 +40,7 @@ export default {
 
 <style lang="sass">
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   *
     margin: 0
@@ -50,13 +48,15 @@ export default {
     box-sizing: border-box
 
   body, html
-    font-family: $font
     height: 100%
-    font-size: 16px
+    display: flex
+    flex-direction: column
+    font-family: $font-body
+    font-size: 17px
     font-weight: 300
     color: $black
     line-height: 1.5
-    background-image: url(./assets/css-confetti.svg)
+    background-image: url(./0_assets/css-confetti.svg)
     background-attachment: fixed
     background-size: cover
     background-repeat: repeat
@@ -75,22 +75,47 @@ export default {
     background: 0
     border: 0
     font-size: 1rem
+
   img
     height: auto
     width: 100%
 
   #app
-    max-width: 1200px
+    display: flex
+    flex-direction: column
     margin: 0 auto
-    min-height: 100%
+    width: 100%
 
   .container
-    max-width: 700px
+    min-height: 100%
+    max-width: 750px
     margin: 0 auto
     padding: 1rem
     background: white
     @include mobile
       margin: 0 auto
+
+  .info-icon
+    color: $pink
+    stroke-width: 1.8
+    font-size: .9rem
+    vertical-align: center
+    margin-right: .3rem
+
+  h1
+    font-family: $font-secondary
+    font-weight: 900
+    font-size: 1.5rem
+
+  h2
+    font-family: $font-secondary
+    font-size: 1.2rem
+    color: $black
+
+  a.external, a.external:visited
+    font-family: $font-secondary
+    color: $pink
+    font-weight: 500
 
   /* TRANSITIONS */
 
@@ -111,9 +136,10 @@ export default {
 
 <style lang="sass" scoped>
   .loader
+    min-height: calc(100vh - 3rem)
     display: flex
-    height: 60vh
-    justify-content: center
+    //justify-content: center
+    margin: 3rem 0
     align-items: center
     flex-direction: column
     text-align: center
