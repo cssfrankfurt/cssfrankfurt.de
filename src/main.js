@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import VueMediaQueryMixin from 'vue-media-query-mixin'
-import VeeValidate from 'vee-validate'
 
 // Vue Router
 import router from './1_router'
@@ -36,8 +35,6 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 Vue.use(VueMediaQueryMixin, {framework: 'bootstrap'})
-
-Vue.use(VeeValidate)
 
 /* eslint-disable no-new */
 new Vue({
