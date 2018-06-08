@@ -1,5 +1,5 @@
 <template>
-  <button class="cta" @click="submit" v-if="!wXS" role="button" aria-label="submit a talk button">
+  <button class="cta" @click="submit" v-if="!wXS" role="button" aria-label="submit a talk">
     <div class="cta-inner">{{title}}</div>
   </button>
 </template>
@@ -14,8 +14,9 @@ export default {
   },
   methods: {
     submit() {
-      this.$router.push('/contact')
-      this.$store.dispatch('getFormType', 'submit')
+      
+      //this.$router.push('/contact')
+      //this.$store.dispatch('getFormType', 'submit')
     }
   }
 }
@@ -40,7 +41,7 @@ export default {
     width: 100%
     padding: .6rem 1rem
     border-radius: 2rem
-    
+
     box-shadow: inset 0px -3px $dark-pink
 
   .cta:focus

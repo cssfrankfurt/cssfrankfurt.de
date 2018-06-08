@@ -18,22 +18,6 @@ const state = {
       content: 'CSS Frankfurt is currently organised by four friends loyal to Frank. As a thank you, Frank gifted each of them a hoodie with their personal Frank clone printed on the back. If you would like to help organise CSS Frankfurt, there is always help needed, so please reach out to us!',
       profiles: [
         {
-          name: 'Frank Furt',
-          title: 'Offical Mascat',
-          company: 'CSS Frankfurt',
-          quote:
-          'I am Curious. I am Adventurous. I am Talented. I am C.A.T',
-          img: require('@/assets/frank.svg'),
-          socialmedia: {
-            meetup: 'https://meetup.com/cssfrankfurt',
-            twitter: 'https://twitter.com/cssfrankfurt',
-            medium: 'https://medium.com/cssfrankfurt',
-            instagram: 'https://instagram.com/cssfrankfurt',
-            github: 'https://github.com/cssfrankfurt',
-            codepen: 'https://codepen.io/cssfrankfurt/'
-          }
-        },
-        {
           name: 'Melana Grönert',
           title: 'Front-End Developer',
           company: 'DB Systel',
@@ -48,11 +32,11 @@ const state = {
         },
         {
           name: 'Victoria Bergquist',
-          title: 'Jr. Front-End Developer',
+          title: 'Front-End Developer',
           company: 'melsicon',
           img: require('@/assets/victoria.gif'),
           quote:
-          'CSS and Vue Wizard wannabe. On Twitter. Always.',
+          'CSS & Vue 💕 Twitter is my safespace.',
           socialmedia: {
             twitter: 'https://twitter.com/vicbergquist',
             codepen: 'https://codepen.io/vicbergquist/',
@@ -71,17 +55,6 @@ const state = {
             twitter: 'https://twitter.com/blynxical',
             github: 'https://github.com/blynx',
             xing: 'https://www.xing.com/profile/Steffen_Henschel5'
-          }
-        },
-        {
-          name: 'Fabian Locker',
-          title: 'Fullstack Developer',
-          company: 'Moguru',
-          img: require('@/assets/frank.svg'),
-          quote: 'Quote here',
-          socialmedia: {
-            codepen: 'http://codepen.io/callmeFabii',
-            xing: 'https://www.xing.com/profile/Fabian_Locker3'
           }
         }
       ]

@@ -40,20 +40,13 @@ export default {
   }
 }
 </script>
-<style lang="sass" scoped>
+<style lang="sass">
 
   @import "src/assets/styles/style-variables.sass"
 
   .info-item
     margin-right: 1rem
     font-size: .9rem
-    font-family: $font
-
-  .info-icon
-    color: $pink
-    stroke-width: 1.8
-    height: .9rem
-    vertical-align: center
-    margin-right: .3rem
+    font-family: $font-body
 
 </style>

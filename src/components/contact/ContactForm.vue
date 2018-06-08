@@ -1,34 +1,65 @@
 <template>
-  <section class="content-container contact">
-    <transition name="fade" mode="out-in">
-      <div class="feedback" v-if="sent || error">
-        <p v-if="sent">Thank you, Frank is now processing your message.<br> Expect to hear back from us soon!</p>
-        <p v-if="error">Oops, something went wrong... Please try again!</p>
-        <TheLoader class="contact-frank"/>
-      </div>
-      <form v-if="!sent" class="contact-submit" name="contact" action="" method="post" @submit.prevent="submitForm">
+  <form class="contact-form" action="">
+    <div class="input-group">
       <label class="field-label required" for="name">Name</label>
-      <input class="form-field" type="text" name="name" id="name" required minlength="6" v-model="name">
+    <input 
+      class="form-field" 
+      type="text" 
+      name="name" 
+      id="name" 
+      v-model="name"
+      v-validate="'required'"
+      required>
+    <span class="error-message" v-show="errors.has('name')">
+      <font-awesome-icon
+        :icon="['fas', 'info-circle']"
+        class="info-icon"
+        role="img"
+        aria-hidden="true"
+      />{{errors.first('name')}}
+      </span>
+    </div>
+
+    <div class="input-group">
       <label class="field-label required" for="email">Email</label>
-      <input class="form-field" type="email" name="email" id="email" required v-model="email">
+    <input
+      v-model="email"
+      id="email"
+      class="form-field"
+      v-validate="'required|email'" 
+      type="email" 
+      name="email"
+      required>
+    <span class="error-message" v-show="errors.has('email')">
+      <font-awesome-icon
+        :icon="['fas', 'info-circle']"
+        class="info-icon"
+        role="img"
+        aria-hidden="true"
+      />{{ errors.first('email') }}</span>
+    </div>
+
+
+    <div class="input-group">
       <label class="field-label required" for="message">Message</label>
-      <textarea class="form-field" type="text" name="message" id="message" required v-model="message"></textarea>
-      <div class="clear-submit">
-        <input class="form-button clear" type="reset" value="Clear" v-if="!loading"/>
-        <input class="form-button submit" type="submit" value="Send message" v-if="!loading" />
-        <span v-if="loading">Sending message...</span>
-      </div>
-    </form>
-    </transition>
-  </section>
+      <textarea 
+        class="form-field" 
+        type="text" 
+        name="message" 
+        id="message"
+        v-model="message"
+        v-validate="'required|email'"
+        required/>
+    </div>
+  </form>
 </template>
 <script>
-import TheLoader from '@/components/TheLoader'
+import LoaderComp from '@/components/LoaderComp'
 import axios from 'axios'
 export default {
   name: 'ContactForm',
   components: {
-    TheLoader
+    LoaderComp
   },
   data: () => ({
     name: '',
@@ -81,8 +112,48 @@ export default {
 
 <style lang="sass" scoped>
 
-  .loader
+  @import "src/assets/styles/style-variables.sass"
+
+  .input-group
+    margin: 0 auto
+    max-width: 400px
+    margin-bottom: .5rem
+
+  .error-message
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    font-size: .8rem
+    margin: .2rem 0
     display: block
-    margin-top: 2.5rem
+    text-align: right
+
+  .field-label
+    display: block
+    font-weight: 300
+    margin-bottom: .2rem
+
+  input.form-field, textarea.form-field
+    width: 100%
+    min-height: 2rem
+    font-size: 1rem
+    font-family: $font-body
+    font-weight: 300
+    outline: 0
+    border: 1px solid $lightgrey
+    border-radius: 3px
+    padding: .5rem .5rem
+    &:focus
+      border: 1px solid $pink
+
+  textarea.form-field
+    min-height: 150px
+
+  .required::after
+    color: $pink
+    font-size: 0.7rem
+    content: '*'
+    position: absolute
+    display: inline-block
 
 </style>

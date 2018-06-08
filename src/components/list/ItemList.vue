@@ -29,6 +29,6 @@ export default {
 <style lang="sass" scoped>
 
   .item-list
-    margin-top: 2rem
+    margin-top: 1rem
 
 </style>

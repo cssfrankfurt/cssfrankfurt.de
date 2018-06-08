@@ -30,7 +30,6 @@ const actions = {
 /* ===== MUTATIONS ===== */
 const mutations = {
   RECEIVE_EVENTS(state, {data}) {
-    console.log(data)
     for (let event of data) {
       state.events.push({
         type: 'meetup',
@@ -53,9 +52,9 @@ const mutations = {
       })
     }
     // Sort events by date
-    // state.events.sort((a, b) => {
-    //  return a.ms, b.ms
-    // })
+    state.events.sort((a, b) => {
+      return b.ms - a.ms
+    })
   }
 }
 

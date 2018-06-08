@@ -1,84 +1,57 @@
 <template>
   <main class="container">
-    <h1 class="section-title"><span role="img" aria-hidden="true">#</span>{{title}}</h1>
-    <article class="description">{{about}}</article>
-
-    <transition name="fade" mode="out-in">
-    <ContactForm v-if="this.form === 'contact'"/>
-    <SubmitForm v-if="this.form === 'submit'"/>
-  </transition>
-
+    <page-comp :title="title" :description="description"/>
+     <socialmedia-list :social="socialmedia"/>
+     <h2 class="item-title">Contact form</h2>
+    <contact-form/>
 </main>
 </template>
 <script>
 import ContactForm from '@/components/contact/ContactForm'
 import SubmitForm from '@/components/contact/SubmitForm'
+import PageComp from '@/components/PageComp'
+import SocialmediaList from '@/components/profiles/SocialmediaList'
 export default {
   name: 'ContactPage',
   components: {
     ContactForm,
-    SubmitForm
-
+    SubmitForm,
+    PageComp,
+    SocialmediaList
+  },
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    }
   },
   data: () => ({
-    title: 'Contact',
-    about:
-      "Would you like to help out with CSS Frankfurt, become a sponsor, submit a talk proposal, ask a question or just say hi? You've come to the right place. Fill out our contact form and we will get back to you as soon as possible!",
-    contact: 'Say hi!',
-    submit: 'Submit a talk'
-  }),
-  computed: {
-    form: {
-      // Set the form type, contact form or submit form
-      get() {
-        return this.$store.state.form
-      },
-      set(newType) {
-        this.$store.dispatch('getFormType', newType)
-      }
+    socialmedia: {
+      twitter: 'https://twitter.com/cssfrankfurt',
+      github: 'https://github.com/cssfrankfurt',
+      medium: 'https://medium.com/cssfrankfurt',
+      codepen: 'https://codepen.io/cssfrankfurt'
     }
-  }
+  })
 }
 </script>
+
+<style lang="sass" scoped>
+
+  .social-media-list
+    text-align: center
+    margin: 1rem 0
+
+</style>
+
 
 <style lang="sass">
 
   @import "src/assets/styles/style-variables.sass"
-
-  form.contact-submit
-    display: flex
-    flex-direction: column
-    max-width: 400px
-    margin: 0 auto
-    margin-bottom: 60px
-
-    .field-label
-      font-weight: 300
-      margin-bottom: 1rem
-
-    input.form-field, textarea.form-field
-      min-height: 2rem
-      font-size: 1rem
-      font-family: $font
-      font-weight: 300
-      outline: 0
-      border: 1px solid $lightgrey
-      border-radius: 3px
-      padding: .5rem 1rem
-      margin-bottom: 1rem
-      &:focus
-        border: 1px solid $pink
-
-    textarea.form-field
-      min-height: 150px
-      max-width: 400px
-
-  .required::after
-    color: $pink
-    font-size: 0.7rem
-    content: '*'
-    position: absolute
-    display: inline-block
 
   .feedback
     display: flex
@@ -94,7 +67,7 @@ export default {
 
     .form-button
       color: $black
-      font-family: $font
+      font-family: $font-secondary
       font-size: 1rem
       font-weight: 300
       border: 0

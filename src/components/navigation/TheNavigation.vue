@@ -6,6 +6,7 @@
         v-for="route in routes"
         :to="route.path"
         class="nav-link"
+        role="link"
         :key="route.path">
           {{route.name}}
       </router-link>
@@ -62,7 +63,7 @@ export default {
       margin-top: 1rem
 
   a.nav-link
-    font-family: $heading
+    font-family: $font-body
     color: $black
     text-align: center
     font-weight: 900
@@ -74,7 +75,7 @@ export default {
       margin: 0
 
   %nav-link
-    font-family: $font
+    font-family: $font-secondary
     color: $pink
     opacity: 0
     transition: opacity .2s ease-in-out

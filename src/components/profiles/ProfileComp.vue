@@ -1,11 +1,5 @@
 <template>
-  <section class="content-container">
-    <!-- <h1 class="title">{{title}}</h1>
-    <article class="description">{{content}}</article> -->
-    <div
-      class="profile"
-      v-for="profile in profiles"
-      :key="profile.name">
+    <article>
       <img
         class="profile-img"
         :src="profile.img"
@@ -14,14 +8,10 @@
       <div class="info">
         <h2 class="profile-name">{{profile.name}}</h2>
         <h3 class="work">{{profile.title}}, {{profile.company}}</h3>
-        <article class="profile-description">"{{profile.quote}}"</article>
+        <div class="profile-description">"{{profile.quote}}"</div>
         <socialmedia-list :social="profile.socialmedia"/>
       </div>
-    </div>
-    <!-- <article v-if="adventure" class="profile-description">{{adventure.content}}
-      <div class="tags">{{adventure.tags}}</div>
-    </article> -->
-  </section>
+    </article>
 </template>
 
 <script>
@@ -32,24 +22,8 @@ export default {
     SocialmediaList
   },
   props: {
-    title: {
-      type: String,
-      required: false
-    },
-    content: {
-      type: String,
-      required: false
-    },
-    adventure: {
+    profile: {
       type: Object,
-      required: false
-    },
-    tags: {
-      type: String,
-      required: false
-    },
-    profiles: {
-      type: Array,
       required: true,
       default: function() {
         return {profile: 'no profile'}
@@ -63,12 +37,6 @@ export default {
 
   @import "src/assets/styles/style-variables.sass"
 
-  .content-container
-    margin: 1.5rem auto
-    max-width: 550px
-    @include mobile
-      width: 100%
-
   .profile
     display: flex
     flex-direction: row
@@ -76,7 +44,6 @@ export default {
     align-items: center
     justify-content: center
     padding: 1rem 0
-    border-bottom: 1px solid $lightgrey
     @include mobile
       flex-direction: column
       text-align: center
@@ -98,11 +65,12 @@ export default {
 
   .profile-name, .venue-name
     font-size: 1.2rem
-    color: $pink
+    color: $black
 
   .work
     font-size: .9rem
     font-weight: 600
+    color: $pink
 
   .profile-description
     font-size: 1rem

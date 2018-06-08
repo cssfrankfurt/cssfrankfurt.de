@@ -28,8 +28,8 @@ export default {
     })
   },
   methods: {
-    getData(){
-      
+    getData() {
+
     }
   },
   created() {
@@ -50,9 +50,9 @@ export default {
     box-sizing: border-box
 
   body, html
-    font-family: $font
+    font-family: $font-body
     height: 100%
-    font-size: 16px
+    font-size: 18px
     font-weight: 300
     color: $black
     line-height: 1.5
@@ -75,6 +75,7 @@ export default {
     background: 0
     border: 0
     font-size: 1rem
+  
   img
     height: auto
     width: 100%
@@ -85,12 +86,19 @@ export default {
     min-height: 100%
 
   .container
-    max-width: 700px
+    max-width: 750px
     margin: 0 auto
     padding: 1rem
     background: white
     @include mobile
       margin: 0 auto
+
+  .info-icon
+    color: $pink
+    stroke-width: 1.8
+    font-size: .9rem
+    vertical-align: center
+    margin-right: .3rem
 
   /* TRANSITIONS */
 

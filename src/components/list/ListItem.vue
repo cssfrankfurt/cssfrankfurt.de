@@ -4,9 +4,7 @@
       {{item.name}}
     </h2>
     <info-list :infos="item.info"/>
-    <article v-html="$options.filters.truncate( item.description, 240)" class="description">
-      <!-- {{item.description | truncate(240)}} -->
-      </article>
+    <article v-html="$options.filters.truncate( item.description, 150)" class="description"/>
     <span>View this event on {{item.type}}</span>
   </li>
 </template>
@@ -33,27 +31,27 @@ export default {
   }
 }
 </script>
+
 <style lang="sass" scoped>
 
   @import "src/assets/styles/style-variables.sass"
 
-  .list-item:not(:first-of-type)
-    padding: 1rem 0
-    border-bottom: 1px solid $lightgrey
+  .list-item
+    padding: .5rem 1rem
+    margin-bottom: .5rem
 
   .item-title
-    // font-family: $heading
+    font-family: $font-secondary
     font-size: 1.2rem
     color: $black
+    font-weight: 500
 
   .description
     font-size: 1rem
-    color: $black
     @include mobile
       margin: .8rem 0
 
   .item-type-icon
-    // margin-left: -1.3rem
     font-size: 1.3rem
     color: $pink
 

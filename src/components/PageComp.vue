@@ -25,7 +25,7 @@ export default {
   @import "src/assets/styles/style-variables.sass"
 
   .section-title
-    font-family: $heading
+    font-family: $font-secondary
     font-weight: 900
     font-size: 1.5rem
 
