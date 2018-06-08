@@ -14,9 +14,9 @@
 
 <script>
 import {mapGetters} from 'vuex'
-import TheLoader from '@/components/TheLoader'
-import TheNavigation from '@/components/navigation/TheNavigation'
-import TheFooter from '@/components/TheFooter'
+import TheLoader from '@/4_components/TheLoader'
+import TheNavigation from '@/4_components/navigation/TheNavigation'
+import TheFooter from '@/4_components/TheFooter'
 
 export default {
   name: 'App',
@@ -40,7 +40,7 @@ export default {
 
 <style lang="sass">
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   *
     margin: 0
@@ -56,7 +56,7 @@ export default {
     font-weight: 300
     color: $black
     line-height: 1.5
-    background-image: url(./assets/css-confetti.svg)
+    background-image: url(./0_assets/css-confetti.svg)
     background-attachment: fixed
     background-size: cover
     background-repeat: repeat

@@ -23,7 +23,7 @@
 </template>
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   #cssfrankfurt
     height: 2rem

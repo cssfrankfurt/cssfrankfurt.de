@@ -43,7 +43,7 @@
     </footer>
 </template>
 <script>
-import SocialmediaList from '@/components/profiles/SocialmediaList'
+import SocialmediaList from '@/4_components/profiles/SocialmediaList'
 
 export default {
   name: 'Footer',
@@ -62,7 +62,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .footer
     position: sticky
@@ -75,7 +75,7 @@ export default {
     padding: .5rem 2rem
 
   .social-icon
-    font-size: 1rem
+    font-size: 1.1rem
     color: white
     margin-left: .5rem
     transition: transform .1s linear

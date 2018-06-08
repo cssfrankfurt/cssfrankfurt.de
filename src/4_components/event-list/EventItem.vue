@@ -15,7 +15,7 @@
   </li>
 </template>
 <script>
-import EventInfoList from '@/components/event-list/event-info/EventInfoList'
+import EventInfoList from '@/4_components/event-list/event-info/EventInfoList'
 
 export default {
   components: {
@@ -40,7 +40,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .list-item
     padding: .5rem 1rem

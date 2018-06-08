@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import SocialmediaList from '@/components/profiles/SocialmediaList'
+import SocialmediaList from '@/4_components/profiles/SocialmediaList'
 export default {
   name: 'ProfileInfo',
   components: {
@@ -43,7 +43,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .profile
     display: flex

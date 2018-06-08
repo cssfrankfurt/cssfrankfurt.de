@@ -1,21 +1,19 @@
 <template>
     <main class="container">
       <page-info :title="title" :description="description"/>
-      <h2 class="item-title">Our organisers</h2>
-      <profile-info
-        v-for="profile in about.organisers.profiles"
-        :key="profile.name"
-        :profile="profile"/>
-
+      <!-- Add next event here -->
+      <div class="home-content">
+        <event-list :items="events"/>
+      </div>
     </main>
 </template>
 <script>
-import PageInfo from '@/components/PageInfo'
-import ProfileInfo from '@/components/profiles/ProfileInfo'
+import PageInfo from '@/4_components/PageInfo'
+import EventList from '@/4_components/event-list/EventList'
 export default {
-  name: 'About',
+  name: 'HomePage',
   components: {
-    ProfileInfo,
+    EventList,
     PageInfo
   },
   props: {
@@ -27,9 +25,9 @@ export default {
       type: String,
       required: false
     },
-    about: {
-      type: Object,
-      required: false,
+    events: {
+      type: Array,
+      required: true,
       default: function() {
         return {profile: 'Items unavailable'}
       }

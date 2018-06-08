@@ -21,7 +21,7 @@ const state = {
           name: 'Melana Grönert',
           title: 'Front-End Developer',
           company: 'DB Systel',
-          img: require('@/assets/melana.gif'),
+          img: require('@/0_assets/melana.gif'),
           quote:
           'Be bold or italic, but never be regular. Talk to me about hackathons, Scrum and BI-software mashups!',
           socialmedia: {
@@ -34,7 +34,7 @@ const state = {
           name: 'Victoria Bergquist',
           title: 'Front-End Developer',
           company: 'melsicon',
-          img: require('@/assets/victoria.gif'),
+          img: require('@/0_assets/victoria.gif'),
           quote:
           'Sharks are just ugly dolphins! CSS all day, every day.',
           socialmedia: {
@@ -49,7 +49,7 @@ const state = {
           name: 'Steffen Henschel',
           title: 'Front-End Developer',
           company: 'INNOQ',
-          img: require('@/assets/steffen.gif'),
+          img: require('@/0_assets/steffen.gif'),
           quote: 'Star gazing at night, coding during day — and vice versa. If none of the above applies, find me on my bike!',
           socialmedia: {
             twitter: 'https://twitter.com/blynxical',

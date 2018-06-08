@@ -17,8 +17,8 @@
   </header>
 </template>
 <script>
-import TheLogo from '@/components/navigation/TheLogo'
-import CtaButton from '@/components/navigation/CtaButton'
+import TheLogo from '@/4_components/navigation/TheLogo'
+import CtaButton from '@/4_components/navigation/CtaButton'
 export default {
   name: 'Nav',
   components: {
@@ -35,7 +35,7 @@ export default {
 </script>
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .header
     flex: 0 1 auto

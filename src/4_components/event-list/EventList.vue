@@ -8,7 +8,7 @@
   </ul>
 </template>
 <script>
-import EventItem from '@/components/event-list/EventItem'
+import EventItem from '@/4_components/event-list/EventItem'
 export default {
   name: 'ItemList',
   components: {

@@ -6,9 +6,9 @@ import VueMediaQueryMixin from 'vue-media-query-mixin'
 import VeeValidate from 'vee-validate'
 
 // Vue Router
-import router from './router'
+import router from './1_router'
 // Vuex Store
-import store from './store/store'
+import store from './2_store/store'
 // FontAwesome Brands
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'

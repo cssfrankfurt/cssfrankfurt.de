@@ -9,7 +9,7 @@
   </ul>
 </template>
 <script>
-import InfoItem from '@/components/event-list/event-info/InfoItem'
+import InfoItem from '@/4_components/event-list/event-info/InfoItem'
 export default {
   components: {
     InfoItem
@@ -29,7 +29,7 @@ export default {
 </script>
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .info-list
     display: flex

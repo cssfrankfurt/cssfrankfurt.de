@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import SocialmediaItem from '@/components/profiles/SocialmediaItem'
+import SocialmediaItem from '@/4_components/profiles/SocialmediaItem'
 export default {
   name: 'SocialmediaList',
   components: {
@@ -42,7 +42,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .social-media-list
     @include mobile

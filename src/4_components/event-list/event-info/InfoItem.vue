@@ -40,7 +40,7 @@ export default {
 </script>
 <style lang="sass">
 
-  @import "src/assets/styles/style-variables.sass"
+  @import "src/0_assets/styles/style-variables.sass"
 
   .info-item
     margin-right: 1rem
