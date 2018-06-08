@@ -3,10 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import VueMediaQueryMixin from 'vue-media-query-mixin'
+
 // Vue Router
-import router from './router'
+import router from './1_router'
 // Vuex Store
-import store from './store/store'
+import store from './2_store/store'
 // FontAwesome Brands
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
@@ -21,13 +22,13 @@ import faXing from '@fortawesome/fontawesome-free-brands/faXing'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 // FontAwesome
 import faCalendarAlt from '@fortawesome/fontawesome-free-regular/faCalendarAlt'
-import faTag from '@fortawesome/fontawesome-free-solid/faTag'
 import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
 import faWindowMaximize from '@fortawesome/fontawesome-free-regular/faWindowMaximize'
 import faMapMarkerAlt from '@fortawesome/fontawesome-free-solid/faMapMarkerAlt'
 import faUsers from '@fortawesome/fontawesome-free-solid/faUsers'
+import faQuoteLeft from '@fortawesome/fontawesome-free-solid/faQuoteLeft'
 
-fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faTag, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers)
+fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers, faQuoteLeft)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
