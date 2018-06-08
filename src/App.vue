@@ -2,7 +2,7 @@
   <div id="app">
     <the-navigation/>
     <transition name="fade" mode="out-in">
-      <loader-comp v-if="loading"/>
+      <the-loader v-if="loading"/>
       <router-view
         :key="$route.path"
         v-if="!loading"
@@ -14,7 +14,7 @@
 
 <script>
 import {mapGetters} from 'vuex'
-import LoaderComp from '@/components/LoaderComp'
+import TheLoader from '@/components/TheLoader'
 import TheNavigation from '@/components/navigation/TheNavigation'
 import TheFooter from '@/components/TheFooter'
 
@@ -22,7 +22,7 @@ export default {
   name: 'App',
   components: {
     TheNavigation,
-    LoaderComp,
+    TheLoader,
     TheFooter
   },
   computed: {
@@ -101,6 +101,21 @@ export default {
     font-size: .9rem
     vertical-align: center
     margin-right: .3rem
+
+  h1
+    font-family: $font-secondary
+    font-weight: 900
+    font-size: 1.5rem
+
+  h2
+    font-family: $font-secondary
+    font-size: 1.2rem
+    color: $black
+
+  a.external, a.external:visited
+    font-family: $font-secondary
+    color: $pink
+    font-weight: 500
 
   /* TRANSITIONS */
 

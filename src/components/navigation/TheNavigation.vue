@@ -1,6 +1,6 @@
 <template>
   <header class="header" role="banner">
-    <logo-comp/>
+    <the-logo/>
     <nav role="navigation">
       <router-link
         v-for="route in routes"
@@ -10,20 +10,20 @@
         :key="route.path">
           {{route.name}}
       </router-link>
-      <button-comp
+      <cta-button
         :title="'Submit a talk'"
       />
     </nav>
   </header>
 </template>
 <script>
-import LogoComp from '@/components/LogoComp'
-import ButtonComp from '@/components/navigation/ButtonComp'
+import TheLogo from '@/components/navigation/TheLogo'
+import CtaButton from '@/components/navigation/CtaButton'
 export default {
-  name: 'TheNavigation',
+  name: 'Nav',
   components: {
-    LogoComp,
-    ButtonComp
+    TheLogo,
+    CtaButton
   },
   computed: {
     routes() {

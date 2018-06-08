@@ -3,7 +3,7 @@
     <h2 class="item-title">
       {{item.name}}
     </h2>
-    <info-list :infos="item.info"/>
+    <event-info-list :infos="item.info"/>
     <article v-html="$options.filters.truncate( item.description, 150)" class="description"/>
     <a :href="item.url" class="event-link">
       Read more<font-awesome-icon
@@ -15,11 +15,11 @@
   </li>
 </template>
 <script>
-import InfoList from '@/components/list/info/InfoList'
+import EventInfoList from '@/components/event-list/event-info/EventInfoList'
 
 export default {
   components: {
-    InfoList
+    EventInfoList
   },
   props: {
     item: {
@@ -48,12 +48,6 @@ export default {
     @include mobile
       padding: .5rem 0
 
-  .item-title
-    font-family: $font-secondary
-    font-size: 1.2rem
-    color: $black
-    font-weight: 500
-
   .description
     font-size: 1rem
     @include mobile
@@ -73,13 +67,14 @@ export default {
       transform: scale(1.07)
 
   .event-link
-    font-weight: 500
     color: $black
     font-family: $font-secondary
-    font-size: .9rem
     display: flex
     align-items: center
     justify-content: flex-end
+    &:hover
+      color: $pink
+      font-weight: 500
 
   .event-icon
     color: $pink

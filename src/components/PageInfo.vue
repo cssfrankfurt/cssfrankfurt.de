@@ -1,7 +1,7 @@
 <template>
     <div class="page-description">
       <h1 class="section-title">{{title}}</h1>
-      <article class="description">{{description}}</article>
+      <article class="description" v-html="description"/>
     </div>
 </template>
 <script>
@@ -24,13 +24,7 @@ export default {
 
   @import "src/assets/styles/style-variables.sass"
 
-  .section-title
-    font-family: $font-secondary
-    font-weight: 900
-    font-size: 1.5rem
-
-    span
-      color: $pink
-      margin-right: .5rem
+  .page-description
+    margin-bottom: 1rem
 
 </style>

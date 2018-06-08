@@ -36,7 +36,7 @@ const state = {
           company: 'melsicon',
           img: require('@/assets/victoria.gif'),
           quote:
-          'CSS & Vue 💕 Twitter is my safespace.',
+          'Sharks are just ugly dolphins! CSS all day, every day.',
           socialmedia: {
             twitter: 'https://twitter.com/vicbergquist',
             codepen: 'https://codepen.io/vicbergquist/',

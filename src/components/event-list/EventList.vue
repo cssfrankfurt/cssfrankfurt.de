@@ -1,6 +1,6 @@
 <template>
   <ul class="item-list">
-    <list-item
+    <event-item
       v-for="item in items"
       :item="item"
       :key="item.index"
@@ -8,11 +8,11 @@
   </ul>
 </template>
 <script>
-import ListItem from '@/components/list/ListItem'
+import EventItem from '@/components/event-list/EventItem'
 export default {
   name: 'ItemList',
   components: {
-    ListItem
+    EventItem
   },
   props: {
     items: {

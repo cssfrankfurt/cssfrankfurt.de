@@ -9,14 +9,8 @@ const state = {
     name: 'About',
     path: '/about',
     title: 'About CSS Frankfurt',
-    description: 'CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web! Take a look around to get to know us.'
+    description: `CSS Frankfurt is a meetup community with a focus on CSS. We organise social events, talks and workshops. We are based out of ` + `<a class="external" href="https://die-zentrale-ffm.de/">` + `Die Zentrale Coworking` + `</a>` + ` in Bornheim, but would love to explore other venues in Frankfurt. If you would like to offer a helping hand to CSS Frankfurt, become a sponsor or just say hi, please reach out to us on any of our social media channels. We would love to hear from you!`
   }
-  // resources: {
-  //   name: 'resources',
-  //   path: '/resources',
-  //   title: 'Resources',
-  //   description: 'Would you like to help out with CSS Frankfurt, become a sponsor, submit a talk proposal, ask a question or just say hi? You\'ve come to the right place. Fill out our contact form and we will get back to you as soon as possible!'
-  // }
 }
 
 export default {

@@ -1,20 +1,20 @@
 <template>
     <main class="container">
-      <page-comp :title="title" :description="description"/>
+      <page-info :title="title" :description="description"/>
       <!-- Add next event here -->
       <div class="home-content">
-        <item-list :items="events"/>
+        <event-list :items="events"/>
       </div>
     </main>
 </template>
 <script>
-import PageComp from '@/components/PageComp'
-import ItemList from '@/components/list/ItemList'
+import PageInfo from '@/components/PageInfo'
+import EventList from '@/components/event-list/EventList'
 export default {
   name: 'HomePage',
   components: {
-    ItemList,
-    PageComp
+    EventList,
+    PageInfo
   },
   props: {
     title: {

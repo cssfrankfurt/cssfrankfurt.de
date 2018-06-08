@@ -1,12 +1,8 @@
 <template>
     <main class="container">
-      <page-comp :title="title" :description="description"/>
-      <h2 class="item-title">Venues</h2>
-      <h2 class="item-title">Organisers</h2>
-      <h2 class="item-title">Sponsors</h2>
-
-      <profile-comp
-        class="profile"
+      <page-info :title="title" :description="description"/>
+      <h2 class="item-title">Our organisers</h2>
+      <profile-info
         v-for="profile in about.organisers.profiles"
         :key="profile.name"
         :profile="profile"/>
@@ -14,13 +10,13 @@
     </main>
 </template>
 <script>
-import PageComp from '@/components/PageComp'
-import ProfileComp from '@/components/profiles/ProfileComp'
+import PageInfo from '@/components/PageInfo'
+import ProfileInfo from '@/components/profiles/ProfileInfo'
 export default {
-  name: 'AboutPage',
+  name: 'About',
   components: {
-    ProfileComp,
-    PageComp
+    ProfileInfo,
+    PageInfo
   },
   props: {
     title: {
@@ -38,21 +34,6 @@ export default {
         return {profile: 'Items unavailable'}
       }
     }
-  },
-  data: () => ({
-
-  })
+  }
 }
 </script>
-
-<style lang="sass" scoped>
-
-  @import "src/assets/styles/style-variables.sass"
-
-  .item-title
-    font-family: $font-secondary
-    font-size: 1.2rem
-    color: $black
-    font-weight: 500
-
-</style>

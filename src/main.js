@@ -23,16 +23,13 @@ import faXing from '@fortawesome/fontawesome-free-brands/faXing'
 import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube'
 // FontAwesome
 import faCalendarAlt from '@fortawesome/fontawesome-free-regular/faCalendarAlt'
-import faTag from '@fortawesome/fontawesome-free-solid/faTag'
 import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
 import faWindowMaximize from '@fortawesome/fontawesome-free-regular/faWindowMaximize'
 import faMapMarkerAlt from '@fortawesome/fontawesome-free-solid/faMapMarkerAlt'
 import faUsers from '@fortawesome/fontawesome-free-solid/faUsers'
-import faRetweet from '@fortawesome/fontawesome-free-solid/faRetweet'
-import faHeart from '@fortawesome/fontawesome-free-solid/faHeart'
-import faBriefcase from '@fortawesome/fontawesome-free-solid/faBriefcase'
+import faQuoteLeft from '@fortawesome/fontawesome-free-solid/faQuoteLeft'
 
-fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faTag, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers, faRetweet, faHeart, faBriefcase)
+fontawesome.library.add(faTwitter, faMeetup, faMedium, faInstagram, faCodepen, faGithub, faLinkedinIn, faXing, faYoutube, faCalendarAlt, faInfoCircle, faWindowMaximize, faMapMarkerAlt, faUsers, faQuoteLeft)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

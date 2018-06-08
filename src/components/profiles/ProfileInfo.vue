@@ -1,14 +1,22 @@
 <template>
-    <article>
+    <article class="profile">
       <img
         class="profile-img"
         :src="profile.img"
-        :alt="'Picture of ' + profile.name"
+        :alt="profile.name"
       />
       <div class="info">
         <h2 class="profile-name">{{profile.name}}</h2>
         <h3 class="work">{{profile.title}}, {{profile.company}}</h3>
-        <div class="profile-description">"{{profile.quote}}"</div>
+        <blockquote class="profile-description">
+          <font-awesome-icon
+            :icon="['fas', 'quote-left']"
+            class="quote-icon"
+            role="img"
+            aria-hidden="true"
+            />
+          {{profile.quote}}
+          </blockquote>
         <socialmedia-list :social="profile.socialmedia"/>
       </div>
     </article>
@@ -17,7 +25,7 @@
 <script>
 import SocialmediaList from '@/components/profiles/SocialmediaList'
 export default {
-  name: 'ProfileComp',
+  name: 'ProfileInfo',
   components: {
     SocialmediaList
   },
@@ -43,7 +51,7 @@ export default {
     flex: 1 1 auto
     align-items: center
     justify-content: center
-    padding: 1rem 0
+    margin: 1rem 0
     @include mobile
       flex-direction: column
       text-align: center
@@ -63,17 +71,16 @@ export default {
   .info
     flex: 1 1 auto
 
-  .profile-name, .venue-name
-    font-size: 1.2rem
-    color: $black
-
   .work
-    font-size: .9rem
-    font-weight: 600
+    font-size: 1rem
+    font-weight: normal
+
+  .quote-icon
+    font-size: .8rem
     color: $pink
 
   .profile-description
-    font-size: 1rem
+    font-size: 1.2rem
     margin-bottom: .5rem
     @include mobile
       max-width: 400px

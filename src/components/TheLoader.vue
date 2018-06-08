@@ -20,6 +20,6 @@
 </template>
 <script>
 export default {
-  name: 'TheLoader'
+  name: 'Loader'
 }
 </script>
