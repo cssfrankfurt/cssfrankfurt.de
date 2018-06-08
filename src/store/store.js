@@ -5,7 +5,6 @@ import VuexPersist from 'vuex-persist'
 /* ----------  Modules  ---------- */
 import events from './modules/events'
 import loader from './modules/loader'
-import tweets from './modules/tweets'
 import about from './modules/about'
 import routes from './modules/routes'
 
@@ -46,7 +45,6 @@ export default new Vuex.Store({
   modules: {
     events,
     loader,
-    tweets,
     about,
     routes
   },

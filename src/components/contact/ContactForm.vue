@@ -1,12 +1,17 @@
 <template>
-  <form class="contact-form" action="">
-    <div class="input-group">
-      <label class="field-label required" for="name">Name</label>
-    <input 
-      class="form-field" 
-      type="text" 
-      name="name" 
-      id="name" 
+  <form class="contact-form" action="" v-if="!sent" @submit.prevent="submitForm" method="post">
+    <div class="feedback" v-if="sent || error">
+        <p v-if="sent">Thank you, Frank is now processing your message.<br> Expect to hear back from us soon!</p>
+        <p v-if="error">Oops, something went wrong... Please try again!</p>
+        <loader-comp class="contact-frank"/>
+      </div>
+    <div class="input-group" v-if="!sent">
+      <label class="field-label required" for="name">Full name</label>
+    <input
+      class="form-field"
+      type="text"
+      name="name"
+      id="name"
       v-model="name"
       v-validate="'required'"
       required>
@@ -20,14 +25,14 @@
       </span>
     </div>
 
-    <div class="input-group">
-      <label class="field-label required" for="email">Email</label>
+    <div class="input-group" v-if="!sent">
+      <label class="field-label required" for="email">Your email</label>
     <input
       v-model="email"
       id="email"
       class="form-field"
-      v-validate="'required|email'" 
-      type="email" 
+      v-validate="'required|email'"
+      type="email"
       name="email"
       required>
     <span class="error-message" v-show="errors.has('email')">
@@ -39,17 +44,23 @@
       />{{ errors.first('email') }}</span>
     </div>
 
-
-    <div class="input-group">
+    <div class="input-group" v-if="!sent">
       <label class="field-label required" for="message">Message</label>
-      <textarea 
-        class="form-field" 
-        type="text" 
-        name="message" 
+      <textarea
+        class="form-field"
+        type="text"
+        name="message"
         id="message"
         v-model="message"
         v-validate="'required|email'"
         required/>
+
+    <div class="clear-submit" v-if="!sent">
+        <input class="form-button clear" type="reset" value="Clear form" v-if="!loading"/>
+        <input class="form-button submit" type="submit" value="Send message" v-if="!loading" />
+        <span v-if="loading">Sending message...</span>
+      </div>
+
     </div>
   </form>
 </template>
@@ -156,4 +167,33 @@ export default {
     position: absolute
     display: inline-block
 
+  .clear-submit
+    text-align: right
+
+  .feedback
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    max-width: 400px
+    margin: 3rem auto
+    text-align: center
+
+  .form-button
+    color: $black
+    font-family: $font-body
+    font-size: 1rem
+    font-weight: 300
+    border: 0
+    outline: 0
+    background: 0
+    display: inline-block
+    &.submit
+      color: $pink
+      font-weight: bold
+      cursor: pointer
+    &.clear
+      margin-right: 1rem
+      font-weight: 300
+      color: $black
 </style>

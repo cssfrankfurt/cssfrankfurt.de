@@ -8,6 +8,7 @@
         v-if="!loading"
       />
     </transition>
+    <the-footer v-if="!loading"/>
   </div>
 </template>
 
@@ -15,22 +16,19 @@
 import {mapGetters} from 'vuex'
 import LoaderComp from '@/components/LoaderComp'
 import TheNavigation from '@/components/navigation/TheNavigation'
+import TheFooter from '@/components/TheFooter'
 
 export default {
   name: 'App',
   components: {
     TheNavigation,
-    LoaderComp
+    LoaderComp,
+    TheFooter
   },
   computed: {
     ...mapGetters({
       loading: 'loader/isLoading'
     })
-  },
-  methods: {
-    getData() {
-
-    }
   },
   created() {
     this.$store.dispatch('events/FETCH_EVENTS').then(() => {
@@ -50,9 +48,10 @@ export default {
     box-sizing: border-box
 
   body, html
+    display: flex
+    flex-direction: column
     font-family: $font-body
-    height: 100%
-    font-size: 18px
+    font-size: 17px
     font-weight: 300
     color: $black
     line-height: 1.5
@@ -75,18 +74,19 @@ export default {
     background: 0
     border: 0
     font-size: 1rem
-  
+
   img
     height: auto
     width: 100%
 
   #app
-    max-width: 1200px
     margin: 0 auto
     min-height: 100%
+    width: 100%
 
   .container
     max-width: 750px
+    min-height: 100%
     margin: 0 auto
     padding: 1rem
     background: white

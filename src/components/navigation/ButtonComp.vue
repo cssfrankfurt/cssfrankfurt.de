@@ -14,9 +14,9 @@ export default {
   },
   methods: {
     submit() {
-      
-      //this.$router.push('/contact')
-      //this.$store.dispatch('getFormType', 'submit')
+
+      // this.$router.push('/contact')
+      // this.$store.dispatch('getFormType', 'submit')
     }
   }
 }

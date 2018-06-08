@@ -3,8 +3,6 @@ import Router from 'vue-router'
 import store from '../store/store'
 import Home from '@/views/Home'
 import About from '@/views/About'
-import Events from '@/views/Events'
-import Contact from '@/views/Contact'
 
 Vue.use(Router)
 
@@ -29,25 +27,6 @@ export default new Router({
         title: store.state.routes.about.title,
         description: store.state.routes.about.description,
         about: store.getters['about/about']
-      }
-    },
-    {
-      path: '/events',
-      name: 'events',
-      component: Events,
-      props: {
-        title: store.state.routes.events.title,
-        description: store.state.routes.events.description,
-        events: store.getters['events/events']
-      }
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: Contact,
-      props: {
-        title: store.state.routes.contact.title,
-        description: store.state.routes.contact.description
       }
     }
   ],

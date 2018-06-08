@@ -40,10 +40,4 @@ export default {
     &:hover
       transform: scale(1.1)
 
-  // Reverse profile
-  .reverse
-    .social-icon
-      margin-right: 0
-      margin-left: 1rem
-
 </style>

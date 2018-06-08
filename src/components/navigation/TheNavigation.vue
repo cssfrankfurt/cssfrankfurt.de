@@ -42,11 +42,11 @@ export default {
     top: 0
     display: flex
     align-items: center
-    padding: 1rem
-    margin: 0
+    padding: 1rem 2rem
     justify-content: space-between
     background: white
     z-index: 100
+    width: 100%
     @include tablet
       flex-direction: column
     @include mobile

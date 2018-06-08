@@ -19,16 +19,8 @@
     </g>
   </g>
 </svg>
-
   </router-link>
-
 </template>
-<script>
-export default {
-  name: 'TheLogo',
-  data: () => ({})
-}
-</script>
 <style lang="sass" scoped>
 
   @import "src/assets/styles/style-variables.sass"

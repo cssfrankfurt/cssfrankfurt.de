@@ -5,12 +5,11 @@
       <h2 class="item-title">Organisers</h2>
       <h2 class="item-title">Sponsors</h2>
 
-      <profile-comp 
+      <profile-comp
         class="profile"
         v-for="profile in about.organisers.profiles"
         :key="profile.name"
         :profile="profile"/>
-      
 
     </main>
 </template>
@@ -41,8 +40,8 @@ export default {
     }
   },
   data: () => ({
-    
-  }),
+
+  })
 }
 </script>
 
@@ -57,4 +56,3 @@ export default {
     font-weight: 500
 
 </style>
-
