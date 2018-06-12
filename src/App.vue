@@ -46,15 +46,19 @@ export default {
     margin: 0
     padding: 0
     box-sizing: border-box
-
-  body, html
+  
+  html
     height: 100%
-    display: flex
-    flex-direction: column
+
+  body
+    position: relative
+    margin: 0
+    padding-bottom: 3rem
+    min-height: 100%
+    color: $black
     font-family: $font-body
     font-size: 17px
     font-weight: 300
-    color: $black
     line-height: 1.5
     background-image: url(./0_assets/css-confetti.svg)
     background-attachment: fixed
@@ -81,13 +85,13 @@ export default {
     width: 100%
 
   #app
+    height: 100%
     display: flex
     flex-direction: column
     margin: 0 auto
     width: 100%
 
   .container
-    min-height: 100%
     max-width: 750px
     margin: 0 auto
     padding: 1rem
