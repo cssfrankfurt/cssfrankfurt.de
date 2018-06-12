@@ -65,8 +65,11 @@ export default {
   @import "src/0_assets/styles/style-variables.sass"
 
   .footer
-    position: sticky
+    position: fixed
+    right: 0
     bottom: 0
+    left: 0
+    min-height: 1.5rem
     width: 100%
     color: white
     font-family: $font-secondary
