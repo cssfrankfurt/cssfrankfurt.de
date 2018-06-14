@@ -81,7 +81,7 @@ export default {
 
   .description
     margin: .5rem 0
-  
+
   .social-media-list
     margin-top: .5rem
 

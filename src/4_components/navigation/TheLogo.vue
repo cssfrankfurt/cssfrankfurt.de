@@ -35,6 +35,5 @@
     margin-top: 2px
     @include tablet
       height: 1rem
-  
 
 </style>
