@@ -1,7 +1,7 @@
-Your issue may already be reported!
-Please search on the [issue track](../) before creating one.
+<!--- Your issue may already be reported!
+Please look over existing issues before creating one to prevent duplicates. -->
 
-For more information, see our [CONTRIBUTING](CONTRIBUTING.md) guideline.
+<!--- For more information, see our [CONTRIBUTING](CONTRIBUTING.md) guideline. -->
 
 # Type of Issue
 
