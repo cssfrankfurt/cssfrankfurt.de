@@ -52,9 +52,6 @@ export default {
     align-items: center
     justify-content: center
     margin: 1rem 0
-    @include mobile
-      flex-direction: column
-      text-align: center
 
   .profile-img
     max-height: 7rem
@@ -63,10 +60,6 @@ export default {
     overflow: hidden
     margin-right: 1rem
     flex-shrink: 0
-    @include mobile
-      max-width: 8rem
-      max-height: 8rem
-      margin: 1rem auto
 
   .info
     flex: 1 1 auto
@@ -88,5 +81,8 @@ export default {
 
   .description
     margin: .5rem 0
+
+  .social-media-list
+    margin-top: .5rem
 
 </style>

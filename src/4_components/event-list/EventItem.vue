@@ -4,7 +4,7 @@
       {{item.name}}
     </h2>
     <event-info-list :infos="item.info"/>
-    <article v-html="$options.filters.truncate( item.description, 150)" class="description"/>
+    <article v-html="$options.filters.truncate( item.description, 200)" class="description"/>
     <a :href="item.url" class="event-link">
       Read more<font-awesome-icon
         :icon="['fab', 'meetup']"
@@ -46,12 +46,7 @@ export default {
     padding: .5rem 1rem
     margin-bottom: .5rem
     @include mobile
-      padding: .5rem 0
-
-  .description
-    font-size: 1rem
-    @include mobile
-      margin: .2rem 0
+      padding: 0
 
   .item-type-icon
     font-size: 1.3rem

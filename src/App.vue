@@ -66,7 +66,7 @@ export default {
     background-repeat: repeat
     background-size: 1500px
     @include small
-      font-size: 14px
+      font-size: 15px
 
   a, a:visited, a:focus, a:hover
     background: 0
