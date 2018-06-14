@@ -39,13 +39,3 @@ export default {
   }
 }
 </script>
-
-<style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
-
-  .social-media-list
-    @include mobile
-      text-align: center
-
-</style>

@@ -17,7 +17,7 @@ export default {
     error: false
   }),
   watch: {
-    error(){
+    error() {
       setTimeout(() => {
         this.error = false
       }, 3000)
@@ -44,7 +44,7 @@ export default {
     border-radius: 2rem
     border: 2px solid white
     margin-left: .5rem
-  
+
   .error
     position: absolute
     left: 0
@@ -85,7 +85,7 @@ export default {
       color: $pink
       background: white
       box-shadow: inset 0px -3px transparent
-  
+
   /* Error animation */
 
   @keyframes error
