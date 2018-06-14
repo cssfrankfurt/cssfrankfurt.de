@@ -48,20 +48,17 @@ export default {
     background: white
     z-index: 100
     width: 100%
-    @include tablet
-      flex-direction: column
     @include mobile
       justify-content: center
-      flex-direction: column
-      padding: 1rem 0
+      padding: .5rem 1rem
 
   nav
     display: flex
     justify-content: space-around
     align-items: baseline
     @include mobile
+      justify-content: flex-end
       width: 100%
-      margin-top: 1rem
 
   a.nav-link
     font-family: $font-body

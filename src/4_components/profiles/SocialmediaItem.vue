@@ -35,8 +35,6 @@ export default {
     color: $pink
     margin-right: 1rem
     transition: transform .1s linear
-    @include mobile
-      margin: 0 .5rem
     &:hover
       transform: scale(1.2)
 
