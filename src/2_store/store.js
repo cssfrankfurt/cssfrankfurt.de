@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-/* ---------- Persisted State -------- */
-import VuexPersist from 'vuex-persist'
 /* ----------  Modules  ---------- */
 import events from './modules/events'
 import loader from './modules/loader'
@@ -9,12 +7,6 @@ import about from './modules/about'
 import routes from './modules/routes'
 
 Vue.use(Vuex) // Tell our vue app to use Vuex
-
-const vuexLocalStorage = new VuexPersist({
-  key: 'vuex',
-  storage: window.localStorage, // or window.sessionStorage or localForage
-  reducer: state => ({})
-})
 
 /* ----------  Global Scope  ---------- */
 const state = {
@@ -47,6 +39,5 @@ export default new Vuex.Store({
     loader,
     about,
     routes
-  },
-  plugins: [vuexLocalStorage.plugin]
+  }
 })
