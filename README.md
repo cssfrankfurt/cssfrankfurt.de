@@ -1,9 +1,9 @@
 ![Logo](docs/cssfrankfurt.png)
 
-<div style="margin: 0 auto;">
+<p align="center">
   
   [![Members](https://img.shields.io/badge/🐱%20members-150%2B-ff8282.svg?colorA=ff8282&colorB=292A2E)](https://www.meetup.com/cssfrankfurt/members/) [![Contributors](https://img.shields.io/github/contributors/cssfrankfurt/cssfrankfurt.de.svg?&label=😎%20contributors%20&colorA=ff8282&colorB=292A2E)](https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors)
-</div>
+</p>
 
 # About
 
