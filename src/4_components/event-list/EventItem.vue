@@ -1,18 +1,18 @@
 <template>
-  <li class="list-item" :class="{tweet: item.type === 'twitter'}">
-    <h2 class="item-title">
-      {{item.name}}
-    </h2>
-    <event-info-list :infos="item.info"/>
-    <article v-html="$options.filters.truncate( item.description, 200)" class="description"/>
-    <a :href="item.url" class="event-link">
-      Read more<font-awesome-icon
-        :icon="['fab', 'meetup']"
-        class="event-icon"
-        role="img"
-        aria-hidden="true"
-      /></a>
-  </li>
+    <li :class="{tweet: item.type === 'twitter'}" class="list-item">
+        <h2 class="item-title">
+            {{item.name}}
+        </h2>
+        <event-info-list :infos="item.info"/>
+        <article class="description" v-html="$options.filters.truncate( item.description, 200)"/>
+        <a :href="item.url" class="event-link">
+            Read more<font-awesome-icon
+                :icon="['fab', 'meetup']"
+                class="event-icon"
+                role="img"
+                aria-hidden="true"
+        /></a>
+    </li>
 </template>
 <script>
 import EventInfoList from '@/4_components/event-list/event-info/EventInfoList'
@@ -20,6 +20,11 @@ import EventInfoList from '@/4_components/event-list/event-info/EventInfoList'
 export default {
   components: {
     EventInfoList
+  },
+  filters: {
+    truncate(value, length) {
+      return value.substring(0, length) + '...'
+    }
   },
   props: {
     item: {
@@ -29,18 +34,11 @@ export default {
         return {profile: 'Unavailable'}
       }
     }
-  },
-  filters: {
-    truncate(value, length) {
-      return value.substring(0, length) + '...'
-    }
   }
 }
 </script>
 
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .list-item
     padding: .5rem 1rem

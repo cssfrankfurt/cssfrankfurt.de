@@ -1,24 +1,24 @@
 <template>
     <article class="profile">
-      <img
-        class="profile-img"
-        :src="profile.img"
-        :alt="profile.name"
-      />
-      <div class="info">
-        <h2 class="profile-name">{{profile.name}}</h2>
-        <h3 class="work">{{profile.title}}, {{profile.company}}</h3>
-        <blockquote class="profile-description">
-          <font-awesome-icon
-            :icon="['fas', 'quote-left']"
-            class="quote-icon"
-            role="img"
-            aria-hidden="true"
-            />
-          {{profile.quote}}
-          </blockquote>
-        <socialmedia-list :social="profile.socialmedia"/>
-      </div>
+        <img
+            :src="profile.img"
+            :alt="profile.name"
+            class="profile-img"
+        >
+        <div class="info">
+            <h2 class="profile-name">{{profile.name}}</h2>
+            <h3 class="work">{{profile.title}}, {{profile.company}}</h3>
+            <blockquote class="profile-description">
+                <font-awesome-icon
+                    :icon="['fas', 'quote-left']"
+                    class="quote-icon"
+                    role="img"
+                    aria-hidden="true"
+                />
+                {{profile.quote}}
+            </blockquote>
+            <socialmedia-list :social="profile.socialmedia"/>
+        </div>
     </article>
 </template>
 
@@ -42,8 +42,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .profile
     display: flex

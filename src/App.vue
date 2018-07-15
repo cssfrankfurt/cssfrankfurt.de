@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <the-navigation/>
-    <transition name="fade" mode="out-in">
-      <the-loader v-if="loading"/>
-      <router-view
-        :key="$route.path"
-        v-if="!loading"
-      />
-    </transition>
-    <the-footer v-if="!loading"/>
-  </div>
+    <div id="app">
+        <the-navigation/>
+        <transition name="fade" mode="out-in">
+            <the-loader v-if="loading"/>
+            <router-view
+                v-if="!loading"
+                :key="$route.path"
+            />
+        </transition>
+        <the-footer v-if="!loading"/>
+    </div>
 </template>
 
 <script>
@@ -39,8 +39,6 @@ export default {
 </script>
 
 <style lang="sass">
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   *
     margin: 0

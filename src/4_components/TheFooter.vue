@@ -1,45 +1,45 @@
 <template>
     <footer class="footer">
-      <a :href="meetup">
-        <font-awesome-icon
-        :icon="['fab', 'meetup']"
-        class="social-icon"
-        role="img"
-        aria-hidden="true"
-      />
-      </a>
-      <a :href="twitter">
-        <font-awesome-icon
-        :icon="['fab', 'twitter']"
-        class="social-icon"
-        role="img"
-        aria-hidden="true"
-      />
-      </a>
-      <a :href="github">
-        <font-awesome-icon
-        :icon="['fab', 'github']"
-        class="social-icon"
-        role="img"
-        aria-hidden="true"
-      />
-      </a>
-      <a :href="medium">
-        <font-awesome-icon
-        :icon="['fab', 'medium']"
-        class="social-icon"
-        role="img"
-        aria-hidden="true"
-      />
-      </a>
-      <a :href="codepen">
-        <font-awesome-icon
-        :icon="['fab', 'codepen']"
-        class="social-icon"
-        role="img"
-        aria-hidden="true"
-      />
-      </a>
+        <a :href="meetup">
+            <font-awesome-icon
+                :icon="['fab', 'meetup']"
+                class="social-icon"
+                role="img"
+                aria-hidden="true"
+            />
+        </a>
+        <a :href="twitter">
+            <font-awesome-icon
+                :icon="['fab', 'twitter']"
+                class="social-icon"
+                role="img"
+                aria-hidden="true"
+            />
+        </a>
+        <a :href="github">
+            <font-awesome-icon
+                :icon="['fab', 'github']"
+                class="social-icon"
+                role="img"
+                aria-hidden="true"
+            />
+        </a>
+        <a :href="medium">
+            <font-awesome-icon
+                :icon="['fab', 'medium']"
+                class="social-icon"
+                role="img"
+                aria-hidden="true"
+            />
+        </a>
+        <a :href="codepen">
+            <font-awesome-icon
+                :icon="['fab', 'codepen']"
+                class="social-icon"
+                role="img"
+                aria-hidden="true"
+            />
+        </a>
     </footer>
 </template>
 <script>
@@ -61,8 +61,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .footer
     position: fixed

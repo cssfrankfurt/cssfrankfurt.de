@@ -1,10 +1,10 @@
 
 <template>
-  <li class="social-media-item">
-    <a :href="url" :title="title + ' link'">
-      <slot name="icon"/>
-    </a>
-  </li>
+    <li class="social-media-item">
+        <a :href="url" :title="title + ' link'">
+            <slot name="icon"/>
+        </a>
+    </li>
 </template>
 
 <script>
@@ -24,8 +24,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .social-media-item
     display: inline-block
