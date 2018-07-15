@@ -1,11 +1,11 @@
 <template>
     <main class="container">
-      <page-info :title="title" :description="description"/>
-      <h2 class="item-title">Our organisers</h2>
-      <profile-info
-        v-for="profile in about.organisers.profiles"
-        :key="profile.name"
-        :profile="profile"/>
+        <page-info :title="title" :description="description"/>
+        <h2 class="item-title">Our organisers</h2>
+        <profile-info
+            v-for="profile in about.organisers.profiles"
+            :key="profile.name"
+            :profile="profile"/>
 
     </main>
 </template>

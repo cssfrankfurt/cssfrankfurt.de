@@ -1,11 +1,11 @@
 <template>
-  <ul class="item-list">
-    <event-item
-      v-for="item in items"
-      :item="item"
-      :key="item.index"
-    />
-  </ul>
+    <ul class="item-list">
+        <event-item
+            v-for="item in items"
+            :item="item"
+            :key="item.index"
+        />
+    </ul>
 </template>
 <script>
 import EventItem from '@/4_components/event-list/EventItem'

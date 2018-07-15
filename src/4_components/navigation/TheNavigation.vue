@@ -1,20 +1,20 @@
 <template>
-  <header class="header" role="banner">
-    <the-logo/>
-    <nav role="navigation">
-      <router-link
-        v-for="route in routes"
-        :to="route.path"
-        class="nav-link"
-        role="link"
-        :key="route.path">
-          {{route.name}}
-      </router-link>
-      <cta-button
-        :title="'Submit a talk'"
-      />
-    </nav>
-  </header>
+    <header class="header" role="banner">
+        <the-logo/>
+        <nav role="navigation">
+            <router-link
+                v-for="route in routes"
+                :to="route.path"
+                :key="route.path"
+                class="nav-link"
+                role="link">
+                {{route.name}}
+            </router-link>
+            <cta-button
+                :title="'Submit a talk'"
+            />
+        </nav>
+    </header>
 </template>
 <script>
 import TheLogo from '@/4_components/navigation/TheLogo'
@@ -34,8 +34,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .header
     flex: 0 1 auto

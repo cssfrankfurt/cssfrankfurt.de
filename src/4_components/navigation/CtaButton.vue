@@ -1,8 +1,8 @@
 <template>
-  <button class="cta" @click="submit" v-if="!wXS" role="button" aria-label="submit a talk">
-    <div class="cta-inner">{{title}}</div>
-    <span class="error" v-if="error">Coming soon!</span>
-  </button>
+    <button v-if="!wXS" class="cta" role="button" aria-label="submit a talk" @click="submit">
+        <div class="cta-inner">{{title}}</div>
+        <span v-if="error" class="error">Coming soon!</span>
+    </button>
 </template>
 <script>
 export default {
@@ -33,8 +33,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   /* CTA BUTTON STYLING */
 

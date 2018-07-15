@@ -17,15 +17,27 @@ CSS Frankfurt is a meetup community dedidcated to CSS. We organise talks, worksh
 - [Twitter](https://twitter.com/cssfrankfurt)
 - [Meetup](https://meetup.com/cssfrankfurt)
 
-# Build
+# Project setup
 
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:8080
-$ npm run dev
 ```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
 
 # Contributing
 

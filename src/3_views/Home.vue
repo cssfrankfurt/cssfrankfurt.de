@@ -1,10 +1,10 @@
 <template>
     <main class="container">
-      <page-info :title="title" :description="description"/>
-      <!-- Add next event here -->
-      <div class="home-content">
-        <event-list :items="events"/>
-      </div>
+        <page-info :title="title" :description="description"/>
+        <!-- Add next event here -->
+        <div class="home-content">
+            <event-list :items="events"/>
+        </div>
     </main>
 </template>
 <script>
