@@ -29,8 +29,5 @@ export default new Router({
         about: store.getters['about/about']
       }
     }
-  ],
-  scrollBehavior(to, from, savedPosition) {
-    return {x: 0, y: 0}
-  }
+  ]
 })
