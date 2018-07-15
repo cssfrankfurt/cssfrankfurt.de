@@ -1,14 +1,14 @@
 
 <template>
-  <li class="info-item">
-    <font-awesome-icon
-      :icon="[style, icon]"
-      class="info-icon"
-      role="img"
-      aria-hidden="true"
-    />
-    {{info}}
-  </li>
+    <li class="info-item">
+        <font-awesome-icon
+            :icon="[style, icon]"
+            class="info-icon"
+            role="img"
+            aria-hidden="true"
+        />
+        {{info}}
+    </li>
 </template>
 <script>
 export default {
@@ -39,8 +39,6 @@ export default {
 }
 </script>
 <style lang="sass">
-
-  @import "src/0_assets/styles/style-variables.sass"
 
   .info-item
     margin-right: 1rem

@@ -22,7 +22,7 @@ const actions = {
 
       commit('RECEIVE_EVENTS', {data: response.data.results})
     } catch (error) {
-      console.log(error)
+      return 'Something went wrong: ' + error
     }
   }
 }
@@ -41,11 +41,9 @@ const mutations = {
         url: event.event_url,
         info: {
           date:
-          new Date(event.time).toLocaleDateString('en-GB') +
-          ' @ ' +
-          new Date(event.time)
-            .toLocaleTimeString('en-GB')
-            .substring(0, 5),
+            new Date(event.time).toLocaleDateString('en-GB') +
+            ' @ ' +
+            new Date(event.time).toLocaleTimeString('en-GB').substring(0, 5),
           location: event.venue.name,
           attending: event.yes_rsvp_count
         }
