@@ -5,10 +5,13 @@ Please look over existing issues before creating one to prevent duplicates. -->
 
 # Type of Issue
 
-_Please check the boxes that apply_
+<!-- _Please check the boxes that apply_ -->
 
 - [ ] Bug
-- [ ] Enhancement (change/improvement)
+- [ ] Enhancement
+- [ ] Documentation
+- [ ] Maintenance
+- [ ] Question
 
 ## Description
 

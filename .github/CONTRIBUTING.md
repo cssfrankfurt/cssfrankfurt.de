@@ -7,10 +7,12 @@ This guide will show you how you can easily contribute to CSS Frankfurt. We love
 ## How to contribute 👩‍💻
 
 1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Submit a pull request 🎉
+2. Clone your forked repository
+3. Run `yarn` or `npm install` (dev mode w/ hot-reload: `yarn dev` or `npm run dev`)
+4. Create feature branch
+5. Commit changes
+6. Push to branch
+7. Submit a pull request 🎉
 
 ### Bug reports 🐛
 
@@ -26,7 +28,7 @@ Please follow the [issue template](ISSUE_TEMPLATE.md) when submitting an enhance
 * If you think it helps, **include screenshots and animated GIFs** where you demonstrate the problem - include steps and the problem itself
 * Include any **relevant information** (your OS, browser and browser version) in your report
 
-### Enhancements ✨
+### Features/Enhancements ✨
 
 If you would like to submit enhancement suggestions, including new features or improvements, please follow this guide. This will help maintainers and the community understand your suggestion.
 
