@@ -39,11 +39,12 @@ module.exports = {
             title: 'About',
             collapsable: false,
             children: [
-              '/about/about',
+              '/about/mission',
               '/about/team',
               '/about/sponsors',
               '/about/coc',
               '/about/reporting',
+              '/about/contact'
             ]
           },
           {
@@ -60,7 +61,7 @@ module.exports = {
             title: 'Community',
             collapsable: false,
             children: [
-              '/community/involved',
+              '/community/forums',
               '/community/community',
               '/community/frankconf'
             ]

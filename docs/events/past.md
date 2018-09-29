@@ -73,4 +73,7 @@ We are happy to announce that our first event is happening on March 22 at Die Ze
 **When?** [DAY], [MONTH] [DAY] @ [TIME]</br>
 **Where?** [LOCATION]
 
-[Learn more...](LINK TO EVENT) -->
+[Learn more...](LINK TO EVENT)
+
+**Resources**
+- [RESOURCE LINK] -->

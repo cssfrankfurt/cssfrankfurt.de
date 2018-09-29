@@ -1,7 +1,8 @@
-# :rainbow: Meetups
+# :rainbow: Frank Community
 
-The Frankfurt tech scene is growing. Here is a list of meetups in the area that you may find interesting. Frankfurt is also quite international, so if you don't speak German, don't worry. The community gladly welcomes new members of all languages!
+Frank Community is a joint community effort to encourage cross-community comunication and efforts for all communities and meetups in the Rhein Main region. This is a list of participating meetups and communities.
 
+- [Hacktoberfest Frankfurt](https://hacktoberfest.frank.communtiy) - Rhein Main's biggest Open Source celebration event
 - [Vue.js Frankfurt](https://vue.frank.community) - The Vue community in Frankfurt. Sister meetup of CSS Frankfurt. Events are mostly in English
 
-*Want to add your meetup/community to the list? Contribute on [GitHub](https://github.com/frankcommunity/)!*
+*Want to become a part of the Frank Community? Get in touch with us! hello@frank.community*

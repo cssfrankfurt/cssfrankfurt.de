@@ -1,5 +1,7 @@
 # :earth_americas: Conferences
 
+<!-- TODO: Add more conferences. -->
+
 CSS Frankfurt at conferences.
 
 - [CSSconfEU](https://cssconf.eu) - A conference dedicated to everyone who loves and writes CSS in Berlin, Germany.
