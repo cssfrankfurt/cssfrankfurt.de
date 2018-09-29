@@ -30,32 +30,41 @@ module.exports = {
         },
         // algolia docsearch options for current locale
         algolia: {},
-        displayAllHeaders: true,
-        sidebarDepth: 2,
         nav: [
-          { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' },
-          { text: 'Forums', link: 'https://spectrum.chat/cssfrankfurt' },
-          { text: 'Contribute!', link: 'https://github.com/cssfrankfurt' }
+          { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }
         ],
         sidebar: [
           '/',
+          {
+            title: 'About',
+            collapsable: false,
+            children: [
+              '/about/about',
+              '/about/team',
+              '/about/sponsors',
+              '/about/coc',
+              '/about/reporting',
+            ]
+          },
           {
             title: 'Events',
             collapsable: false,
             children: [
               '/events/upcoming',
-              '/events/past'
+              '/events/past',
+              '/events/locations',
+              '/events/conferences'
             ]
           },
           {
-            title: 'Resources',
+            title: 'Community',
             collapsable: false,
             children: [
-              '/coc/coc',
-              '/coc/rg',
+              '/community/involved',
+              '/community/community',
+              '/community/frankconf'
             ]
           },
-
         ]
       },
       '/de/': {
@@ -68,25 +77,33 @@ module.exports = {
             buttonText: "Refresh"
           }
         },
-        nav: [
-          {
-            text: 'DE Events',
-            link: '/de/events/',
-          },
-          {
-            text: 'DE Resources',
-            link: '/de/resources/'
-          },
-          {
-            text: 'DE Meetup',
-            link: 'https://meetup.com/vuejsfrankfurt'
-          }
-        ],
         algolia: {},
-        sidebar: {
-          '/zh/': [/* ... */],
-          '/zh/nested/': [/* ... */]
-        }
+        displayAllHeaders: true,
+        sidebarDepth: 2,
+        nav: [
+          { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }
+        ],
+        sidebar: [
+          '/',
+          {
+            title: 'Veranstaltungen',
+            collapsable: false,
+            children: [
+              '/de/events/upcoming',
+              '/de/events/past'
+            ]
+          },
+          {
+            title: 'Ressourcen',
+            collapsable: false,
+            children: [
+              '/de/locations',
+              '/de/sponsors',
+              '/de/coc/coc',
+              '/de/coc/rg',
+            ]
+          },
+        ]
       }
     }
   }
