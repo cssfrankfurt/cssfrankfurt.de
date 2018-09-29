@@ -2,7 +2,7 @@ language: node_js
 node_js: "9.8.0"
 install:
     - npm install -g travis-ci-cloudfront-invalidation
-    - npm install
+    - yarn install
 script:
 - vuepress build docs
 deploy:
