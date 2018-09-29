@@ -2,11 +2,9 @@ language: node_js
 node_js: "9.8.0"
 install:
     - npm install -g travis-ci-cloudfront-invalidation
-    - npm install
-before_script:
-- npm run lint
+    - yarn install
 script:
-- npm run build
+- vuepress build docs
 deploy:
   provider: s3
   region: $AWS_DEFAULT_REGION
