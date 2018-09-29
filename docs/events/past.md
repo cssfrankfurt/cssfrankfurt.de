@@ -1,13 +1,20 @@
 # :hourglass: Past Events
 
+These are CSS Frankfurt's past events. You can find links to resources from the events here as well.
+
 ## CSS Variables: Custom Properties
 
 Welcome back to another event! 😻 We are proud to announce that Lennart (@lekoarts_de) will be giving a talk about CSS variables, or as he prefers to call them: Custom Properties!
 
 **When?** Thursday, September 13 @ 18:30</br>
-**Where?** Die Zentrale Coworking
+**Where?** Die Zentrale Coworking</br>
 
 [Learn more...](https://www.meetup.com/CSSFrankfurt/events/253010928/)
+
+**Resources**
+
+- [GitHub repo](https://github.com/LeKoArts/css-custom-properties-examples) - The repository contains the slides for the talk as well
+- [Practical examples](https://css-variables.netlify.com) - A website with the practical examples from the talk
 
 ## CSS-in-JS: The Future of Component-Based Styling
 
@@ -17,6 +24,11 @@ As the web is moving towards a component based approach, many agree that the lim
 **Where?** Die Zentrale Coworking
 
 [Learn more...](https://www.meetup.com/CSSFrankfurt/events/253010920/)
+
+**Resources**
+
+- [GitHub repo](https://github.com/flxwu/css-in-js)
+- [Slides](https://slides.com/flxwu/css-in-js/)
 
 ## Let there be burgers
 
