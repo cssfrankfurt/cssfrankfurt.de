@@ -1,10 +1,10 @@
 <!--- For more information, see our [CONTRIBUTING](CONTRIBUTING.md) guideline. -->
 
-Thank you for submitting a pull request! Please provide us with enough details to make it easier for others to review your pull request:
+<!-- Thank you for submitting a pull request! Please provide us with enough details to make it easier for others to review your pull request -->
 
 ## Type of Change
 
-_Please check the boxes that apply_
+<!-- _Please check the boxes that apply_ -->
 
 - [ ] Bugfix (a fix that does not break existing functionality)
 - [ ] Enhancement (new feature/minor improvement)
@@ -12,11 +12,11 @@ _Please check the boxes that apply_
 
 ## What is Changed
 
-Describe the changes that your pull requests is making
+<!-- Describe the changes that your pull requests is making -->
 
 ## Comments
 
-Please include any comments that you might have
+<!-- Please include any comments that you might have -->
 
 ## Checklist
 

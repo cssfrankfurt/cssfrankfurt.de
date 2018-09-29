@@ -1,48 +1,22 @@
-![Logo](docs/cssfrankfurt.png)
+# Welcome to CSS Frankfurt
 
-<p align="center">
-  
-  [![Members](https://img.shields.io/badge/🐱%20members-150%2B-ff8282.svg?colorA=ff8282&colorB=292A2E)](https://www.meetup.com/cssfrankfurt/members/) [![Contributors](https://img.shields.io/github/contributors/cssfrankfurt/cssfrankfurt.de.svg?&label=😎%20contributors%20&colorA=ff8282&colorB=292A2E)](https://github.com/cssfrankfurt/cssfrankfurt.de/graphs/contributors)
-</p>
+CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web. Join us at one of our events to get to know our community. We hope to see you around!
 
-# About
-
-CSS Frankfurt is a meetup community dedidcated to CSS. We organise talks, workshops and social coding events for our members.
-
-![Screenshot](docs/screenshot.png)
-
-## Stay In Touch
-
-- [Website](https://cssfrankfurt.de)
-- [Twitter](https://twitter.com/cssfrankfurt)
-- [Meetup](https://meetup.com/cssfrankfurt)
-
-# Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-
-# Contributing
+## Contribute
 
 Any contribution is welcome and highly appreciated. Head over to our [contribution guidelines](docs/CONTRIBUTING.md) to get started!
 
-# License
+This site is build using [VuePress](https://vuepress.vuejs.org). Please see their [guide](https://vuepress.vuejs.org/guide/) for more information. If you have any questions, feel free to reach out on our [forums](https://spectrum.chat/cssfrankfurt/website/).
+
+### Setup
+
+To setup this project locally, please follow these instructions:
+
+1. Fork this repository
+2. Clone the forked repository
+3. Run `yarn` or `npm install`
+4. Dev mode w/ hot-reload: `yarn dev` or `npm run dev`
+
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
