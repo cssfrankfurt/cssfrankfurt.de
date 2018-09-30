@@ -1,4 +1,4 @@
-# Vergangene Veranstaltungen
+# :hourglass: Vergangene Veranstaltungen
 
 ## :speaking_head: CSS Variables: Custom Properties
 

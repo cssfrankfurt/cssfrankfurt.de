@@ -1,4 +1,4 @@
-# Kommende Veranstaltungen
+# :dancer: Kommende Veranstaltungen
 
 ## :woman_technologist: Hacktoberfest Frankfurt 2018
 

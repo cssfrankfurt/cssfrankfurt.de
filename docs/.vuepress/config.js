@@ -108,7 +108,6 @@ module.exports = {
             title: 'Ressourcen',
             collapsable: false,
             children: [
-              '/de/locations',
               '/de/coc/coc',
               '/de/coc/rg',
             ]
