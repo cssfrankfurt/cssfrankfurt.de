@@ -95,6 +95,13 @@ module.exports = {
             ]
           },
           {
+            title: 'Über',
+            collapsable: false,
+            children: [
+              '/de/about/team',
+            ]
+          },
+          {
             title: 'Ressourcen',
             collapsable: false,
             children: [
