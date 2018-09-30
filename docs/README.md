@@ -8,6 +8,6 @@ Take a look around to see what we are currently up to. If you have any questions
 
 <!-- TODO: Add Community Selfie -->
 
-CSS Frankfurt is the sister meetup of [Vue.js Frankfurt](https://vue.frank.community)
+CSS Frankfurt is the sister meetup of [Vue.js Frankfurt](https://meetup.com/vuejsfrankfurt)
 
 ![Vue.js Frankfurt](/vuejsfrankfurt.svg)
