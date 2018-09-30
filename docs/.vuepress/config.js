@@ -91,7 +91,8 @@ module.exports = {
             collapsable: false,
             children: [
               '/de/events/upcoming',
-              '/de/events/past'
+              '/de/events/past',
+              '/de/events/locations'
             ]
           },
           {
