@@ -99,6 +99,7 @@ module.exports = {
             collapsable: false,
             children: [
               '/de/about/team',
+              '/de/about/contact',
             ]
           },
           {
