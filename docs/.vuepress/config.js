@@ -100,6 +100,7 @@ module.exports = {
             children: [
               '/de/about/team',
               '/de/about/contact',
+              '/de/about/sponsors',
             ]
           },
           {
@@ -107,7 +108,6 @@ module.exports = {
             collapsable: false,
             children: [
               '/de/locations',
-              '/de/sponsors',
               '/de/coc/coc',
               '/de/coc/rg',
             ]
