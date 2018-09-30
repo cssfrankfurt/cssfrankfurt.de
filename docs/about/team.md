@@ -13,8 +13,8 @@ Meet the team behind CSS Frankfurt!
 ## Anett Gesierich
 
 :sassy_woman: Assistant Organiser</br>
-:office: Web Engineer @ [codemonauts](https://codemonauts.com)</br>
-:love_letter: [Twitter](https://twitter.com/emsuiko)
+:office: Web Engineer @ [codemonauts UG](https://codemonauts.com)</br>
+:love_letter: [Twitter](https://twitter.com/emsuiko), [GitHub](https://github.com/emsuiko), [Website](https://emsuiko.de)
 
 ## Felix Wu
 
