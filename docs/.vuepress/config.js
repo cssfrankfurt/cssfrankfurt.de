@@ -125,7 +125,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png' }],
     ['link', { rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicons/favicon-32x32.png' }],
     ['link', { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicons/favicon-16x16.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['link', { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#292a2e' }],
     ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
