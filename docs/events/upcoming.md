@@ -2,7 +2,7 @@
 
 ## Hacktoberfest Frankfurt 2018
 
-Celebrate open source over food, drinks, and great company! Hacktoberfest is all about encouraging meaningful contributions to the open source ecosystem. You do not need to be a developer or know code to participate.
+Celebrate open source over food, drinks, and great company! Hacktoberfest is all about encouraging meaningful contributions to the open source ecosystem. You do not need to be a developer or know to code to participate.
 
 **When?** Friday, October 12 @ 18:00</br>
 **Where?** [Mindspace Eurotheum](locations.md#mindspace-eurotheum)

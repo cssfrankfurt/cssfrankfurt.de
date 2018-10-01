@@ -1,28 +1,28 @@
 # :dancer: Kommende Veranstaltungen
 
-## :woman_technologist: Hacktoberfest Frankfurt 2018
+## Hacktoberfest Frankfurt 2018
 
-Celebrate open source over food, drinks, and great company! Hacktoberfest is all about encouraging meaningful contributions to the open source ecosystem. You do not need to be a developer or know code to participate.
+Feiere Open Source bei Essen, Trinken und toller Gesellschaft! Beim Hacktoberfest geht es darum, sinnvolle Beiträge zum Open-Source-Ökosystem zu leisten. Du musst kein Entwickler sein oder programmieren können, um teilzunehmen.
 
-**When?** Friday, October 12 @ 18:00</br>
-**Where?** Mindspace Eurotheum
+**Wann?** Freitag, 12. Oktober @ 18:00 Uhr</br>
+**Wo?** [Mindspace Eurotheum](locations.md#mindspace-eurotheum)
 
-[Learn more...](https://www.eventbrite.com/e/hacktoberfest-frankfurt-2018-tickets-50225231018)
+[mehr...](https://www.eventbrite.com/e/hacktoberfest-frankfurt-2018-tickets-50225231018)
 
-## :speaking_head: CSS Grid in Detail & UI Components
+## CSS Grid im Detail & UI-Komponenten
 
-We are happy to announce our first cooperation event with Frontend RheinMain :tada: At this event we'll have two exciting talks :heart_eyes_cat: Sven Wolfermann will speak about CSS grid in detail and Tobias Reich will be speaking about UI components.
+Wir freuen uns, unsere erste gemeinsame Veranstaltung mit Frontend RheinMain ankündigen zu können :tada: Bei dieser Veranstaltung werden wir zwei spannende Vorträge haben :heart_eyes_cat: Sven Wolfermann wird ausführlich über CSS-Grids sprechen und Tobias Reich über UI-Komponenten.
 
-**When?** Thursday, October 25 @ 19:00</br>
-**Where?** Mindspace Eurotheum
+**Wann?** Donnerstag, 25. Oktober @ 19:00 Uhr</br>
+**Wo?** [Comwrap](locations.md#comwrap)
 
-[Learn more...](https://www.meetup.com/CSSFrankfurt/events/255052999/)
+[mehr...](https://www.meetup.com/CSSFrankfurt/events/255052999/)
 
-## :christmas_tree: Holiday Special
+## Feiertags Spezial
 
-Celebrate the holidays with CSS Frankfurt and Vue.js Frankfurt.
+Feiere die Feiertage mit CSS Frankfurt und Vue.js Frankfurt.
 
-**When?** Friday, December 14 @ 17:00</br>
-**Where?** Mindspace Eurotheum
+**Wann?** Freitag, 14. Oktober @ 17:00 Uhr</br>
+**Wo?** TBA
 
-[Learn more...](#link)
+[mehr...](https://www.meetup.com/CSSFrankfurt/events/255141386/)
