@@ -34,7 +34,7 @@ Es ist Zeit für eine weitere Coding Night mit Frank! :cat_heart_eyes: Die erste
 **Wann?** Donnerstag, 24. Mai @ 18:00 Uhr</br>
 **Wo?** Die Zentrale Coworking
 
-[Learn more...](https://www.meetup.com/CSSFrankfurt/events/250654063/)
+[mehr...](https://www.meetup.com/CSSFrankfurt/events/250654063/)
 
 ## :woman_technologist: Coding Night: CSS Grid
 
@@ -43,16 +43,16 @@ Frank lädt Sie in die Zentrale zu einer Social Coding Veranstaltung ein! Bei di
 **Wann?** Freitag, 27. April @ 19:00 Uhr</br>
 **Wo?** Die Zentrale Coworking
 
-[Learn more...](https://www.meetup.com/CSSFrankfurt/events/249591142/)
+[mehr...](https://www.meetup.com/CSSFrankfurt/events/249591142/)
 
 ## :tada: Kickoff Party
 
-We are happy to announce that our first event is happening on March 22 at Die Zentrale Coworking Space in Bornheim Mitte. This event will be dedicated to getting to know our members and what CSS Frankfurt can do for you and the community.
+Wir freuen uns, Ihnen mitteilen zu können, dass unsere erste Veranstaltung am 22. März in Die Zentrale Coworking Space in Bornheim Mitte stattfindet. Diese Veranstaltung widmet sich dem Kennenlernen unserer Mitglieder und dem, was CSS Frankfurt für Dich und die Community tun kann.
 
 **Wann?** Donnerstag, 22. März @ 19:00 Uhr</br>
 **Wo?** Die Zentrale Coworking
 
-[Learn more...](https://www.meetup.com/CSSFrankfurt/events/248339933/)
+[mehr...](https://www.meetup.com/CSSFrankfurt/events/248339933/)
 
 <!-- ## :speaking_head:/:tada: etc [EVENT TITLE]
 
