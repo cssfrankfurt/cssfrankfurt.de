@@ -1,14 +1,19 @@
+const EN_DESC = 'CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web. Join us at one of our events to get to know our community.';
+const DE_DESC = 'German CSS Frankfurt';
+const TITLE = 'CSS Frankfurt';
+
 module.exports = {
+  serviceWorker: true,
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'CSS Frankfurt',
-      description: 'English CSS Frankfurt'
+      title: TITLE,
+      description: EN_DESC,
     },
     '/de/': {
       lang: 'de-DE',
-      title: 'CSS Frankfurt',
-      description: 'German CSS Frankfurt'
+      title: TITLE,
+      description: DE_DESC,
     }
    },
   themeConfig: {
@@ -115,5 +120,29 @@ module.exports = {
         ]
       }
     }
-  }
-}
+  },
+  head: [
+    ['link', { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicons/favicon-32x32.png' }],
+    ['link', { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicons/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#292a2e' }],
+    ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
+    ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: TITLE }],
+    ['meta', { name: 'application-name', content: TITLE }],
+    ['meta', { property: 'og:locale', content: 'en-US' }],
+    ['meta', { property: 'og:locale:alternate', content: 'de-DE' }],
+    ['meta', { property: 'og:description', content: EN_DESC }],
+    ['meta', { property: 'og:image', content: 'https://cssfrankfurt.de/cover.jpg' }],
+    ['meta', { property: 'og:title', content: TITLE }],
+    ['meta', { property: 'og:url', content: 'https://cssfrankfurt.de' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:creator', content: '@cssfrankfurt' }],
+    ['meta', { name: 'twitter:description', content: EN_DESC }],
+    ['meta', { name: 'twitter:image', content: 'https://cssfrankfurt.de/cover.jpg' }],
+    ['meta', { name: 'twitter:title', content: TITLE }],
+  ],
+};
