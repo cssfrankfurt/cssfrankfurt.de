@@ -50,7 +50,7 @@ It’s time for another Frank’s Coding Night! :cat_heart_eyes: The first Codin
 
 ## Coding Night: CSS Grid
 
-Frank is inviting you back to Die Zentrale for a social coding event! There will be two topics covered at this event, CSS images and CSS grid. For the CSS images part, you will be able to recreate one of Victoria’s CSS images (we will choose one together). This is a great exercise to improve your overall CSS skills, for example increase efficiency, becoming better at positing and learning new properties.
+Frank is inviting you back to Die Zentrale for a social coding event! There will be two topics covered at this event, CSS images and CSS grid. For the CSS images part, you will be able to recreate one of Victoria’s CSS images (we will choose one together). This is a great exercise to improve your overall CSS skills, for example increase efficiency, becoming better at positioning and learning new properties.
 
 **When?** Friday, April 27 @ 19:00</br>
 **Where?** [Die Zentrale Coworking](locations.md#die-zentrale-coworking)
