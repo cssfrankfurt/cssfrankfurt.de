@@ -76,11 +76,11 @@ module.exports = {
       '/de/': {
         selectText: 'Sprachen',
         label: 'Deutsch',
-        editLinkText: ' ',
+        editLinkText: 'Bearbeite diese Seite auf GitHub',
         serviceWorker: {
           updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
+            message: "Neuer Inhalt verfügbar.",
+            buttonText: "Aktualisieren"
           }
         },
         algolia: {},
@@ -90,31 +90,36 @@ module.exports = {
           { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }
         ],
         sidebar: [
-          '/',
+          '/de/',
+          {
+            title: 'Über',
+            collapsable: false,
+            children: [
+              '/de/about/mission',
+              '/de/about/team',
+              '/de/about/sponsors',
+              '/de/about/coc',
+              '/de/about/reporting',
+              '/de/about/contact'
+            ]
+          },
           {
             title: 'Veranstaltungen',
             collapsable: false,
             children: [
               '/de/events/upcoming',
               '/de/events/past',
-              '/de/events/locations'
+              '/de/events/locations',
+              '/de/events/conferences'
             ]
           },
           {
-            title: 'Über',
+            title: 'Community',
             collapsable: false,
             children: [
-              '/de/about/team',
-              '/de/about/contact',
-              '/de/about/sponsors',
-            ]
-          },
-          {
-            title: 'Ressourcen',
-            collapsable: false,
-            children: [
-              '/de/coc/coc',
-              '/de/coc/rg',
+              '/de/community/forums',
+              '/de/community/community',
+              '/de/community/frankconf'
             ]
           },
         ]
@@ -129,8 +134,8 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#292a2e' }],
     ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
-    ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
+    ['meta', { name: 'theme-color', content: '#292a2e' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: TITLE }],
     ['meta', { name: 'application-name', content: TITLE }],
     ['meta', { property: 'og:locale', content: 'en-US' }],
