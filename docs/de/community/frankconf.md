@@ -1,3 +1,0 @@
-# :cityscape: FrankConf
-
-Coming soon.

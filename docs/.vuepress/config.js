@@ -67,8 +67,7 @@ module.exports = {
             collapsable: false,
             children: [
               '/community/forums',
-              '/community/community',
-              '/community/frankconf'
+              '/community/community'
             ]
           },
         ]
@@ -118,8 +117,7 @@ module.exports = {
             collapsable: false,
             children: [
               '/de/community/forums',
-              '/de/community/community',
-              '/de/community/frankconf'
+              '/de/community/community'
             ]
           },
         ]
