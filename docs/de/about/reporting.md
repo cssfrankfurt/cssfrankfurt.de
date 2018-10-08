@@ -1,35 +1,35 @@
-# Richlinien zum Melden von Fehlverhalten
+# :police_car: Melde-Richtlinien
 
-Wenn Du einem inakzeptablen Verhalten ausgesetzt bist, es miterlebst oder sonstige Bedenken hast, sende bitte eine E-Mail an [EMAIL].
+If you are subject to or witness unacceptable behavior, or have any other concerns, please contact us at ****report@cssfrankfurt.de**** or reach out any of our [team members](/#meet-the-team).
 
-## 1. Informationen, die wir von Ihnen benötigen
+## 1. Information we need from you
 
-Bitte füge die folgenden Informationen (Deutsch oder Englisch) in Deinen Bericht ein:
+Please include the following information (English or German) in your report:
 
-- **CoC Report [DD.MM.YYYY]** als Betreffzeile (bitte das aktuelle Datum einsetzen)
-- Deine Kontaktdaten (damit wir Deinen Bericht weiterverfolgen können)
-- Namen (Real-/Spitznamen/Pseudonyme) aller beteiligten Personen und mögliche Zeugenaussagen.
-- Wann und wo der Vorfall vorgefallen ist (bitte so genau wie möglich)
-- Dein Bericht über das, was passiert ist.
-- Links, Screenshots, Kontext oder andere Informationen, die zum besseren Verständnis und zur Lösung der Situation verwendet werden können.
-- Alle anderen Informationen, von denen Du glaubst, dass sie haben hilfreich sind.
+- **CoC Report [DD.MM.YYYY]** as the subject headline (fill out the current date)
+- Your contact information (so we can follow up on your report)
+- Names (real/nicknames/pseudonyms) of any individuals involved and possible witness names
+- When and where the incident happened (please be as specific as possible)
+- Your account of what happened
+- Links, screenshots, context or any other information that may be used to better understand and resolve the situation
+- Any other information you believe we should have
 
-## 2. Was passiert als nächstes
+## 2. What happens next
 
-Wenn Du Deinen Bericht abgeschickt hast, erhälst Du von uns eine E-Mail mit der Bestätigung, dass wir Deinen Bericht erhalten haben: Die erste wird eine automatische Antwort sein, dass Dein Bericht in unserem Posteingang eingegangen ist, und innerhalb von 24 Stunden wird sich einer unserer Organisatoren persönlich mit Dir in Verbindung setzen. Wenn wir weitere Informationen von Dir benötigen, informieren wir Sie auch so schnell wie möglich.
+When you have sent off your report, you will receive an email from us acknowledging that we have recieved your report: the first one will be an automatic reply that your report has arrived in our inbox, and within 24 hours one of our organisers will contact you personally. If we need more information from you, we then also let you know as soon as possible.
 
-*Wir antworten in der Sprache (Englisch oder Deutsch), die Du in Deinem Bericht verwendet hast.*
+*We will respond in the language (English or German) you used in your report.*
 
-Sobald wir eine vollständige Aufstellung der Vorfälle haben, werden wir entscheiden, wie wir reagieren sollen. Zu den Antworten können gehören:
+Once we have a complete account of the incident(s), we will make a decision as to how to respond. Responses may include:
 
-- Nichts (wenn wir feststellen, dass keine Verletzung vorliegt)
-- Eine private Rüge des Veranstalters an die betroffene(n) Person(en).
-- Eine öffentliche Rüge
-- Ein dauerhaftes oder vorübergehendes Verbot von einigen oder allen CSS-Frankfurt Räumen.
-- Ein Antrag auf eine öffentliche oder private Entschuldigung
+- Nothing (if we determine no violation occurred)
+- A private reprimand from the organisers to the individual(s) involved
+- A public reprimand
+- A permanent or temporary ban from some or all CSS Frankfurt spaces
+- A request for a public or private apology
 
-Wir werden innerhalb einer Woche auf die Person, die den Bericht eingereicht hat, entweder mit einer Entschließung oder einer Erklärung antworten, warum die Situation noch nicht geklärt ist.
+We will respond within one week to the person who filed the report with either a resolution or an explanation of why the situation is not yet resolved.
 
-## 3. Fragen oder Bedenken
+## 3. Questions or concerns
 
-Wenn Du Fragen oder Beschwerden bezüglich der Behandlung Deines Berichts hast, kontaktiere uns bitte (EMAIL) und wir werden Deine Bedenken prüfen.
+If you have any questions or complaints regarding how your report was handled, please contact us at **report@cssfrankfurt.de**, and we will review your concerns.
