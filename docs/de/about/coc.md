@@ -1,4 +1,4 @@
-# Code of Conduct
+# :handshake: Verhaltenskodex
 
 ## 1. Zweck
 
