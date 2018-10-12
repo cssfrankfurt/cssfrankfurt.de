@@ -1,7 +1,7 @@
 # :rocket: Unser Ziel
 
-- Be the central meeting point for all things CSS in the Rhein Main area and enrich the Rhein-Main tech community. Der zentrale
+-  Wir wollen der zentrale Treffpunkt für CSS im Rhein-Main Gebiet sein, der die Tech-Community bereichert.
 
-- Be a supportive, inclusive and diverse community that welcomes anyone who is interested in CSS, design on the web or simply wants to be a part of our community.
+- Wir wollen eine unterstützende und integrative CSS-Community sein, die jeden Interessierten dazu einlädt, sich uns anzuschließen. Egal ob derjenige mit CSS arbeitet, allgemein im Webdesign tätig ist oder einfach nur ein Teil der Community sein möchte.
 
-- Organise events focused on CSS related topics in various formats including, but not limited to talks, coding nights and social events.
+- Wir organisieren Veranstaltungen rund um CSS in allen möglichen Variationen. Die Inhalte reichen von Talks zu unterschiedliche Themen, über Coding-Nights bis zu Social-Events.
