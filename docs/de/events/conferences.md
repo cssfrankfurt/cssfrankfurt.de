@@ -2,8 +2,8 @@
 
 <!-- TODO: Add more conferences. -->
 
-CSS Frankfurt at conferences.
+CSS Frankfurt auf Konferenzen.
 
-- [CSSconfEU](https://cssconf.eu) - A conference dedicated to everyone who loves and writes CSS in Berlin, Germany.
-- [dotCSS](https://dotcss.io) - Europe's largest CSS conference, in Paris, France.
-- [fronteers.nl](https://fronteers.nl/congres/2018) - One of Europe’s premiere conferences on front-end web development, organised in Amsterdam yearly since 2008.
+- [CSSconfEU](https://cssconf.eu) - Eine Konferenz für alle, die CSS lieben und schreiben - Berlin, Germany
+- [dotCSS](https://dotcss.io) - Europas größte CSS Konferenz - Paris, Frankreich
+- [fronteers.nl](https://fronteers.nl/congres/2018) - Eine der führenden europäischen Konferenzen für Front-End-Web-Entwicklung, die seit 2008 jährlich in Amsterdam stattfindet.
