@@ -4,7 +4,7 @@ CSS Frankfurt is a meetup community for anyone interested in CSS and design on t
 
 ## Contribute
 
-Any contribution is welcome and highly appreciated. Head over to our [contribution guidelines](docs/CONTRIBUTING.md) to get started!
+Any contribution is welcome and highly appreciated. Head over to our [contribution guidelines](.github/CONTRIBUTING.md) to get started!
 
 This site is build using [VuePress](https://vuepress.vuejs.org). Please see their [guide](https://vuepress.vuejs.org/guide/) for more information. If you have any questions, feel free to reach out on our [forums](https://spectrum.chat/cssfrankfurt/website/).
 
