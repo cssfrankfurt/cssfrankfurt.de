@@ -6,11 +6,11 @@ CSS Frankfurt is a meetup community for anyone interested in CSS and design on t
 
 Any contribution is welcome and highly appreciated. Head over to our [contribution guidelines](.github/CONTRIBUTING.md) to get started!
 
-This site is build using [VuePress](https://vuepress.vuejs.org). Please see their [guide](https://vuepress.vuejs.org/guide/) for more information. If you have any questions, feel free to reach out on our [forums](https://spectrum.chat/cssfrankfurt/website/).
+This site is built using [VuePress](https://vuepress.vuejs.org). Please see their [guide](https://vuepress.vuejs.org/guide/) for more information. If you have any questions, feel free to reach out on our [forums](https://spectrum.chat/cssfrankfurt/website/).
 
 ### Setup
 
-To setup this project locally, please follow these instructions:
+To set up this project locally, please follow these instructions:
 
 1. Fork this repository
 2. Clone the forked repository
