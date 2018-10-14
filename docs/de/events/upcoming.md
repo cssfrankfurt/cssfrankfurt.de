@@ -22,7 +22,7 @@ Wir freuen uns, unsere erste gemeinsame Veranstaltung mit Frontend RheinMain ank
 
 Feiere die Feiertage mit CSS Frankfurt und Vue.js Frankfurt.
 
-**Wann?** Freitag, 14. Oktober @ 17:00 Uhr</br>
+**Wann?** Freitag, 14. Dezember @ 17:00 Uhr</br>
 **Wo?** TBA
 
 [Mehr...](https://www.meetup.com/CSSFrankfurt/events/255141386/)
