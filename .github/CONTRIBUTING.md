@@ -1,6 +1,6 @@
 # Contributing 🐱
 
-This guide will show you how you can easily contribute to CSS Frankfurt. We love recieving contributions from our community and there are many ways to contribute. You can help improve documentation, submit feature requests, propose minor improvements or submit bug reports.
+This guide will show you how you can easily contribute to Vue.js Frankfurt. We love recieving contributions from our community and there are many ways to contribute. You can help improve documentation, submit feature requests, propose minor improvements or submit bug reports.
 
 🚨 **This guideline is not a strict set of rules** you absolutely have to follow, but please use your **best judgement** when submitting reports. If you would like to contribute to the guidelines themselves, please create a pull request with your proposed changes.
 
@@ -18,7 +18,7 @@ This guide will show you how you can easily contribute to CSS Frankfurt. We love
 
 To submit a bug report, please follow this guide to help maintainers and the community understand your report.
 
-Please follow the [issue template](ISSUE_TEMPLATE.md) when submitting an enhancement.
+Please follow the bug report [template](ISSUE_TEMPLATE/bug_report.md) when submitting a bug report.
 
 * **Check if the problem has already been reported** - if it has, please add a comment to the existing issue instead of opening a new one.
 * **Give your issue a clear and descriptive title**
@@ -32,7 +32,7 @@ Please follow the [issue template](ISSUE_TEMPLATE.md) when submitting an enhance
 
 If you would like to submit enhancement suggestions, including new features or improvements, please follow this guide. This will help maintainers and the community understand your suggestion.
 
-Please follow the [issue template](ISSUE_TEMPLATE.md) when submitting an enhancement.
+Please follow the feature request [template](ISSUE_TEMPLATE/feature_request.md) when submitting an enhancement.
 
 * **Check if the enhancement has already been submitted** - if it has, please add a comment to the enhancement instead of opening a new one.
 * **Give your enhancement a clear and descriptive title**
