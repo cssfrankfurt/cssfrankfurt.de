@@ -2,7 +2,7 @@
 
 This guide will show you how you can easily contribute to CSS Frankfurt. We love recieving contributions from our community and there are many ways to contribute. You can help improve documentation, submit feature requests, propose minor improvements or submit bug reports.
 
-🚨 **These guidelines are not a strict set of rules** you absolutely have to follow, but please use your **best judgement** when submitting reports. If you would like to contribute to the guidelines themselves, please create a pull request with your proposed changes.
+🚨 **This guideline is not a strict set of rules** you absolutely have to follow, but please use your **best judgement** when submitting reports. If you would like to contribute to the guidelines themselves, please create a pull request with your proposed changes.
 
 ## How to contribute 👩‍💻
 
