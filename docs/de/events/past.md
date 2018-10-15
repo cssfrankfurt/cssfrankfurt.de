@@ -1,5 +1,14 @@
 # :hourglass: Vergangene Veranstaltungen
 
+## Hacktoberfest Frankfurt 2018
+
+Feiere Open Source bei Essen, Trinken und toller Gesellschaft! Beim Hacktoberfest geht es darum, sinnvolle Beiträge zum Open-Source-Ökosystem zu leisten. Du musst kein Entwickler sein oder programmieren können, um teilzunehmen.
+
+**Wann?** Freitag, 12. Oktober @ 18:00 Uhr</br>
+**Wo?** [Mindspace Eurotheum](locations.md#mindspace-eurotheum)
+
+[Mehr...](https://www.eventbrite.com/e/hacktoberfest-frankfurt-2018-tickets-50225231018)
+
 ## CSS Variablen: Custom Properties
 
 Willkommen zu einer weiteren Veranstaltung! :heart_eyes_cat: Wir sind stolz darauf, dass Lennart (@lekoarts_de) einen Vortrag über CSS-Variablen halten wird, oder wie er sie lieber nennt: Custom Properties!
