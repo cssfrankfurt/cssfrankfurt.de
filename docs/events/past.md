@@ -2,6 +2,15 @@
 
 These are CSS Frankfurt's past events. You can find links to resources from the events here as well.
 
+## Hacktoberfest Frankfurt 2018
+
+Celebrate open source over food, drinks, and great company! Hacktoberfest is all about encouraging meaningful contributions to the open source ecosystem. You do not need to be a developer or know to code to participate.
+
+**When?** Friday, October 12 @ 18:00</br>
+**Where?** [Mindspace Eurotheum](locations.md#mindspace-eurotheum)
+
+[Learn more...](https://www.eventbrite.com/e/hacktoberfest-frankfurt-2018-tickets-50225231018)
+
 ## CSS Variables: Custom Properties
 
 Welcome back to another event! 😻 We are proud to announce that Lennart (@lekoarts_de) will be giving a talk about CSS variables, or as he prefers to call them: Custom Properties!
