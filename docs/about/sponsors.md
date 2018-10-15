@@ -13,10 +13,14 @@ CSS Frankfurt welcomes all kinds of support from the community. Find out how you
 
 <div align="center" style="padding: 1em 0;">
   <a href="https://melsicon.de" rel="noopener noreferrer" target="_blank" title="melsicon website">
-  <img src="/melsicon.svg" alt="melsicon logo"></a>
+  <img width="50%" src="/img/melsicon.svg" alt="melsicon logo"></a>
 </div>
 
-More info coming soon.
+<div align="center" style="padding: 1em 0;">
+  <a href="https://codemonauts.com" rel="noopener noreferrer" target="_blank" title="codemonauts website">
+  <img width="50%" src="/img/codemonauts.svg" alt="codemonauts logo"></a>
+</div>
+
 
 ## Become a supporter
 
