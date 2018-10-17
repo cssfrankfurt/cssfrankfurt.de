@@ -70,6 +70,14 @@ module.exports = {
               '/community/community'
             ]
           },
+          {
+            title: 'Legal',
+            collapsable: false,
+            children: [
+              '/legal/imprint',
+              '/legal/privacypolicy'
+            ]
+          }
         ]
       },
       '/de/': {
@@ -120,6 +128,14 @@ module.exports = {
               '/de/community/community'
             ]
           },
+          {
+            title: 'Rechtliches',
+            collapsable: false,
+            children: [
+              '/legal/imprint',
+              '/legal/privacypolicy'
+            ]
+          }
         ]
       }
     }
