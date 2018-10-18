@@ -38,4 +38,4 @@ CSS Frankfurt hosts events at various location in and around Frankfurt. You can 
 
 :houses: Coworking space</br>
 :link: [mindspace.me](https://mindspace.me/frankfurt)</br>
-:round_pushpin: Hanauer Landstr. 126-128, 60314 Frankfurt
+:round_pushpin: Neue Mainzer Str. 66-68, 60311 Frankfurt am Main

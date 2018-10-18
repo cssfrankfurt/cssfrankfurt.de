@@ -1,7 +1,7 @@
-# :rocket: Unser Ziel
+# :rocket: Unsere Mission
 
-- Be the central meeting point for all things CSS in the Rhein Main area and enrich the Rhein-Main tech community. Der zentrale
+- Die Zentrale Anlaufstelle für alle CSS Themen im Rhein Main Gebiet und die Bereicherung der Tech. Gemeinschaft.
 
-- Be a supportive, inclusive and diverse community that welcomes anyone who is interested in CSS, design on the web or simply wants to be a part of our community.
+- Eine unterstützende Gemeinschaft, offen für Vielfältigkeit, die alle mit Interesse  an CSS und Web-Design haben oder auch einfach nur Teil der Gemeinschaft sein wollen fördert.
 
-- Organise events focused on CSS related topics in various formats including, but not limited to talks, coding nights and social events.
+- Veranstalltungen zu organisieren die mit CSS-Fokus sowie verwandten Themen, in unterschiedlichen Formaten mit Coding Nights and Social events.

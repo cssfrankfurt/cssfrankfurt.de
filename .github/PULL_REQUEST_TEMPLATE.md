@@ -1,10 +1,10 @@
-<!--- For more information, see our [CONTRIBUTING](CONTRIBUTING.md) guideline. -->
+<!--- For more information, please see our contribution guidelines -->
 
 <!-- Thank you for submitting a pull request! Please provide us with enough details to make it easier for others to review your pull request -->
 
 ## Type of Change
 
-<!-- _Please check the boxes that apply_ -->
+<!-- Please check the boxes that apply -->
 
 - [ ] Bugfix (a fix that does not break existing functionality)
 - [ ] Enhancement (new feature/minor improvement)
