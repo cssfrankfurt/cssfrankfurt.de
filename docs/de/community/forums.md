@@ -1,5 +1,5 @@
 # :woman_juggling: Foren
 
-You can find CSS Frankfurt's community forums on [Spectrum](https://spectrum.chat/cssfrankfurt). Here you can get to know the community, ask and answer questions, give us feedback and let us know which topics you'd like us to cover.
+Die Community-Foren von CSS Frankfurt sind auch auf [Spectrum](https://spectrum.chat/cssfrankfurt) zu finden . Hier kannst du die Community kennenlernen, Fragen stellen und beantworten, Feedback geben und uns wissen lassen, welche Themen wir behandeln sollen.
 
 <!-- TODO: Add forum screenshot -->
