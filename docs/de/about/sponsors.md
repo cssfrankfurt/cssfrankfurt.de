@@ -11,16 +11,24 @@ CSS Frankfurt freut sich über aktive (oder passive) Unterstützung durch und f�
 
 ## Sponsors
 
-<div align="center" style="padding: 1em 0;">
-  <a href="https://melsicon.de" rel="noopener noreferrer" target="_blank" title="melsicon website">
-  <img width="50%" src="/img/melsicon.svg" alt="melsicon logo"></a>
-</div>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 1rem 0;">
 
-<div align="center" style="padding: 1em 0;">
-  <a href="https://codemonauts.com" rel="noopener noreferrer" target="_blank" title="codemonauts website">
-  <img width="50%" src="/img/codemonauts.svg" alt="codemonauts logo"></a>
-</div>
+  <a href="https://melsicon.de/" rel="noopener noreferrer" target="_blank" title="melsicon website" style="display: block; margin: 1rem;">
+  <img src="/sponsors/melsicon.svg" alt="melsicon">
+  </a>
 
+  <a href="https://codemonauts.com/" rel="noopener noreferrer" target="_blank" title="codemonauts website" style="display: block; margin: 1rem;">
+  <img src="/sponsors/codemonauts.svg" alt="codemonauts">
+  </a>
+
+  <a href="https://innoq.com/" rel="noopener noreferrer" target="_blank" title="INNOQ website" style="display: block; margin: 1rem;">
+  <img src="/sponsors/innoq.svg" alt="INNOQ">
+  </a>
+
+  <a href="https://die-zentrale-ffm.de/" rel="noopener noreferrer" target="_blank" title="Die Zentrale Coworking website" style="display: block; margin: 1rem;">
+  <img src="/sponsors/diezentrale.png" alt="Die Zentrale Coworking">
+  </a>
+</div>
 
 ## Werde Sponsor oder Unterstützer!
 
