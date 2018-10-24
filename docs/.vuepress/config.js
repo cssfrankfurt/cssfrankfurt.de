@@ -132,8 +132,8 @@ module.exports = {
             title: 'Rechtliches',
             collapsable: false,
             children: [
-              '/legal/imprint',
-              '/legal/privacypolicy'
+              '/de/legal/imprint',
+              '/de/legal/privacypolicy'
             ]
           }
         ]
