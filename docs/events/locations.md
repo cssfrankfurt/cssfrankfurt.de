@@ -14,7 +14,8 @@ CSS Frankfurt hosts events at various location in and around Frankfurt. You can 
 
 :office: Company offices</br>
 :link: [comwrap.com](https://comwrap.com)</br>
-:round_pushpin: Hanauer Landstr. 126-128, 60314 Frankfurt
+:round_pushpin: Hanauer Landstr. 126-128, 60314 Frankfurt  
+:arrow_right: [directions (in German)](/Anfahrtsbeschreibung-comwrap-(deutsch).pdf)
 
 ## CoWorkPlay
 

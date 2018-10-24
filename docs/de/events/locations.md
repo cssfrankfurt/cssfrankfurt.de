@@ -16,7 +16,8 @@ Wir danken allen Firmen und Co-Working-Spaces, die uns ihre Räumlichkeiten zur 
 
 :office: Firma</br>
 :link: [comwrap.com](https://comwrap.com)</br>
-:round_pushpin: Hanauer Landstr. 126-128, 60314 Frankfurt
+:round_pushpin: Hanauer Landstr. 126-128, 60314 Frankfurt  
+:arrow_right: [Anfahrtsbeschreibung](/Anfahrtsbeschreibung-comwrap-(deutsch).pdf)
 
 ## CoWorkPlay
 
