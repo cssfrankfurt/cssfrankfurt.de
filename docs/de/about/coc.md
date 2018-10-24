@@ -1,12 +1,12 @@
 # :handshake: Verhaltenskodex
 
-## 1. Purpose
+## 1. Bestimmung
 
-A primary goal of Vue.js Frankfurt is to be inclusive to the largest number of community contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+Ein Hauptziel von Vue.js Frankfurt ist es, eine möglichst große Anzahl von Community-Mitgliedern mit den unterschiedlichsten Hintergründen zu integrieren. Als solches verpflichten wir uns, ein freundliches, sicheres und einladendes Umfeld für alle zu schaffen, unabhängig von Geschlecht, sexueller Orientierung, Fähigkeiten, ethnischer Zugehörigkeit, sozioökonomischem Status und Religion (oder deren Fehlen).
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
+Dieser Verhaltenskodex beschreibt unsere Erwartungen an alle, die an unserer Gemeinschaft teilnehmen, sowie die Folgen für inakzeptables Verhalten.
 
-We invite all those who participate in Vue.js Frankfurt to help us create safe and positive experiences for everyone.
+Wir laden die gesamte Vue.js-Frankfurt-Community dazu ein, uns dabei zu helfen, eine sichere und positive Erfahrung für alle zu ermöglichen.
 
 ## 2. Open Source Citizenship
 
