@@ -2,6 +2,15 @@
 
 These are CSS Frankfurt's past events. You can find links to resources from the events here as well.
 
+## CSS Grid in Detail & UI Components
+
+We are happy to announce our first cooperation event with Frontend RheinMain :tada: At this event we'll have two exciting talks :heart_eyes_cat: Sven Wolfermann will speak about CSS grid in detail and Tobias Reich will be speaking about UI components.
+
+**When?** Thursday, October 25 @ 18:30</br>
+**Where?** [Comwrap](locations.md#comwrap)
+
+[Learn more...](https://www.meetup.com/CSSFrankfurt/events/255052999/)
+
 ## Hacktoberfest Frankfurt 2018
 
 Celebrate open source over food, drinks, and great company! Hacktoberfest is all about encouraging meaningful contributions to the open source ecosystem. You do not need to be a developer or know to code to participate.
