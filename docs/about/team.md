@@ -25,7 +25,7 @@ Meet the team behind CSS Frankfurt!
 ## Melana Groenert
 
 :sassy_woman: Event Organiser</br>
-:office: Front-End Developer @ [DB Systel](https://dbsystel.de)
+:office: Front-End Developer @ [DB Systel](https://www.dbsystel.de)
 
 ## Steffen Henschel
 
