@@ -2,79 +2,83 @@
 
 ## 1. Bestimmung
 
-Ein Hauptziel von Vue.js Frankfurt ist es, eine möglichst große Anzahl von Community-Mitgliedern mit den unterschiedlichsten Hintergründen zu integrieren. Als solches verpflichten wir uns, ein freundliches, sicheres und einladendes Umfeld für alle zu schaffen, unabhängig von Geschlecht, sexueller Orientierung, Fähigkeiten, ethnischer Zugehörigkeit, sozioökonomischem Status und Religion (oder deren Fehlen).
+Ein Hauptziel von CSS Frankfurt ist es, eine möglichst große Anzahl von Community-Mitgliedern mit den unterschiedlichsten Hintergründen zu zusammenzubringen. Darum verpflichten wir uns, ein freundliches, sicheres und einladendes Umfeld für alle zu schaffen, unabhängig von Geschlecht, sexueller Orientierung, Fähigkeiten, ethnischer Zugehörigkeit, sozioökonomischem Status und Religion (oder deren Fehlen).
 
-Dieser Verhaltenskodex beschreibt unsere Erwartungen an alle, die an unserer Gemeinschaft teilnehmen, sowie die Folgen für inakzeptables Verhalten.
+Dieser Verhaltenskodex beschreibt unsere Erwartungen an alle, die an unserer Gemeinschaft teilhaben, sowie die Folgen für inakzeptables Verhalten.
 
-Wir laden die gesamte Vue.js-Frankfurt-Community dazu ein, uns dabei zu helfen, eine sichere und positive Erfahrung für alle zu ermöglichen.
+Wir laden die gesamte CSS-Frankfurt-Community dazu ein, uns dabei zu helfen, eine sichere und positive Erfahrung für alle zu ermöglichen.
 
 ## 2. Open Source Citizenship
 
-A supplemental goal of this Code of Conduct is to increase open source citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
+Ein weiteres Ziel dieses Verhaltenskodex ist es, open source citizenship zu verbreiten, indem wir Mitglieder ermutigen, die Verbindung zwischen unserem Verhalten und dessen Effekt auf unsere Gemeinschaft zu erkennen.
 
-Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
+Gemeinschaften wie unsere spiegeln die Gesellschaft wieder, in der sie bestehen. Positives Verhalten ist essenziell, um einen Gegenpol zu Ungleichheit und Machtmissbrauch in der Gesellschaft zu setzen.
 
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+Wenn jemand sich besonders anstrengt, aus unserer Gemeinschaft eine offene und freundliche zu machen, und alle Teilnehmer darin bestärkt, teilzuhaben, dann wollen wir das wissen.
 
-## 3. Expected Behavior
+## 3. Erwartetes Verhalten
 
-The following behaviors are expected and requested of all community members:
+Das folgende Verhalten wird von allen Community-Mitgliedern erwartet:
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-- Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before conflict.
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-- Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
-- Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
+- Nimm aktiv und authentisch teil. Damit trägst Du zum Wohl und zur Langlebigkeit dieser Gemeinschaft bei.
+- Sei respekt- und rücksichtsvoll in Worten und Taten.
+- Strebe nach Zusammenarbeit, vermeide Konflikt.
+- Verzichte auf demütigendes, disktiminierendes und belästigendes Verhalten und Gerede.
+- Sei achtsam mit Deiner Umgebung und den Menschen um Dich herum. Kontaktiere Community Leaders, wenn Du eine gefährliche Situation bemerkst, jemanden in Gefahr siehst oder einen Verstoß gegen diesen Verhaltenskodex beobachtest; selbst wenn es belanglos erscheint.
+- Vergiss nicht, dass die Räume unserer Veranstaltungen ggf. auch für die Öffentlichkeit zugänglich sind; bitte sei respektvoll zu allen Besuchern der Location.
 
-## 4. Unacceptable Behavior
+## 4. Unakzeptables Verhalten
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Das folgende Verhalten wird als Belästigung angesehen und ist nicht akzeptabel in unserer Gemeinschaft:
 
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people’s personally identifying information (“doxing”).
-- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
-- Sustained disruption of community events, including talks and presentations.
+- Gewalt, Androhung von Gewalt, gewalttätige Sprache gegen andere Personen.
+- Sexistische, rassistische, homophobe, transphobe, ableistische oder auf andere Weise diskriminierende Sprache und Witze.
+- Verbreitung oder Zeigen von explizit sexuellem oder gewalt-verherrlichendem Material.
+- Verbreitung oder die Androhung der Verbreitung persönlicher Informationen anderer (“doxing”).
+- Persönliche Beleidigungen, im Besonderen solche im Bezug auf das Geschlecht, die sexuelle Orientierung, Herkunft, Religion oder Beeinträchtigungen.
+- Unerwünschtes Fotografieren oder Aufnahmen.
+- Unangebrachter und unerwünschter Körperkontakt. Du solltest jemandes Erlaubnis haben, bevor Du ihn/sie berührst.
+- Unerwünschte sexuelle Aufmerksamkeit. Das beinhaltet anzügliche Kommentare und Witze; unerwünschte Berührungen, Grapschen und unerwünschte sexuelle Angebote.
+- Absichtliches Einschüchtern, Stalking oder Folgen (online oder in Person).
+- Befürworten oder Ermuntern der oben genannten Verhaltensweisen.
+- Anhaltendes Stören von Veranstaltungen, Vorträgen und Präsentationen.
 
-## 5. Consequences of Unacceptable Behavior
+## 5. Konsequenzen für unakzeptables Verhalten
 
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
+Unakzeptables Verhalten von jedem Mitglied der Gemeinschaft, Sponsoren und Entscheidungsträger eingeschlossen, wird nicht toleriert.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
+Von jedem, der dazu aufgefordert wird, wird erwartet, sein unakzeprables Verhalten einzustellen.
 
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
+Sollte ein Community-Mitglied sich unangebracht verhalten, werden die Organisatoren Maßnahmen ergreifen, die sie für angemessen halten. Diese Maßnahmen können einen Ausschluss aus der Gemeinschaft bedeuten, temporär oder permanent. Dies kann ohne Vorwarnung geschehen und schließt im Falle eines Ausschulsses aus einer bezahlten Veranstaltung, eine Entschädigung für den Eintrittspreis aus. 
 
-## 6. Reporting Guidelines
+## 6. Hinweise zu Berichten unangemessenen Verhaltens
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible or send an email to **report@cssfrankfurt.de**. Please write your report according to our guidelines.
+Solltest Du Opfer oder Zeuge von unangemessenem Verhalten werden oder andere Sorgen haben, verständige bitte so schnell wie möglich die Organisatoren oder schicke eine Email an **report@cssfrankfurt.de**. Bitte richte Dich in Deinem Bericht nach unseren Hinweisen.
 
-Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
+Zusätzlich stehen die Organisatoren helfend zur Seite, wenn es darum geht, die Polizei einzuschalten oder den von unakzeptablem Verhalten Betroffenen Sicherheit zu geben.
+Im Zusammenhang mit Veranstaltungen sorgen die Organisatoren für Begleitung für diejenigen, die sich bedrängt fühlen, wenn dies gewünscht wird.
 
-In order to protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
+Um Helfer vor Missbrauch und Burnout zu schützen, behalten wir uns das Recht vor, jeden Bericht zu ignorieren, von dem wir glauben, dass er in böser Absicht und fälschlich gemacht wurde.
+Berichte, die legitime Kritik zum Schweigen bringen sollen, können ohne Vorwarnung gelöscht werden.
 
-We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of other community members. We will not name harassment victims without their affirmative consent.
+Wir respektieren den Wunsch nach Verschwiegenheit, um Opfer von Missbrauch zu schützen.
+Wir werden nach eigenem Ermessen die Namen von Personen, denen Belästigung vorgeworfen wird, öffentlich machen oder Dritte vor ihnen warnen, wenn wir glauben, dass dies für die Sicherheit anderer wichtig ist.
+Wir werden keine Namen von Opfern von Belästigung nennen, ohne deren ausdrückliche Erlaubnis.
 
-## 7. Addressing Grievances
+## 7. Beschwerden
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify us with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies.
+Wenn Du meinst, dass Du fälschlich oder unfair beschuldigt wurdest, diesen Verhaltenscodex nicht eingehalten zu haben, solltest Du uns mit einer knappen Beschreibung des Sachverhaltes darüber informieren. Deine Beschwerde wird in Übereinstimmung mit unseren Regeln abgewickelt.
 
-## 8. Scope
+## 8. Anwendungsbereiche
 
-We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community business.
+Wir erwarten von allen Community-Mitgliedern (Mitwirkende, bezahlt oder nicht, Sponsoren und andere Gäste), diesen Verhaltenskodex einzuhalten - ob online oder in Person, in Gruppen oder in Einzelgesprächen - wann immer es um unsere Gemeinschaft geht.
 
-This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.
+Dieser Verhaltenskodex und das damit zusammenhängenden Vorgehen, gilt ebenso für unakzeptables Verhalten ausserhalb von Gemeinschaftsaktivitäten, wenn ein solches Verhalten das Potential hat, die Sicherheit und das Wohl von Community-Mitgliedern zu beeinträchtigen.
 
-## 9. Contact info
+## 9. Kontakt Info
 
 hallo@cssfrankfurt.de
 
-## 10. License and attribution
+## 10. Lizent und Beteiligung
 
-This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy). Retrieved on November 22, 2016 from [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)
+Dieser Verhaltenskodex wird verbreitet unter einer [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). Teile des Textes stammen vom [Django Code of Conduct](https://www.djangoproject.com/conduct/) und der [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy). Abgerufen am 22.11.2016 von [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)
