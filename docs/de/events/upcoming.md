@@ -1,10 +1,3 @@
 # :dancer: Kommende Veranstaltungen
 
-## Feiertags Spezial
-
-Feiere die Feiertage mit CSS Frankfurt und Vue.js Frankfurt.
-
-**Wann?** Freitag, 14. Dezember @ 17:00 Uhr</br>
-**Wo?** TBA
-
-[Mehr...](https://www.meetup.com/CSSFrankfurt/events/255141386/)
+Momentan sind keine weiteren Veranstaltungen geplant. Du möchtest gern einen Vortrag halten oder ein MeetUp hosten? [Melde dich bei uns!](../about/contact.md)

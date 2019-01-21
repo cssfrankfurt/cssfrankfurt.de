@@ -1,5 +1,14 @@
 # :hourglass: Vergangene Veranstaltungen
 
+## Feiertags-Special
+
+Feiere die Feiertage mit CSS Frankfurt und Vue.js Frankfurt.
+
+**Wann?** Freitag, 14. Dezember @ 17:00 Uhr</br>
+**Wo?** [SkyDeck](locations.md#skydeck)
+
+[Mehr...](https://www.meetup.com/CSSFrankfurt/events/255141386/)
+
 ## CSS Grid im Detail & UI-Komponenten
 
 Wir freuen uns, unsere erste gemeinsame Veranstaltung mit Frontend RheinMain ankündigen zu können :tada: Bei dieser Veranstaltung werden wir zwei spannende Vorträge haben :heart_eyes_cat: Sven Wolfermann wird ausführlich über CSS-Grids sprechen und Tobias Reich über UI-Komponenten.

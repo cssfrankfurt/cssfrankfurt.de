@@ -2,6 +2,15 @@
 
 These are CSS Frankfurt's past events. You can find links to resources from the events here as well.
 
+## Holiday Special
+
+Celebrate the holidays with CSS Frankfurt and Vue.js Frankfurt.
+
+**When?** Friday, December 14 @ 17:00</br>
+**Where?** [SkyDeck](locations.md#skydeck)
+
+[Learn more...](https://www.meetup.com/CSSFrankfurt/events/255141386/)
+
 ## CSS Grid in Detail & UI Components
 
 We are happy to announce our first cooperation event with Frontend RheinMain :tada: At this event we'll have two exciting talks :heart_eyes_cat: Sven Wolfermann will speak about CSS grid in detail and Tobias Reich will be speaking about UI components.
