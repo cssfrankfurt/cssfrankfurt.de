@@ -40,3 +40,10 @@ CSS Frankfurt hosts events at various location in and around Frankfurt. You can 
 :houses: Coworking space</br>
 :link: [mindspace.me](https://mindspace.me/frankfurt)</br>
 :round_pushpin: Neue Mainzer Str. 66-68, 60311 Frankfurt am Main
+
+
+## SkyDeck
+
+:office: Company Event Location</br>
+:link: [skydeck.deutschebahn.com](https://skydeck.deutschebahn.com/)</br>
+:round_pushpin: Jürgen-Ponto-Platz 1, 60329 Frankfurt am Main
