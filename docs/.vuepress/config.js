@@ -1,6 +1,7 @@
-const EN_DESC = 'CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web. Join us at one of our events to get to know our community.';
-const DE_DESC = 'German CSS Frankfurt';
-const TITLE = 'CSS Frankfurt';
+const EN_DESC =
+  'CSS Frankfurt is a meetup community for anyone interested in CSS and design on the web. Join us at one of our events to get to know our community.'
+const DE_DESC = 'German CSS Frankfurt'
+const TITLE = 'CSS Frankfurt'
 
 module.exports = {
   serviceWorker: true,
@@ -14,8 +15,8 @@ module.exports = {
       lang: 'de-DE',
       title: TITLE,
       description: DE_DESC,
-    }
-   },
+    },
+  },
   themeConfig: {
     logo: '/logo.svg',
     locales: {
@@ -29,15 +30,13 @@ module.exports = {
         // config for Service Worker
         serviceWorker: {
           updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
+            message: 'New content is available.',
+            buttonText: 'Refresh',
+          },
         },
         // algolia docsearch options for current locale
         algolia: {},
-        nav: [
-          { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }
-        ],
+        nav: [{ text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }],
         sidebar: [
           '/',
           {
@@ -49,36 +48,31 @@ module.exports = {
               '/about/sponsors',
               '/about/coc',
               '/about/reporting',
-              '/about/contact'
-            ]
+              '/about/contact',
+            ],
           },
           {
             title: 'Events',
             collapsable: false,
             children: [
+              '/events/speaking',
               '/events/upcoming',
               '/events/past',
               '/events/locations',
-              '/events/conferences'
-            ]
+              '/events/conferences',
+            ],
           },
           {
             title: 'Community',
             collapsable: false,
-            children: [
-              '/community/forums',
-              '/community/community'
-            ]
+            children: ['/community/community'],
           },
           {
             title: 'Legal',
             collapsable: false,
-            children: [
-              '/legal/imprint',
-              '/legal/privacypolicy'
-            ]
-          }
-        ]
+            children: ['/legal/impressum', '/legal/privacypolicy'],
+          },
+        ],
       },
       '/de/': {
         selectText: 'Sprachen',
@@ -86,16 +80,13 @@ module.exports = {
         editLinkText: 'Bearbeite diese Seite auf GitHub',
         serviceWorker: {
           updatePopup: {
-            message: "Neuer Inhalt verfügbar.",
-            buttonText: "Aktualisieren"
-          }
+            message: 'Neuer Inhalt verfügbar.',
+            buttonText: 'Aktualisieren',
+          },
         },
         algolia: {},
-        displayAllHeaders: true,
         sidebarDepth: 2,
-        nav: [
-          { text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }
-        ],
+        nav: [{ text: 'Meetup', link: 'https://meetup.com/cssfrankfurt' }],
         sidebar: [
           '/de/',
           {
@@ -107,45 +98,66 @@ module.exports = {
               '/de/about/sponsors',
               '/de/about/coc',
               '/de/about/reporting',
-              '/de/about/contact'
-            ]
+              '/de/about/contact',
+            ],
           },
           {
             title: 'Veranstaltungen',
             collapsable: false,
             children: [
+              '/de/events/speaking',
               '/de/events/upcoming',
               '/de/events/past',
               '/de/events/locations',
-              '/de/events/conferences'
-            ]
+              '/de/events/conferences',
+            ],
           },
           {
             title: 'Community',
             collapsable: false,
-            children: [
-              '/de/community/forums',
-              '/de/community/community'
-            ]
+            children: ['/de/community/community'],
           },
           {
             title: 'Rechtliches',
             collapsable: false,
-            children: [
-              '/de/legal/imprint',
-              '/de/legal/privacypolicy'
-            ]
-          }
-        ]
-      }
-    }
+            children: ['/de/legal/impressum', '/de/legal/privacypolicy'],
+          },
+        ],
+      },
+    },
   },
   head: [
-    ['link', { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicons/favicon-32x32.png' }],
-    ['link', { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicons/favicon-16x16.png' }],
+    [
+      'link',
+      { rel: 'apple-touch-icon', href: '/favicons/apple-touch-icon.png' },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        sizes: '32x32',
+        type: 'image/png',
+        href: '/favicons/favicon-32x32.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        sizes: '16x16',
+        type: 'image/png',
+        href: '/favicons/favicon-16x16.png',
+      },
+    ],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-    ['link', { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#292a2e' }],
+    [
+      'link',
+      {
+        rel: 'mask-icon',
+        href: '/favicons/safari-pinned-tab.svg',
+        color: '#292a2e',
+      },
+    ],
     ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
     ['meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
@@ -155,13 +167,19 @@ module.exports = {
     ['meta', { property: 'og:locale', content: 'en-US' }],
     ['meta', { property: 'og:locale:alternate', content: 'de-DE' }],
     ['meta', { property: 'og:description', content: EN_DESC }],
-    ['meta', { property: 'og:image', content: 'https://cssfrankfurt.de/cover.jpg' }],
+    [
+      'meta',
+      { property: 'og:image', content: 'https://cssfrankfurt.de/cover.jpg' },
+    ],
     ['meta', { property: 'og:title', content: TITLE }],
     ['meta', { property: 'og:url', content: 'https://cssfrankfurt.de' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:creator', content: '@cssfrankfurt' }],
     ['meta', { name: 'twitter:description', content: EN_DESC }],
-    ['meta', { name: 'twitter:image', content: 'https://cssfrankfurt.de/cover.jpg' }],
+    [
+      'meta',
+      { name: 'twitter:image', content: 'https://cssfrankfurt.de/cover.jpg' },
+    ],
     ['meta', { name: 'twitter:title', content: TITLE }],
   ],
-};
+}
