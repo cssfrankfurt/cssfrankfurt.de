@@ -53,7 +53,7 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 6. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible or send an email to **report@cssfrankfurt.de**. Please write your report according to our guidelines.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible or send an email to **victoria.bergquist@gmail.com**. Please write your report according to our guidelines.
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
@@ -73,7 +73,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-hallo@cssfrankfurt.de
+victoria.bergquist@gmail.com
 
 ## 10. License and attribution
 
