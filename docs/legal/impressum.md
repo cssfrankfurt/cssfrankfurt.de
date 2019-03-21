@@ -1,4 +1,4 @@
-# Imprint
+# Impressum
 
 (As this site is registered in Germany, and we need to satisfy German laws, the following text is provided in German only)
 
