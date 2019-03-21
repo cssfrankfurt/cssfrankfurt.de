@@ -1,4 +1,4 @@
-# :rainbow: Frankfurt Meetups
+# :rainbow: Related Communities
 
 Checkout this list for more meetups and communities like ours.
 
