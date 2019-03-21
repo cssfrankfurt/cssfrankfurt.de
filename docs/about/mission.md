@@ -1,7 +1,3 @@
-# :rocket: Our Mission
+# :rocket: Our Vision & Mission
 
-- Be the central meeting point for all things CSS in the Rhein Main area and enrich the Rhein-Main tech community.
-
-- Be a supportive, inclusive and diverse community that welcomes anyone who is interested in CSS, design on the web or simply wants to be a part of our community.
-
-- Organise events focused on CSS related topics in various formats including, but not limited to talks, coding nights and social events.
+We strive to be an inclusive and supportive meetup focused on CSS and design on the web and organise talks, workshops, coding nights and social events to improve the knowledge of and attitude towards CSS. We also encourage, support and help community members, especially those underrepresented in tech, contribute with their own content.
