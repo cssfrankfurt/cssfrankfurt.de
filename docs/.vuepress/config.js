@@ -4,7 +4,6 @@ const DE_DESC = 'German CSS Frankfurt'
 const TITLE = 'CSS Frankfurt'
 
 module.exports = {
-  serviceWorker: true,
   locales: {
     '/': {
       lang: 'en-US',
@@ -19,6 +18,10 @@ module.exports = {
   },
   themeConfig: {
     logo: '/logo.svg',
+    repo: 'cssfrankfurt/cssfrankfurt.de',
+    docsDir: 'docs',
+    editLinks: true,
+    lastUpdated: 'Last Updated',
     locales: {
       '/': {
         // text for the language dropdown
@@ -181,5 +184,5 @@ module.exports = {
       { name: 'twitter:image', content: 'https://cssfrankfurt.de/cover.jpg' },
     ],
     ['meta', { name: 'twitter:title', content: TITLE }],
-  ],
+  ]
 }
