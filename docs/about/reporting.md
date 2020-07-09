@@ -1,6 +1,6 @@
 # :police_car: Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please contact us at ****victoria.bergquist@gmail.com*** or reach out any of our [team members](/#meet-the-team).
+If you are subject to or witness unacceptable behavior, or have any other concerns, please reach out any of our [team members](/#meet-the-team).
 
 ## 1. Information we need from you
 
